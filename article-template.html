@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章标题 · 资讯 · HooMee Coffee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: "Inter", -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f3f4f6;
+            color: #1f2937;
+            overflow-x: hidden;
+            min-height: 100vh;
+            transition: background 0.3s, color 0.3s;
+            line-height: 1.8;
+        }
+
+        /* 暗色模式 */
+        body.dark {
+            background: #111827;
+            color: #f9fafb;
+        }
+        body.dark .article-content h2 { color: #f9fafb; }
+        body.dark .article-content h3 { color: #f9fafb; }
+        body.dark .article-content blockquote { border-left-color: #ff4757; background: #1f2937; }
+        body.dark .article-content code { background: #1f2937; }
+        body.dark .tag { background: #1f2937; border-color: #374151; }
+        body.dark .article-header { background: linear-gradient(135deg, #1f2937 0%, #111827 100%); }
+        body.dark nav { background: rgba(17,24,39,0.9); border-color: #374151; }
+        body.dark .mobile-menu { background: rgba(17,24,39,0.98); }
+        body.dark .mobile-menu a { color: #f9fafb; }
+        body.dark .related-card { background: #1f2937; border-color: #374151; }
+        body.dark .related-card h4 { color: #f9fafb; }
+
+        /* 导航 */
+        nav {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 100;
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(243,244,246,0.9);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .nav-logo {
+            font-weight: 800;
+            font-size: 1.3rem;
+            color: inherit;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            z-index: 102;
+        }
+        .nav-logo svg { width: 28px; height: 28px; }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.8rem;
+            list-style: none;
+        }
+        .nav-links a {
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: #4b5563;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover { color: #1f2937; }
+        .nav-links a.active { color: #ff4757; }
+        .nav-links a.active::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0; right: 0;
+            height: 2px;
+            background: #ff4757;
+            border-radius: 2px;
+        }
+        .theme-toggle {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border: 1.5px solid #d1d5db;
+            border-radius: 6px;
+            background: transparent;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #6b7280;
+            transition: all 0.2s;
+        }
+        .theme-toggle:hover { border-color: #ff4757; color: #ff4757; }
+
+        /* 汉堡菜单 */
+        .hamburger {
+            display: none;
+            width: 36px; height: 36px;
+            border: 1.5px solid #d1d5db;
+            border-radius: 8px;
+            background: transparent;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 4px;
+            align-items: center;
+            justify-content: center;
+            z-index: 102;
+        }
+        .hamburger span {
+            display: block;
+            width: 16px; height: 2px;
+            background: #374151;
+            border-radius: 2px;
+        }
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(255,255,255,0.98);
+            z-index: 101;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+        .mobile-menu.open {
+            display: flex;
+            opacity: 1;
+            pointer-events: all;
+        }
+        .mobile-menu a {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f2937;
+        }
+        .mobile-close {
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            width: 40px; height: 40px;
+            border: none;
+            background: transparent;
+            font-size: 1.8rem;
+            color: #6b7280;
+            cursor: pointer;
+            z-index: 103;
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hamburger { display: flex; }
+            .theme-toggle { display: none; }
+        }
+        @media (min-width: 769px) {
+            .mobile-menu { display: none !important; }
+        }
+
+        /* 文章头部 */
+        .article-header {
+            padding: 8rem 1.5rem 3rem;
+            text-align: center;
+            background: linear-gradient(135deg, #fef2f2 0%, #f3f4f6 100%);
+        }
+        .article-meta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .tag {
+            padding: 4px 14px;
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 100px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #ff4757;
+        }
+        .date {
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+        .article-title {
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            line-height: 1.2;
+            max-width: 700px;
+            margin: 0 auto 1rem;
+        }
+        .article-subtitle {
+            font-size: 1.1rem;
+            color: #6b7280;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* 封面图 */
+        .article-cover {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        .article-cover img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 1rem;
+            box-shadow: 0 20px 40px -10px rgba(0,0,0,0.15);
+        }
+        @media (max-width: 768px) {
+            .article-cover img { height: 250px; }
+        }
+
+        /* 文章内容 */
+        .article-body {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+        .article-content p {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            margin-bottom: 1.5rem;
+            color: #374151;
+        }
+        body.dark .article-content p { color: #d1d5db; }
+
+        .article-content h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 2.5rem 0 1rem;
+            color: #1f2937;
+            letter-spacing: -0.02em;
+        }
+        .article-content h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 2rem 0 0.75rem;
+            color: #1f2937;
+        }
+
+        .article-content img {
+            width: 100%;
+            border-radius: 0.75rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 10px 30px -5px rgba(0,0,0,0.1);
+        }
+
+        .article-content blockquote {
+            border-left: 3px solid #ff4757;
+            background: #fef2f2;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 0.5rem 0.5rem 0;
+            font-style: italic;
+            color: #4b5563;
+        }
+        body.dark .article-content blockquote { color: #9ca3af; }
+
+        .article-content code {
+            background: #f3f4f6;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-family: monospace;
+            color: #ff4757;
+        }
+
+        .article-content a {
+            color: #ff4757;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .article-content ul, .article-content ol {
+            margin: 1rem 0 1.5rem 1.5rem;
+        }
+        .article-content li {
+            margin-bottom: 0.5rem;
+            color: #374151;
+        }
+        body.dark .article-content li { color: #d1d5db; }
+
+        /* 引用来源 */
+        .source-box {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.75rem;
+            padding: 1.25rem;
+            margin: 2rem 0;
+        }
+        body.dark .source-box { background: #1f2937; border-color: #374151; }
+        .source-box h4 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #6b7280;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .source-box a {
+            color: #ff4757;
+            font-weight: 600;
+            word-break: break-all;
+        }
+
+        /* 相关文章 */
+        .related-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+            border-top: 1px solid #e5e7eb;
+        }
+        .related-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+        .related-card {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        .related-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px -5px rgba(0,0,0,0.1);
+        }
+        .related-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .related-card-body {
+            padding: 1rem;
+        }
+        .related-card h4 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        .related-card p {
+            font-size: 0.8rem;
+            color: #6b7280;
+        }
+        @media (max-width: 768px) {
+            .related-grid { grid-template-columns: 1fr; }
+        }
+
+        /* 页脚 */
+        footer {
+            border-top: 1px solid #e5e7eb;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .footer-avatar {
+            width: 56px; height: 56px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 0.75rem;
+            border: 2px solid #e5e7eb;
+        }
+        footer p {
+            color: #9ca3af;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="nav-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            HooMee
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="info.html" class="active">资讯</a></li>
+            <li><a href="life.html">生活</a></li>
+            <li><a href="pet.html">萌宠</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">日 · 夜</button></li>
+        </ul>
+        <button class="hamburger" onclick="openMenu()" aria-label="菜单">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" onclick="closeMenu()">✕</button>
+        <a href="index.html" onclick="closeMenu()">首页</a>
+        <a href="info.html" class="active" onclick="closeMenu()">资讯</a>
+        <a href="life.html" onclick="closeMenu()">生活</a>
+        <a href="pet.html" onclick="closeMenu()">萌宠</a>
+        <a href="about.html" onclick="closeMenu()">关于</a>
+        <button class="theme-toggle mobile-theme" onclick="toggleTheme(); closeMenu();" id="mobile-theme-btn">日 · 夜</button>
+    </div>
+
+    <!-- 文章头部 -->
+    <header class="article-header">
+        <div class="article-meta">
+            <span class="tag">资讯</span>
+            <span class="date">2026年5月20日</span>
+        </div>
+        <h1 class="article-title">文章标题占位符</h1>
+        <p class="article-subtitle">文章副标题或摘要，简要介绍文章内容。</p>
+    </header>
+
+    <!-- 封面图 -->
+    <div class="article-cover">
+        <img src="images/article-cover.jpg" alt="文章封面" onerror="this.src='https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=900&h=400&fit=crop'">
+    </div>
+
+    <!-- 文章内容 -->
+    <article class="article-body">
+        <div class="article-content">
+
+            <p>这里是文章正文开头段落。可以写一些引人入胜的内容，让读者想要继续阅读下去。</p>
+
+            <h2>一、第一部分标题</h2>
+            <p>这里是第一部分的内容。可以包含多个段落，详细阐述观点。</p>
+            <p>第二段内容，继续展开论述。</p>
+
+            <img src="images/article-img1.jpg" alt="配图1" onerror="this.style.display='none'">
+
+            <h2>二、第二部分标题</h2>
+            <p>这里是第二部分的内容。</p>
+
+            <blockquote>
+                这是一段引用内容，可以是名言、重要观点或者需要特别强调的文字。
+            </blockquote>
+
+            <h3>小标题</h3>
+            <p>更细分的段落内容。</p>
+
+            <ul>
+                <li>要点一：具体内容描述</li>
+                <li>要点二：具体内容描述</li>
+                <li>要点三：具体内容描述</li>
+            </ul>
+
+            <img src="images/article-img2.jpg" alt="配图2" onerror="this.style.display='none'">
+
+            <h2>三、总结</h2>
+            <p>文章结尾段落，总结全文观点。</p>
+
+            <!-- 引用来源 -->
+            <div class="source-box">
+                <h4>引用来源</h4>
+                <p>原文链接：<a href="https://youmind.com/d/cIGkhXgm1YbsSo" target="_blank">https://youmind.com/d/cIGkhXgm1YbsSo</a></p>
+            </div>
+
+        </div>
+    </article>
+
+    <!-- 相关文章 -->
+    <section class="related-section">
+        <h3 class="related-title">相关文章</h3>
+        <div class="related-grid">
+            <a href="#" class="related-card">
+                <img src="images/post1.jpg" onerror="this.src='https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=150&fit=crop'">
+                <div class="related-card-body">
+                    <h4>AI 工具月度推荐</h4>
+                    <p>2026年5月15日</p>
+                </div>
+            </a>
+            <a href="#" class="related-card">
+                <img src="images/post2.jpg" onerror="this.src='https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=150&fit=crop'">
+                <div class="related-card-body">
+                    <h4>新款笔记本评测</h4>
+                    <p>2026年5月12日</p>
+                </div>
+            </a>
+            <a href="#" class="related-card">
+                <img src="images/post3.jpg" onerror="this.src='https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=150&fit=crop'">
+                <div class="related-card-body">
+                    <h4>科技周报 #12</h4>
+                    <p>2026年5月8日</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <img src="images/EMiAO.png" class="footer-avatar">
+        <p>© 2026 HooMee Coffee. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark');
+            const isDark = document.body.classList.contains('dark');
+            const text = isDark ? '夜 · 日' : '日 · 夜';
+            const btn = document.getElementById('theme-btn');
+            const mbtn = document.getElementById('mobile-theme-btn');
+            if (btn) btn.textContent = text;
+            if (mbtn) mbtn.textContent = text;
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        }
+        (function() {
+            const saved = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (saved === 'dark' || (!saved && prefersDark)) {
+                document.body.classList.add('dark');
+                const btn = document.getElementById('theme-btn');
+                const mbtn = document.getElementById('mobile-theme-btn');
+                if (btn) btn.textContent = '夜 · 日';
+                if (mbtn) mbtn.textContent = '夜 · 日';
+            }
+        })();
+        function openMenu() {
+            document.getElementById('mobileMenu').classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeMenu() {
+            document.getElementById('mobileMenu').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+    </script>
+</body>
+</html>
