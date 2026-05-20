@@ -96,7 +96,8 @@ function initTypewriter() {
     let nameIndex = 0, charIndex = 0, isDeleting = false;
     const el = document.getElementById('type-text');
     const avatarBg = document.getElementById('avatar-bg');
-    const avatarImg = document.getElementById('avatar-img'); // 获取首页头像元素
+    // 精准抓取首页带 id="avatar-img" 的图片元素
+    const avatarImg = document.getElementById('avatar-img'); 
     const base = "I'm ";
 
     function typeLoop() {
@@ -109,10 +110,10 @@ function initTypewriter() {
             } else {
                 // 当名字退格完全删掉，在敲入下一个名字前一瞬间同步切换：
                 isDeleting = false;
-                nameIndex = (nameIndex + 1) % names.length; // 保证0,1,2无限循环
+                nameIndex = (nameIndex + 1) % names.length; // 取余数，保证 0,1,2 完美无限循环
                 charIndex = base.length;
                 
-                // 头像、背景色同步变幻
+                // 【核心】头像、背景色瞬间同步变幻
                 if (avatarBg) avatarBg.style.background = avatarColors[nameIndex];
                 if (avatarImg) {
                     avatarImg.src = avatars[nameIndex];
@@ -135,7 +136,7 @@ function initTypewriter() {
         setTimeout(typeLoop, speed);
     }
     
-    // 初始化首位主理人（EMiAO）状态
+    // 页面刚加载时，初始化首位主理人（EMiAO）状态
     el.textContent = base;
     charIndex = base.length;
     if (avatarBg) avatarBg.style.background = avatarColors[0];
