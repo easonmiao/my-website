@@ -1,7 +1,6 @@
 /* js/main.js */
 
-// 1. 动态注入导航栏和页脚
-document.addEventListener("DOMContentLoaded", () => {
+function initAll() {
     const path = window.location.pathname;
     const page = path.split('/').pop() || 'index.html';
 
@@ -56,7 +55,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if(document.getElementById('type-text')) {
         initTypewriter();
     }
-});
+}
+
+// 【核心修正】：解决生命周期赛跑问题。如果DOM已经Ready，直接无视事件立刻执行
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initAll);
+} else {
+    initAll();
+}
 
 // 2. 主题与菜单控制
 function toggleTheme() {
@@ -85,18 +91,15 @@ function closeMenu() {
     document.body.style.overflow = '';
 }
 
-// 3. 首页打字机逻辑 (完美实现头像、名字、背景色同步与无限循环)
+// 3. 首页打字机与头像、背景完美同步逻辑
 function initTypewriter() {
     const names = ["EMiAO", "HannaH", "BanBan"];
-    // 对应三位主理人的专属头像图片路径
     const avatars = ["images/EMiAO.png", "images/HannaH.png", "images/BanBan.png"];
-    // 对应三位主理人的专属视觉背景色
     const avatarColors = ["#ff6b6b", "#4ecdc4", "#ffe66d"];
     
     let nameIndex = 0, charIndex = 0, isDeleting = false;
     const el = document.getElementById('type-text');
     const avatarBg = document.getElementById('avatar-bg');
-    // 精准抓取首页带 id="avatar-img" 的图片元素
     const avatarImg = document.getElementById('avatar-img'); 
     const base = "I'm ";
 
@@ -108,12 +111,10 @@ function initTypewriter() {
                 el.textContent = fullText.substring(0, charIndex - 1);
                 charIndex--;
             } else {
-                // 当名字退格完全删掉，在敲入下一个名字前一瞬间同步切换：
                 isDeleting = false;
-                nameIndex = (nameIndex + 1) % names.length; // 取余数，保证 0,1,2 完美无限循环
+                nameIndex = (nameIndex + 1) % names.length;
                 charIndex = base.length;
                 
-                // 【核心】头像、背景色瞬间同步变幻
                 if (avatarBg) avatarBg.style.background = avatarColors[nameIndex];
                 if (avatarImg) {
                     avatarImg.src = avatars[nameIndex];
@@ -130,13 +131,12 @@ function initTypewriter() {
         
         let speed = isDeleting ? 80 : 150;
         if (!isDeleting && charIndex === fullText.length) {
-            speed = 2000; // 名字完整打印后在屏幕上定格停留 2 秒
+            speed = 2000;
             isDeleting = true;
         }
         setTimeout(typeLoop, speed);
     }
     
-    // 页面刚加载时，初始化首位主理人（EMiAO）状态
     el.textContent = base;
     charIndex = base.length;
     if (avatarBg) avatarBg.style.background = avatarColors[0];
