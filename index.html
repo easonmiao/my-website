@@ -14,23 +14,49 @@
     </script>
     
     <style>
+        /* 首页 Hero 视觉区专属样式 */
         .hero { position: relative; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6rem 1rem 4rem; overflow: hidden; }
-        .avatar-wrap { position: relative; width: 180px; height: 180px; margin-bottom: 2rem; z-index: 10; }
+        
+        /* 1. 图形动态效果 (丰富的多层 Blob) */
+        .shapes-container { position: absolute; inset: 0; overflow: hidden; z-index: 1; pointer-events: none; }
+        .shape { position: absolute; opacity: 0.6; filter: blur(40px); }
+        .blob-1 { width: 300px; height: 300px; background: #93c5fd; top: -10%; left: -10%; animation: float 12s ease-in-out infinite, rotate 20s linear infinite; }
+        .blob-2 { width: 400px; height: 400px; background: #fbcfe8; bottom: -20%; right: -10%; animation: float 15s ease-in-out infinite reverse, rotate 25s linear infinite; }
+        .blob-3 { width: 250px; height: 250px; background: #fde047; top: 40%; left: 60%; opacity: 0.3; animation: float 10s ease-in-out infinite, rotate 18s linear infinite reverse; }
+        @keyframes float { 0%, 100% { transform: translateY(0px) scale(1); } 50% { transform: translateY(-30px) scale(1.05); } }
+        @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+        /* 头像与打字机 */
+        .hero-content { position: relative; z-index: 10; display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 600px; }
+        .avatar-wrap { position: relative; width: 180px; height: 180px; margin-bottom: 2rem; }
         .avatar-bg { position: absolute; inset: 0; background: #ff6b6b; border-radius: 50%; z-index: 1; transition: background-color 0.5s ease; }
         .avatar-img { position: relative; width: 100%; height: 100%; border-radius: 50%; object-fit: cover; z-index: 2; display: block; }
-        .hero h1 { font-size: 3rem; font-weight: 800; color: #374151; margin-bottom: 0.75rem; z-index: 10; text-align: center; }
+        
+        .hero h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 900; color: #1f2937; margin-bottom: 0.75rem; text-align: center; letter-spacing: -1px; }
         .dark .hero h1 { color: #f9fafb; }
-        .typewriter { font-size: 1.25rem; font-weight: 500; color: #6b7280; margin-bottom: 1.5rem; z-index: 10; min-height: 1.8rem; }
+        .typewriter { font-size: 1.25rem; font-weight: 500; color: #6b7280; margin-bottom: 2.5rem; min-height: 1.8rem; }
         .dark .typewriter { color: #9ca3af; }
         .cursor { display: inline-block; width: 2px; height: 1.2em; background: #6b7280; margin-left: 2px; vertical-align: text-bottom; animation: blink 1s step-end infinite; }
         @keyframes blink { 50% { opacity: 0; } }
-        
-        /* 首页有机 Blob 漂浮动效 */
-        .shape { position: absolute; z-index: 1; opacity: 0.7; pointer-events: none; }
-        .blob-blue { width: 120px; height: 120px; background: #93c5fd; border-radius: 40% 60% 60% 40% / 60% 40% 60% 40%; bottom: 15%; left: 8%; animation: float 8s ease-in-out infinite, rotate 20s linear infinite; }
-        .blob-pink { width: 140px; height: 140px; background: #fbcfe8; border-radius: 60% 40% 50% 50% / 40% 60% 40% 60%; top: 15%; right: 10%; animation: float 10s ease-in-out infinite, rotate 25s linear infinite; }
-        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-25px); } }
-        @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+        /* 2. 搜索框还原 */
+        .search-box { width: 100%; max-width: 460px; display: flex; align-items: center; background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border: 1px solid #e5e7eb; border-radius: 100px; padding: 0.5rem 0.5rem 0.5rem 1.5rem; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); transition: all 0.3s; margin-bottom: 3rem; }
+        .dark .search-box { background: rgba(31, 41, 55, 0.8); border-color: #374151; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3); }
+        .search-box:focus-within { border-color: #ff4757; box-shadow: 0 10px 25px -5px rgba(255,71,87,0.15); }
+        .search-icon { color: #9ca3af; width: 20px; height: 20px; margin-right: 0.75rem; }
+        .search-input { flex: 1; border: none; background: transparent; outline: none; font-size: 1rem; color: #1f2937; font-family: inherit; }
+        .dark .search-input { color: #f9fafb; }
+        .dark .search-input::placeholder { color: #6b7280; }
+        .search-btn { background: #ff4757; color: #fff; border: none; padding: 0.6rem 1.2rem; border-radius: 100px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+        .search-btn:hover { background: #ff2a3f; }
+
+        /* 3. 下滑观看 (Scroll Down) 指示器 */
+        .scroll-down { position: absolute; bottom: 2rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; color: #6b7280; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; z-index: 10; opacity: 0.7; transition: opacity 0.3s; }
+        .scroll-down:hover { opacity: 1; }
+        .dark .scroll-down { color: #9ca3af; }
+        .mouse { width: 24px; height: 36px; border: 2px solid currentColor; border-radius: 12px; display: flex; justify-content: center; padding-top: 4px; }
+        .wheel { width: 4px; height: 8px; background: currentColor; border-radius: 2px; animation: scroll 1.5s infinite; }
+        @keyframes scroll { 0% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(12px); opacity: 0; } }
     </style>
 </head>
 <body>
@@ -38,19 +64,37 @@
     <div id="nav-placeholder"></div>
 
     <section class="hero">
-        <div class="shape blob-blue"></div>
-        <div class="shape blob-pink"></div>
-        
-        <div class="avatar-wrap">
-            <div class="avatar-bg" id="avatar-bg"></div>
-            <img src="images/EMiAO.png" alt="头像" class="avatar-img" id="avatar-img">
+        <div class="shapes-container">
+            <div class="shape blob-1"></div>
+            <div class="shape blob-2"></div>
+            <div class="shape blob-3"></div>
         </div>
         
-        <h1>HooMee Coffee</h1>
-        
-        <div class="typewriter">
-            <span id="type-text"></span><span class="cursor"></span>
+        <div class="hero-content">
+            <div class="avatar-wrap">
+                <div class="avatar-bg" id="avatar-bg"></div>
+                <img src="images/EMiAO.png" alt="头像" class="avatar-img" id="avatar-img">
+            </div>
+            
+            <h1>HooMee Coffee</h1>
+            
+            <div class="typewriter">
+                <span id="type-text"></span><span class="cursor"></span>
+            </div>
+
+            <div class="search-box">
+                <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                <input type="text" class="search-input" placeholder="搜索资讯、生活、萌宠日常...">
+                <button class="search-btn">搜索</button>
+            </div>
         </div>
+
+        <a href="#menu" class="scroll-down">
+            <span>Scroll Down</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </a>
     </section>
 
     <section id="menu">
