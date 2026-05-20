@@ -29,18 +29,18 @@
         .tag { display: inline-block; padding: 4px 12px; background: #fefce8; color: #ca8a04; font-size: 0.8rem; font-weight: 600; border-radius: 100px; margin-top: 0.5rem; }
         .dark .tag { background: rgba(202, 138, 4, 0.2); color: #fde047; }
 
-        /* ================= 方案一：CSS 原生瀑布流落地实现 ================= */
+        /* CSS 原生瀑布流 - 横竖屏无缝适配方案 */
         .masonry-wrapper {
-            column-count: 3;      /* 默认桌面端排成 3 列 */
-            column-gap: 1.5rem;   /* 列与列之间的间距 */
+            column-count: 3;
+            column-gap: 1.5rem;
             width: 100%;
         }
         
         .post-card {
-            break-inside: avoid;  /* 极其重要：防止卡片在分页或换列时被截断拆开 */
-            display: inline-block; /* 配合 columns 属性必须设为行内块 */
+            break-inside: avoid;
+            display: inline-block;
             width: 100%;
-            margin-bottom: 1.5rem; /* 卡片上下的间距 */
+            margin-bottom: 1.5rem;
             background: #fff;
             border: 1px solid #e5e7eb;
             border-radius: 0.75rem;
@@ -50,7 +50,7 @@
         
         .post-img-wrap {
             width: 100%;
-            height: auto;        /* 取消固定高度，让图片高度由自身长宽比决定 */
+            height: auto;
             overflow: hidden;
             background: #f3f4f6;
         }
@@ -58,8 +58,8 @@
 
         .post-img-wrap img {
             width: 100%;
-            height: auto;        /* 彻底放开高度 */
-            object-fit: contain; /* 确保图片完整保留原始长宽比，绝不裁剪 */
+            height: auto;
+            object-fit: contain; /* 核心落实：无论横屏竖屏，绝对完整保留，不切任何像素 */
             display: block;
         }
         
@@ -67,13 +67,8 @@
         .post-body h3 { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-top: 0.25rem; }
         .post-date { font-size: 0.85rem; color: #ff4757; font-weight: 600; }
 
-        /* 响应式断点适配 */
-        @media (max-width: 900px) {
-            .masonry-wrapper { column-count: 2; } /* 平板或小屏变 2 列 */
-        }
-        @media (max-width: 600px) {
-            .masonry-wrapper { column-count: 1; } /* 手机端单列信息流 */
-        }
+        @media (max-width: 900px) { .masonry-wrapper { column-count: 2; } }
+        @media (max-width: 600px) { .masonry-wrapper { column-count: 1; } }
     </style>
 </head>
 <body>
@@ -106,70 +101,70 @@
             <div class="masonry-wrapper">
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/01.jpg" alt="你们德文都这么魔丸吗😅" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/01.jpg" alt="你们德文都这么魔丸吗😅" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23ffe66d%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(01.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 42</span><h3>你们德文都这么魔丸吗😅</h3></div>
                 </article>
 
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/02.jpg" alt="咪的配得感" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/02.jpg" alt="咪的配得感" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%234ecdc4%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23fff%22>图片未找到(02.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 21</span><h3>咪的配得感</h3></div>
                 </article>
 
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/03.jpg" alt="穿上衣服也是小淑女一枚啦" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/03.jpg" alt="穿上衣服也是小淑女一枚啦" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23ff6b6b%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23fff%22>图片未找到(03.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 10</span><h3>穿上衣服也是小淑女一枚啦</h3></div>
                 </article>
 
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/04.jpg" alt="今天终于和我贴贴了" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1513245543132-31f507417b26?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/04.jpg" alt="今天终于和我贴贴了" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%2393c5fd%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(04.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 10</span><h3>今天终于和我贴贴了</h3></div>
                 </article>
 
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/05.jpg" alt="小咪就是用来暖脚的对吧" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/05.jpg" alt="小咪就是用来暖脚的对吧" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23fbcfe8%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(05.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 9</span><h3>小咪就是用来暖脚的对吧</h3></div>
                 </article>
 
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/06.jpg" alt="需要抱抱的小老虎" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/06.jpg" alt="需要抱抱的小老虎" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23ffe66d%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(06.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 7</span><h3>需要抱抱的小老虎</h3></div>
                 </article>
 
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/07.jpg" alt="你们的猫咪会这样睡吗" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1519052537078-e6302a4968d4?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/07.jpg" alt="你们的猫咪会这样睡吗" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%234ecdc4%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23fff%22>图片未找到(07.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 6</span><h3>你们的猫咪会这样睡吗</h3></div>
                 </article>
 
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/08.jpg" alt="【樱花季的喵喵探班】" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1513245543132-31f507417b26?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/08.jpg" alt="【樱花季的喵喵探班】" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23ff6b6b%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23fff%22>图片未找到(08.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 3</span><h3>【樱花季的喵喵探班】</h3></div>
                 </article>
 
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/09.jpg" alt="甜品 咖啡 猫 治愈一切" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/09.jpg" alt="甜品 咖啡 猫 治愈一切" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%2393c5fd%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(09.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 3</span><h3>甜品 咖啡 猫 治愈一切</h3></div>
                 </article>
 
                 <article class="post-card">
                     <div class="post-img-wrap">
-                        <img src="images/xhs/10.jpg" alt="这6盆多少钱拿下？" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop'">
+                        <img src="images/xhs/10.jpg" alt="这6盆多少钱拿下？" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23fbcfe8%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(10.jpg)</text></svg>'">
                     </div>
                     <div class="post-body"><span class="post-date">❤️ 2</span><h3>这6盆多少钱拿下？</h3></div>
                 </article>
