@@ -12,7 +12,6 @@
         }
     </script>
     <style>
-        /* 首页专属 Hero 区样式 (不污染全局) */
         .hero { position: relative; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6rem 1rem 4rem; overflow: hidden; }
         .avatar-wrap { position: relative; width: 180px; height: 180px; margin-bottom: 2rem; z-index: 10; }
         .avatar-bg { position: absolute; inset: 0; background: #ff6b6b; border-radius: 50%; z-index: 1; transition: background-color 0.5s ease; }
@@ -23,18 +22,22 @@
         .dark .typewriter { color: #9ca3af; }
         .cursor { display: inline-block; width: 2px; height: 1.2em; background: #6b7280; margin-left: 2px; vertical-align: text-bottom; animation: blink 1s step-end infinite; }
         @keyframes blink { 50% { opacity: 0; } }
-        /* Blob 动画简略版 */
+        
+        /* 首页有机 Blob 动效 */
         .shape { position: absolute; z-index: 1; opacity: 0.7; pointer-events: none; }
-        .blob-blue { width: 80px; height: 80px; background: #93c5fd; border-radius: 40% 60% 60% 40% / 60% 40% 60% 40%; bottom: 8%; left: 6%; animation: float 8s ease-in-out infinite, rotate 20s linear infinite; }
-        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-20px); } }
+        .blob-blue { width: 120px; height: 120px; background: #93c5fd; border-radius: 40% 60% 60% 40% / 60% 40% 60% 40%; bottom: 15%; left: 8%; animation: float 8s ease-in-out infinite, rotate 20s linear infinite; }
+        .blob-pink { width: 140px; height: 140px; background: #fbcfe8; border-radius: 60% 40% 50% 50% / 40% 60% 40% 60%; top: 15%; right: 10%; animation: float 10s ease-in-out infinite, rotate 25s linear infinite; }
+        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-25px); } }
         @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
     </style>
 </head>
 <body>
+
     <div id="nav-placeholder"></div>
 
     <section class="hero">
         <div class="shape blob-blue"></div>
+        <div class="shape blob-pink"></div>
         <div class="avatar-wrap">
             <div class="avatar-bg" id="avatar-bg"></div>
             <img src="images/EMiAO.png" alt="头像" class="avatar-img" id="avatar-img">
@@ -52,10 +55,22 @@
                 <h2 class="section-title">栏目菜单</h2>
             </div>
             <div class="grid-3">
-                <div class="card">
-                    <div class="card-icon">📰</div><h3>资讯</h3><p>追踪科技前沿，分享数码好物。</p>
-                </div>
-                </div>
+                <a href="info.html" class="card">
+                    <div class="card-icon">📰</div>
+                    <h3>资讯</h3>
+                    <p>追踪科技前沿，分享数码好物，由 EMiAO 倾力主理。</p>
+                </a>
+                <a href="life.html" class="card">
+                    <div class="card-icon">🎬</div>
+                    <h3>生活</h3>
+                    <p>影音娱乐与生活随笔，记录 HannaH 眼中的美好瞬间。</p>
+                </a>
+                <a href="pet.html" class="card">
+                    <div class="card-icon">🐱</div>
+                    <h3>萌宠</h3>
+                    <p>猫咪日常与治愈瞬间，BanBan 德文猫的小红书搬运站。</p>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -68,7 +83,17 @@
             <div class="grid-2">
                 <div class="work-card">
                     <img src="images/work1.jpg" onerror="this.src='https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=400&fit=crop'">
-                    <div class="work-body"><h3>手冲咖啡入门指南</h3><p>从选豆到注水的完整记录与心得。</p></div>
+                    <div class="work-body">
+                        <h3>手冲咖啡入门指南</h3>
+                        <p>从选豆、研磨到注水控温的完整记录与冲煮心得。</p>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="images/work2.jpg" onerror="this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop'">
+                    <div class="work-body">
+                        <h3>我的自动化信息流搭建</h3>
+                        <p>基于开源大模型与 Gateway 打造的专属新闻收集系统。</p>
+                    </div>
                 </div>
             </div>
         </div>
