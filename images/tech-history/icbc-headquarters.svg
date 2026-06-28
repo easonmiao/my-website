@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="ICBC headquarters building">
+  <defs>
+    <linearGradient id="city" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9e8ff"/>
+      <stop offset="1" stop-color="#f1f3f4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#city)"/>
+  <rect x="172" y="230" width="856" height="390" rx="12" fill="#dfe5ee" stroke="#9aa0a6" stroke-width="4"/>
+  <rect x="246" y="150" width="708" height="110" rx="8" fill="#c3cedd" stroke="#9aa0a6" stroke-width="4"/>
+  <g fill="#9fb5cf" opacity=".75">
+    <rect x="230" y="292" width="70" height="66"/><rect x="335" y="292" width="70" height="66"/><rect x="440" y="292" width="70" height="66"/>
+    <rect x="545" y="292" width="70" height="66"/><rect x="650" y="292" width="70" height="66"/><rect x="755" y="292" width="70" height="66"/><rect x="860" y="292" width="70" height="66"/>
+    <rect x="230" y="398" width="70" height="66"/><rect x="335" y="398" width="70" height="66"/><rect x="440" y="398" width="70" height="66"/>
+    <rect x="545" y="398" width="70" height="66"/><rect x="650" y="398" width="70" height="66"/><rect x="755" y="398" width="70" height="66"/><rect x="860" y="398" width="70" height="66"/>
+  </g>
+  <path d="M160 620 H1040 V690 H160 Z" fill="#b7c2d4"/>
+  <text x="76" y="88" fill="#202124" font-family="Arial, sans-serif" font-size="32" font-weight="700">ICBC Headquarters</text>
+  <text x="76" y="128" fill="#5f6368" font-family="Arial, sans-serif" font-size="22">Finance infrastructure as a city landmark</text>
+</svg>
