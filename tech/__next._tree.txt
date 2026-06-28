@@ -1,8 +1,8 @@
-:HL["/_next/static/chunks/0ur3~35vghmyo.css","style"]
+:HL["/_next/static/chunks/0zytbgkafns3e.css","style"]
 :HL["/images/hoomee-logo.png","image"]
 :HL["/images/tech-history/spacex-launch.svg","image"]
 :HL["/images/tech-history/alphago-lee.svg","image"]
 :HL["/images/tech-history/iphone-launch.svg","image"]
 :HL["/images/tech-history/mi-mix.svg","image"]
 :HL["/images/tech-history/icbc-headquarters.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"tech","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"RkZ421u2jsknjDJgRl7gr"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"tech","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"SwZZ-VhO4CrVltehPdzpE"}
