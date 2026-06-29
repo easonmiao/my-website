@@ -1,3 +1,3 @@
-:HL["/_next/static/chunks/0zytbgkafns3e.css","style"]
+:HL["/_next/static/chunks/00~y3.wqpujhv.css","style"]
 :HL["/images/hoomee-logo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"articles","param":null,"prefetchHints":0,"slots":{"children":{"name":"life-note","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"SwZZ-VhO4CrVltehPdzpE"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"articles","param":null,"prefetchHints":0,"slots":{"children":{"name":"life-note","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"dVSCdKqFwDhR51JNUMLcQ"}
