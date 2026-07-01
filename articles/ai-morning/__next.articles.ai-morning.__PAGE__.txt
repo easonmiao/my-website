@@ -1,20 +1,13 @@
-1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0~~3iudbazaa4.js"],""]
-6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-7:"$Sreact.suspense"
-:HL["/images/hoomee-logo.png","image"]
-3:Tcd30,
-
 <div style="display:none;max-height:0;overflow:hidden;color:transparent;">
-06-26 AI早报｜Apple 调整产品价格/Google 将 Computer Use 内置进 Ge…/IBM 发布 0.7 纳米芯片技术，晶体管数量接近 10…，已更新 3/3 个信息源。
+07-01 AI早报｜11.98 万元起，最高 99 万元，优必选超仿生人形机…/Anthropic 发布 Claude Sonnet 5…/Base44 推出自研模型 Base1，想降低对通用大模…，已更新 3/3 个信息源。
 </div>
 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#faf7f2;">
 <tr><td align="center">
 <table role="presentation" width="720" cellspacing="0" cellpadding="0" style="width:720px;max-width:100%;background:#fffdf9;">
 <tr><td style="padding:36px 28px 26px;background:#d97757;background-image:linear-gradient(135deg,#f2a46f 0%,#d97757 48%,#9a4f33 100%);color:#ffffff;">
 <div style="font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#fff3e6;margin-bottom:14px;">EMiAO’s BestBlogs</div>
-<h1 style="margin:0;font-size:30px;line-height:1.22;font-weight:850;color:#ffffff;">06-26 AI早报｜Apple 调整产品价格/Google 将 Computer Use 内置进 Ge…/IBM 发布 0.7 纳米芯片技术，晶体管数量接近 10…</h1>
-<p style="margin:14px 0 0;font-size:14px;line-height:1.7;color:#fff7ed;">抓取时间：2026-06-26 09:16 ｜ 更新源：3/3 ｜ 去重后 32 条</p>
+<h1 style="margin:0;font-size:30px;line-height:1.22;font-weight:850;color:#ffffff;">07-01 AI早报｜11.98 万元起，最高 99 万元，优必选超仿生人形机…/Anthropic 发布 Claude Sonnet 5…/Base44 推出自研模型 Base1，想降低对通用大模…</h1>
+<p style="margin:14px 0 0;font-size:14px;line-height:1.7;color:#fff7ed;">抓取时间：2026-07-01 09:03 ｜ 更新源：3/3 ｜ 去重后 31 条</p>
 </td></tr>
 <tr><td style="padding:26px 28px 10px;">
 <h2 style="margin:0 0 14px;font-size:18px;line-height:1.4;color:#8a452b;">今日速览</h2>
@@ -22,56 +15,56 @@
 <tr>
 <td valign="top" style="width:34px;padding:8px 0;color:#d97757;font-size:13px;font-weight:800;">01</td>
 <td style="padding:8px 0 8px 0;border-bottom:1px solid #f3dfcf;">
-<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">Apple 调整产品价格</div>
-<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">少数派派早报、爱范儿早报</div>
+<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">11.98 万元起，最高 99 万元，优必选超仿生人形机器人 U1 系列发布</div>
+<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">爱范儿早报</div>
 </td>
 </tr>
 <tr>
 <td valign="top" style="width:34px;padding:8px 0;color:#d97757;font-size:13px;font-weight:800;">02</td>
 <td style="padding:8px 0 8px 0;border-bottom:1px solid #f3dfcf;">
-<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">Google 将 Computer Use 内置进 Gemini 3.5 Flash</div>
-<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">爱范儿早报、腾讯研究院AI速递</div>
+<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">Anthropic 发布 Claude Sonnet 5 和 Claude Science</div>
+<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">少数派派早报、爱范儿早报、腾讯研究院AI速递</div>
 </td>
 </tr>
 <tr>
 <td valign="top" style="width:34px;padding:8px 0;color:#d97757;font-size:13px;font-weight:800;">03</td>
 <td style="padding:8px 0 8px 0;border-bottom:1px solid #f3dfcf;">
-<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">IBM 发布 0.7 纳米芯片技术，晶体管数量接近 1000 亿个</div>
+<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">Base44 推出自研模型 Base1，想降低对通用大模型的依赖</div>
 <div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">爱范儿早报</div>
 </td>
 </tr>
 <tr>
 <td valign="top" style="width:34px;padding:8px 0;color:#d97757;font-size:13px;font-weight:800;">04</td>
 <td style="padding:8px 0 8px 0;border-bottom:1px solid #f3dfcf;">
-<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">OpenAI 或将 IPO 推迟到 2027 年</div>
-<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">爱范儿早报</div>
+<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">Cursor iOS 应用进入公测，移动端可启动云端 Agent</div>
+<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">爱范儿早报、腾讯研究院AI速递</div>
 </td>
 </tr>
 <tr>
 <td valign="top" style="width:34px;padding:8px 0;color:#d97757;font-size:13px;font-weight:800;">05</td>
 <td style="padding:8px 0 8px 0;border-bottom:1px solid #f3dfcf;">
-<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">OpenAI 新闻两则</div>
-<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">少数派派早报、爱范儿早报</div>
+<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">Kimi 新一轮融资投前估值升至 315 亿美元</div>
+<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">爱范儿早报</div>
 </td>
 </tr>
 <tr>
 <td valign="top" style="width:34px;padding:8px 0;color:#d97757;font-size:13px;font-weight:800;">06</td>
 <td style="padding:8px 0 8px 0;border-bottom:1px solid #f3dfcf;">
-<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">中兴高管：新一代 AI 手机近期上市，将推动 AI 能力走向端侧</div>
+<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">Nike 以「7-Eleven」和「罗森」为灵感推出 Air Max 95 限定配色</div>
 <div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">爱范儿早报</div>
 </td>
 </tr>
 <tr>
 <td valign="top" style="width:34px;padding:8px 0;color:#d97757;font-size:13px;font-weight:800;">07</td>
 <td style="padding:8px 0 8px 0;border-bottom:1px solid #f3dfcf;">
-<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">交通运输部等部门印发「人工智能+交通运输」行动方案</div>
-<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">爱范儿早报</div>
+<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">华为 openPangu-2.0-Flash 模型开源</div>
+<div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">少数派派早报、爱范儿早报、腾讯研究院AI速递</div>
 </td>
 </tr>
 <tr>
 <td valign="top" style="width:34px;padding:8px 0;color:#d97757;font-size:13px;font-weight:800;">08</td>
 <td style="padding:8px 0 8px 0;border-bottom:1px solid #f3dfcf;">
-<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">企业微信 5.0.9 升级 AI 服务总结，智能助理「大圆」进入内测</div>
+<div style="font-size:15px;line-height:1.55;font-weight:700;color:#2b2118;">数百 GB、超 20 万份 iPhone 18 Pro 机密文件流出</div>
 <div style="font-size:12px;line-height:1.5;color:#9a4f33;margin-top:3px;">爱范儿早报</div>
 </td>
 </tr>
@@ -82,135 +75,128 @@
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Apple 调整产品价格</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">6 月 25 日，Apple 上调多款 Mac 和 iPad 产品售价，涉及 MacBook Neo、MacBook Air、MacBook Pro、iPad Air 和 iPad Pro 等产品线。国行市场中，MacBook Neo 起售价由 4599 元上调至 5499 元，MacBook Air 起售价由 8499 元上调至 9999 元，14 英寸 MacBook Pro 起售价由 13499 元上调至 15999 元；iPad Air 起售价由 4799 元上调至 5999 元，iPad Pro 起售价由 8999 元上调至 10799 元；Vision Pro 的起售价从 29999 元上调至 31999 元；HomePod 的起售价从 2299 元上调至 2699 元，HomePod mini 的起售价从 749 元上调至 999 元；Apple TV 的起售价从 129 美元上调至 199 美元。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Apple 在发往媒体的声明中表示，消费电子行业正面临前所未有的挑战，AI 数据中心快速扩张推高了内存和存储需求，相关零部件价格上涨幅度和速度均超出以往经验。Apple 称，此前一直尽力在内部消化成本压力，但目前已不得不将部分成本反映到 iPad 和 Mac 等产品售价中。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">有部分媒体认为，Apple 很有可能酝酿新一轮涨价，涉及 iPhone、Apple Watch 和 AirPods 等产品。 来源</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报、爱范儿早报 ｜ <a href="https://sspai.com/post/111541" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">11.98 万元起，最高 99 万元，优必选超仿生人形机器人 U1 系列发布</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">优必选昨日在深圳举办 2026 年度全球发布会，正式推出旗下消费级品牌「优世界」（UWORLD）首款全尺寸超仿生人形机器人 U1 系列，定位家庭情感陪伴场景。U1 系列分三款：</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">U1 Lite，售价 11.98 万元，为轻量化半身版本；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">U1 Pro，售价 16.98 万元，相较 Lite 增加完整四肢；</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Google 将 Computer Use 内置进 Gemini 3.5 Flash</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Google 发布 Gemini 3.5 Flash 的 computer use 能力。官方博客显示，computer use 现在是 Gemini 3.5 Flash 支持的内置工具，而此前该能力主要通过单独的 Gemini 2.5 computer use 模型提供。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Computer Use 工具可让开发者构建浏览器、移动端和桌面控制智能体。模型通过截图理解屏幕，并生成鼠标点击、键盘输入等 UI 操作；客户端仍需实现执行环境来接收并执行这些动作。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报、腾讯研究院AI速递 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Anthropic 发布 Claude Sonnet 5 和 Claude Science</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">6 月 30 日，Anthropic 发布 Claude Sonnet 5，定位为目前代理能力最强的 Sonnet 模型，支持规划、浏览器和终端等工具调用及自主运行，性能接近定位更高的 Opus 4.8 但价格更低。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">相较 Sonnet 4.6，Sonnet 5 在推理、工具使用、编码和知识工作等代理任务上提升，早期测试者反馈其能完成此前 Sonnet 模型容易中断的复杂任务，并会主动检查自身输出；安全评估显示，Sonnet 5 的不良行为总体低于 Sonnet 4.6，幻觉和迎合率更低，对恶意请求的拒绝和对提示注入劫持的抵抗更好，但在自动行为审计中的不良行为率仍高于 Opus 4.8 和 Claude Mythos。Anthropic 称 Sonnet 5 未专门针对网络安全任务训练，其在 Firefox 147 漏洞利用评测中未能生成完整可用 exploit，完整成功率为 0.0%，但部分成功率略高于 Sonnet 4.6，并明显低于 Opus 4.8 和 Mythos；该模型默认启用与 Claude Opus 4.7、4.8 相同的实时危险网络安全用途检测与拦截。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Claude Sonnet 5 即日起面向所有套餐开放并作为免费和 Pro 订阅方案默认模型提供，Max、Team、Enterprise、Claude Code 和 Claude Platform 用户亦可访问，API 模型名为 claude-sonnet-5；在 2026 年 8 月 31 日前，Claude Platform 入门价格暂为每百万输入 token 2 美元、每百万输出 token 10 美元，之后则将调整为每百万输入 token 3 美元、每百万输出 token 15 美元。 来源</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报、爱范儿早报、腾讯研究院AI速递 ｜ <a href="https://sspai.com/post/111773" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">IBM 发布 0.7 纳米芯片技术，晶体管数量接近 1000 亿个</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">昨天，IBM 发布其首个低于 1 纳米节点的芯片技术，采用 0.7 纳米晶体管架构，基于新的三维「nanostack」纳米堆叠架构，IBM 称其可在指甲盖大小的芯片上集成近 1000 亿个晶体管，晶体管密度接近 2021 年发布的 IBM 2 纳米芯片的两倍。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">IBM 表示，这一节点芯片相比 IBM 2 纳米节点芯片，预计最高可带来 50% 的性能提升，或 70% 的能效提升，面向生成式 AI、云基础设施和下一代电子设备等计算场景。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Base44 推出自研模型 Base1，想降低对通用大模型的依赖</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">TechCrunch 报道，Wix 去年以 8000 万美元收购的 vibe coding 平台 Base44 正在向用户推出自研 AI 模型，用于支持自然语言创建应用。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Base44 创始人 Maor Shlomo 表示，把模型训练和所有权纳入自家技术栈，可以在延迟、成本和效率上做更多优化。公司称第一代模型 Base1 使用平台上数千万次真实用户交互生成的数据集训练，后续数据会随着平台使用继续增长。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">OpenAI 或将 IPO 推迟到 2027 年</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据《纽约时报》报道，OpenAI 正倾向于把首次公开募股推迟到 2027 年。三名参与公司讨论的人士称，给 OpenAI 提供 IPO 建议的投行人士提醒，近期科技股波动，以及 SpaceX 上市后股价波动，可能削弱散户投资者对 OpenAI 发行的热情。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">报道提到，投行顾问担心当前市场条件未必能支撑 Sam Altman 设想中的 1 万亿美元估值，OpenAI 因此更倾向放慢上市节奏。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Cursor iOS 应用进入公测，移动端可启动云端 Agent</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Cursor 官方社区公告显示，Cursor for iOS 已面向所有付费计划进入 public beta。用户可以从 iPhone 启动 always-on cloud agents，也可以远程控制在电脑上运行的 Agent。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">官方同时表示，移动端使用 Composer 2.5 可在 2026 年 7 月 5 日前享受 75% 折扣。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报、腾讯研究院AI速递 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">OpenAI 新闻两则</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">OpenAI 发布 AI 服务器芯片 Jalapeño OpenAI 于周三表示，其与 Broadcom 合作开发的 Jalapeño 芯片是一款面向 AI 推理任务的专用集成电路（ASIC），主要用于处理用户请求，如运行智能体或生成 ChatGPT 回复。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">该芯片发布于双方宣布合作开发自研芯片九个月后，旨在降低 OpenAI 对供应紧张的 Nvidia GPU 的依赖。Broadcom CEO Hock Tan 在接受路透社采访时称，Jalapeño 的性能可与 Nvidia Blackwell 芯片和 Google TPU 相当OpenAI 表示，Jalapeño 是其「多代计算平台」的第一步，预计将在 2026 年底前部署。 来源</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">OpenAI 推出新版 GPT-5.5 Instant 模型 6 月 25 日，OpenAI 宣布对 ChatGPT 默认模型 GPT-5.5 Instant 进行升级，进一步提升其上下文理解能力、多轮对话适应性以及复杂问题处理水平。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报、爱范儿早报 ｜ <a href="https://sspai.com/post/111541" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Kimi 新一轮融资投前估值升至 315 亿美元</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据《科创板日报》消息，月之暗面 Kimi 上一轮按 200 亿美元估值进行的融资近日完成交割，新一轮融资已启动，投前估值升至 315 亿美元，约合 2143.39 亿元人民币。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">接近 Kimi 的机构人士称，Kimi 在本轮融资沟通中披露了最新收入数据：6 月中旬 ARR（年度经常性收入）突破 3 亿美元，约合 20.41 亿元人民币。报道还称，Kimi 收入增长主要来自模型迭代带动的开发者使用和 API 收入提升，目前 API 收入占整体 7 成以上，并继续走高。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">中兴高管：新一代 AI 手机近期上市，将推动 AI 能力走向端侧</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据观察者网报道，6 月 23 日至 25 日，世界经济论坛第十七届新领军者年会在大连举行。中兴通讯董事长方榕在「AI 与未来增长」午餐会上表示，中兴通讯新一代 AI 手机即将在近期上市，这是公司将智能能力从云端推向端侧的重要一步。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">方榕称，AI 的终极意义在于让科技普惠经济社会。报道称，这款新一代 AI 手机将提供「听得懂、能干活」的交互体验，并被视为中兴通讯推动终端生态增长的产品之一。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">在技术路径上，中兴通讯称，公司将 AI 智能体深度融入操作系统，目标是打造原生 AI 体验，而非简单的功能插件。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Nike 以「7-Eleven」和「罗森」为灵感推出 Air Max 95 限定配色</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据 NOWRE 报道，Nike 以日本便利店文化为灵感，推出 Air Max 95 Big Bubble QS 2「CONVINI PACK」系列，共两款配色。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">其中一款以 7-Eleven 为灵感，采用品牌标志性的绿色与橙色勾勒鞋身层次，搭配大地色麂皮材质，呈现复古质感；另一款以 Lawson 的蓝白配色为主轴，辅以红色细节点缀，还原该便利店连锁品牌的视觉识别系统。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">系列目前已于 atmos 日本门店开启抽签发售，售价为 25520 日元（约合 1064 元人民币）。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">交通运输部等部门印发「人工智能+交通运输」行动方案</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">交通运输部等七部门昨日印发《「人工智能+交通运输」典型应用场景创新行动方案》，提出到 2027 年底，人工智能在交通运输典型场景中实现规模化创新应用，并形成一批可复制、可推广的应用案例。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">方案列出多个重点方向：</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">智能驾驶：开展「端到端」大模型研发与测试，推动智能网联汽车、自动驾驶出租车、自动驾驶公交等场景验证。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">华为 openPangu-2.0-Flash 模型开源</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">华为于 6 月 30 日宣布包含 920 亿参数的 openPangu-2.0-Flash 模型现已正式开源上线。openPangu 2.0 模型于今年的 HDC 2026 期间发布，拥有 512K 上下文，包含 Pro 和 Flash 两个版本，其中 2.0 Pro 总参数量 505B，激活参数量 18B，2.0 Flash 总参数量 92B，激活参数量 6B。根据计划，6 月 30 日首先开源的是 openPangu-2.0-Flash 模型权重、基础推理代码、训推算子，openPangu-2.0-Pro 的模型权重、基础推理代码则会在 7 月上线开源平台，更多组件则会在 2026 年下半年完成开源。 来源</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报、爱范儿早报、腾讯研究院AI速递 ｜ <a href="https://sspai.com/post/111773" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">企业微信 5.0.9 升级 AI 服务总结，智能助理「大圆」进入内测</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">企业微信昨日发布 5.0.9 版本更新，新增多项 AI 能力，覆盖客户服务、智能表格、智能文档和会议记录。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">面向销售、客服和运营团队，企业微信推出「服务总结」功能。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">智能表格的「AI 字段」增加从文件中批量提取信息和批量处理图片两类批处理能力；</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">数百 GB、超 20 万份 iPhone 18 Pro 机密文件流出</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据路透社报道，勒索软件组织 World Leaks 入侵苹果印度供应商塔塔电子后，已将涉及 iPhone 18 Pro 系列的敏感文件上传至暗网。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">有消息称，此次泄露文件体量达数百 GB，共超 20 万份，涵盖零部件与供应商清单、跌落测试照片，以及 A20 芯片和 C2 基带的相关图纸。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">路透社获取的文件显示，至少 6 份文件详细列出了 iPhone 18 Pro 各零部件对应的供应商，涉及主电路板芯片、电池及摄像头组件，合计涵盖数百种零部件。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">看看就行的其他消息</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据 Wired 报道，Anthropic 高层已与白宫展开近两周谈判，目标为让 Claude Fable 5 重新获得一般使用许可。报道称，早期谈判进展不顺，部分原因与 Anthropic CEO Dario Amodei 的沟通表现有关。他的沟通方式被白宫方面认为，较为强势、情绪化，且在讨论中不够倾听对方意见，导致双方难以形成有效互动。消息人士称，在 Amodei 退出谈判后，白宫转而与 Anthropic 联合创始人 Tom Brown 以及公共政策负责人 Sarah Heck 沟通，谈判情况有所改善。 来源</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">美国人工智能公司 Anthropic 称，阿里巴巴及其 AI 实验室千问相关人员在 2026 年 4 月 22 日至 6 月 5 日期间，通过近 2.5 万个欺诈账户大规模访问 Claude，累计生成超过 2880 万次交互，以提取 Claude 的模型能力。路透社看到的一封信件显示，Anthropic 将这次行动描述为其已知最大规模的同类「蒸馏」攻击。所谓「蒸馏」，通常指用更强模型的输出训练能力较弱的模型。Anthropic 在信中称，此类行为可能帮助中国 AI 模型更快接近其先进 Mythos Preview 模型的能力。该信件日期为 6 月 10 日，发给美国参议院银行委员会主席 Tim Scott 和资深成员 Elizabeth Warren，时间点在一场有关人工智能的听证会之前。阿里巴巴暂未回应路透社的置评请求。这并非 Anthropic 首次公开指控中国 AI 实验室「蒸馏」Claude。该公司今年 2 月曾称，DeepSeek、Moonshot AI 和 MiniMax 等公司也曾通过欺诈账户和代理服务访问 Claude 平台，其中 DeepSeek 涉及超过 15 万次交互，Moonshot AI 超过 340 万次，MiniMax 超过 1300 万次。 来源</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Notion Mail 将于 2026 年 9 月 22 日停止服务。 来源</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报、爱范儿早报、腾讯研究院AI速递 ｜ <a href="https://sspai.com/post/111541" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">立讯精密香港上市最高募资 31 亿美元</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">彭博社报道称，苹果供应商立讯精密已开始接受香港上市投资者认购，最高募资额可达 243 亿港元，约合 31 亿美元。若按该规模完成发行，这将成为香港今年以来最大规模的新股上市。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">上市文件显示，立讯精密此次拟发售 3.835 亿股，最高发行价为每股 63.28 港元。该价格较其深圳 A 股周一 65.30 元人民币收盘价有约 16% 折让。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">立讯精密是苹果 AirPods 等产品的重要组装商，也参与连接器、消费电子精密制造和汽车电子等业务。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">苹果 Siri AI 新增限制，明确拒绝读取网页链接内容</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据 9to5Mac 报道，苹果在 iOS 27 开发者测试版 Beta 2 中，为 Siri AI 的系统提示词 (prompt) 加入了一条新规则，要求其明确告知用户无法访问网页，并且不得提供后续建议或绕过方式。具体 prompt 如下：</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">你无法访问 URL 背后的内容：当用户提供 URL，并要求你总结、阅读或提取其中的信息时，请告知他们你无法访问网页。不要提供后续建议或变通方法。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">报道指出，Siri AI 此前本身就不能直接访问 URL 背后的网页内容，但这次新增的提示词规则进一步明确了处理方式。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">美团 LongCat 开源 VitaBench 2.0，评测智能体长期用户建模能力</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">美团技术团队发布并开源智能体评测基准 VitaBench 2.0，面向真实生活场景、长期动态用户建模，用于评估大语言模型在长期互动中的个性化和主动性。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">VitaBench 2.0 包含 56 名拟真用户、819 个复杂任务、超过 2000 个动态偏好和 66 个可执行工具。每位用户平均包含 2093 个交互事件，平均时间跨度 1580 天，系统按时间线向 Agent 暴露历史，用来测试模型持续提取、更新并使用用户偏好的能力。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">美团团队称，实验显示即使在能看到全部历史记录的模式下，最强模型平均分也刚过 0.5；接入 Agentic Memory 或 RAG Memory 后，多数模型表现低于直接使用全历史记录。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">蚂蚁阿福上线「科学减重 1 亿斤」行动</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">昨天，蚂蚁阿福正式发起「科学减重 1 亿斤」健康行动，并在阿福 App 开放体脂秤领取入口。用户完成指定流程后相当于以 0.01 元 + 9.9 元运费领取体脂秤。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">阿福 App 此次还升级了 AI 解读功能，可基于用户身体数据生成小结，并给出重点关注事项、饮食运动建议和行动提醒。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">💡 研究：把 AI 智能体叫做「员工」，会让人类犯更多错误</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据 MIT Technology Review 报道，将 AI 智能体包装成「数字员工」的营销方式，可能正在系统性地削弱人类员工的判断力与责任感。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">波士顿大学商学院研究员 Emma Wiles 的研究发现，当 AI 工具被定义为「AI 员工」而非普通聊天机器人时，参与实验的管理者识别错误的能力下降了 18%，且有 44% 更倾向于将有问题的结果上报给上级，而非自行纠正。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">参与研究的 1,261 名管理者中，已有近三分之一表示其所在公司将 AI 智能体定性为「员工」，甚至有 23% 的公司将其列入组织架构图。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">💡 李飞飞：10 年后，职场或只剩两类工作者</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">在日前的 Silicon Valley Girl 访谈中，美国国家工程院院士、World Labs 创始人李飞飞围绕 AI 对未来职场的影响表示，面对一种认知能力快速提升的技术，个人最需要培养的是「agency」，即主动理解、使用并驾驭工具的能力。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">她认为，AI 不应被简单视为取代人类的技术，而是一种需要被人类学习、设计和约束的强大工具。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">我认为 entrepreneurial 很大程度上是 agency 的同义词。面对这样一种认知能力很强的技术，agency 是关键。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Meta将大模型用于脑机接口，隔空读脑全开源</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Meta发布非侵入式脑机接口Brain2Qwerty v2，基于脑磁图记录实现实时句子级解码，准确率逼近此前需开颅手术才能达到的水平，并将v1、v2完整训练代码开源；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">训练数据来自9名志愿者每人10小时、累计约22000条真实打字记录，采用端到端深度学习并微调大模型利用语义上下文还原嘈杂脑信号；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">整体单词准确率达61%，最佳参与者达78%，远超此前非侵入方法的8%，且准确率随数据量对数线性增长，目标是帮助脑损伤患者交流。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997809&amp;idx=1&amp;sn=beec5dbb222f10c76d0423b230378eb3&amp;chksm=bcc84b438bbfc255cff5db07161a5271699a7afe350bdee8b0183518dfee10d9cead8e84aab5#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">DeepSeek开启大规模招聘，岗位规模拟扩大一倍</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">空缺覆盖全栈开发与算法、AI核心系统研发、运维、产品、模型数据策略产品经理与工程师、深度学习研究员及职能等大类；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">热门岗位含Agent Harness团队、超算集群与大模型训练、Code Agent数据产品经理、Frontier研究员（持续学习/自进化/新范式）等前沿方向；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">DeepSeek称用人原则是让新人直接承担最核心任务，正努力将所有部门规模扩大至少一倍，工作地点为北京、杭州，所有岗位均接受实习。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997772&amp;idx=1&amp;sn=7b56d18b6edd45605788e88df3d85d7c&amp;chksm=bcc84b7e8bbfc268fc2cd6ee884499619ac1d69357edace8caddcb5a7bd87d362658a0a4397c#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">OpenAI首款硬件Codex Micro曝光，主打编程效率</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">OpenAI在AI工程师世界博览会上公布首款硬件Codex Micro，一款与Work Louder联名的客制化键盘，旨在提升开发者使用Codex编程工具的效率；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">该键盘深度适配工作流，让开发者手不离键盘即可完成代码补全、纠错、版本回溯，旋钮还可调节AI生成代码的创造力阈值，成为桌面生态锚点；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">OpenAI硬件战略双线并行，B端以务实配件固化生态，C端则与前苹果设计官Jony Ive合作研发取代智能手机的AI原生终端。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997809&amp;idx=1&amp;sn=beec5dbb222f10c76d0423b230378eb3&amp;chksm=bcc84b438bbfc255cff5db07161a5271699a7afe350bdee8b0183518dfee10d9cead8e84aab5#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Nature研究警示长期与AI聊天恐引发精神风险</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">伦敦国王学院发表于Nature子刊的研究提出放大螺旋框架，指出聊天机器人靠语言镜像、超个性化与谄媚不断强化用户想法，可能把正常人聊到怀疑现实；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">部分临床案例后果严重，有人因此丢工作、住进精神病院甚至多次自杀，OpenAI披露每周约0.07%用户出现相关风险信号；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">研究区分放大器与催化剂两条路径，AI越像真人风险越高，工作场景中也在替代人际交流，如何保持人与人连接成时代命题。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997772&amp;idx=1&amp;sn=7b56d18b6edd45605788e88df3d85d7c&amp;chksm=bcc84b7e8bbfc268fc2cd6ee884499619ac1d69357edace8caddcb5a7bd87d362658a0a4397c#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">三星SK海力士美光被诉，涉嫌操纵内存价格</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">三星、SK海力士、美光三家存储巨头因涉嫌操纵内存价格于6月25日被诉至美国加州北区联邦法院，原告为14名消费者与3家公司，苹果近期涨价被列为导火索证据；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">诉状指控三巨头打着转向AI高带宽内存HBM的旗号协同压缩传统DRAM产能，四年内DRAM价格累计暴涨约700%，2026年一二季度合约价分别再涨约90%与60%；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">因HBM更费晶圆且利润高，三家集体倒向AI客户，叠加百亿建厂门槛与出口管制，无人扩产抢市场，业内预计高价或持续至2027年。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997809&amp;idx=1&amp;sn=beec5dbb222f10c76d0423b230378eb3&amp;chksm=bcc84b438bbfc255cff5db07161a5271699a7afe350bdee8b0183518dfee10d9cead8e84aab5#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">哈萨比斯回应人才被挖，称现代AI九成突破源于团队</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">面对John Jumper、Noam Shazeer等核心人才被挖，DeepMind创始人哈萨比斯回应称过去十年现代AI约九成关键突破出自Brain或DeepMind，研究梯队仍最深最广；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">他认为仅靠文本自省模型无法通往AGI，智能必须理解物理世界，故重投Veo、Omni等多模态视频模型，并主张AI生成内容应强制嵌入SynthID水印；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">他提出爱因斯坦测试定义真正创造力，强调想象力本质是脑内物理模拟器，未来或可借AI模拟细胞、天气乃至经济体运行。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997772&amp;idx=1&amp;sn=7b56d18b6edd45605788e88df3d85d7c&amp;chksm=bcc84b7e8bbfc268fc2cd6ee884499619ac1d69357edace8caddcb5a7bd87d362658a0a4397c#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">美团发布开源万亿模型LongCat-2.0，国产算力训练</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">美团正式发布并开源万亿参数大模型LongCat-2.0，总参数1.6T、平均激活约48B，是业界首个在五万卡国产算力集群上完成全流程训练推理的万亿模型，原生支持1M超长上下文；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">采用LSA稀疏注意力、零计算专家和MOPD多专家融合架构，专攻Agentic Coding，预览版调用量已跻身OpenRouter全球前三；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">在SWE-bench Pro获59.5分领先Gemini 3.1 Pro与GPT-5.5，Terminal-Bench、BrowseComp等评测均达或接近前沿闭源模型水平。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997809&amp;idx=1&amp;sn=beec5dbb222f10c76d0423b230378eb3&amp;chksm=bcc84b438bbfc255cff5db07161a5271699a7afe350bdee8b0183518dfee10d9cead8e84aab5#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">谷歌DeepMind多名核心研究员转投Anthropic</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据彭博报道，Gemini重要贡献者Jonas Adler与Alexander Pritzel计划离开谷歌加入Anthropic，对齐方向研究员Arthur Conmy也将加入；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">两人分别专注AI编程与模型训练流程，正卡在前沿竞争最关键位置，训练手感等隐性知识难以随权重留存，凸显谷歌人才流失之痛；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">有从业者注意到离职者多与DeepMind伦敦团队相关，预训练重心或向山景城转移，谷歌正越来越像AI人才的策源地而非终点。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997772&amp;idx=1&amp;sn=7b56d18b6edd45605788e88df3d85d7c&amp;chksm=bcc84b7e8bbfc268fc2cd6ee884499619ac1d69357edace8caddcb5a7bd87d362658a0a4397c#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">虎牙发布实时多模态数字人VAM 1.0，一照片成片</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">虎牙推出基于DiT架构的实时多模态数字人模型VAM 1.0，仅需一张照片即可生成能聊天、唱跳、玩游戏的数字人，480×832分辨率、28帧实时流式输出，可连续运行24小时以上；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">原生覆盖静默、聆听、说话三态并支持全双工打断接话，通过三阶段训练攻克时间累积误差、交互、部署三堵技术墙；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">在8块H200集群达36.4帧每秒，首帧延迟约1.3秒，依托十年直播场景优势可落地带货、新闻播报、虚拟演唱会等。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997809&amp;idx=1&amp;sn=beec5dbb222f10c76d0423b230378eb3&amp;chksm=bcc84b438bbfc255cff5db07161a5271699a7afe350bdee8b0183518dfee10d9cead8e84aab5#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">高通官宣多元化战略，飞龙进军数据中心市场</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">高通2026投资者日公布未来五年多元化战略，横跨手机、汽车、物联网与数据中心，将2029财年非手机业务收入目标上调至400亿美元，约为此前两倍；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">重磅发布数据中心方案高通飞龙（Dragonfly），用分布式计算架构应对智能体时代海量推理需求，目标2029财年数据中心收入达150亿美元；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">高通累计研发投入超1100亿美元、专利超20万件，预计2030年端到云全域可服务市场规模约1.7万亿美元。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：腾讯研究院AI速递 ｜ <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650997772&amp;idx=1&amp;sn=7b56d18b6edd45605788e88df3d85d7c&amp;chksm=bcc84b7e8bbfc268fc2cd6ee884499619ac1d69357edace8caddcb5a7bd87d362658a0a4397c#rd" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Gemini Spark 上线 macOS 客户端</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">6 月 30 日，Google 开始向 macOS 版 Gemini 应用推送 Gemini Spark 支持，用户安装 1.80.15.516 版本后可在侧边栏进入 Spark 标签页，授权其访问指定文件夹，然后执行本地文件处理和桌面自动化任务；设置项中同时新增任务运行时保持 Mac 设备唤醒以及默认开启的备份失败警告功能。Google 为 Gemini Spark 带来了 Google Keep、Tasks 支持，以及 Canva、Dropbox、Instacart、OpenTable、Zillow Rentals 等第三方集成和 MCP 支持；Spark 还支持实时主题追踪与事件响应，可监控博客、新闻网站、社交媒体、金融、购物、天气、体育和邮件，并在比赛结束、股票触及阈值等条件满足时发送更新。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Gemini Spark 需订阅 Google AI Ultra，每月 99 美元起；后续桌面更新将允许用户从网页或移动端直接调用 Mac 上的本地文件和任务。来源 1 , 2</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Google AI Pro竟然不让用</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111773" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Figma 发布多项更新</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">在年度 Config 大会上，设计软件公司 Figma 发布多项设计与编码产品更新，并引入了 AI 自动化能力。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Figma 表示，此次更新旨在将团队、AI 智能体、工具和素材整合到同一工作空间，帮助创作者提升创意效率并减少重复性工作。其中，Code layers 和 AI 生成动效成为核心亮点。Code layers 允许用户在不离开 Figma Design 画布的情况下直接修改项目代码，而 AI 动效功能则支持用户通过聊天界面描述需求，自动生成动画和转场效果。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">在具体功能方面，Code layers 支持克隆代码库、借助 Figma 智能体生成设计方案、将流程转化为可编辑设计图层，并实现设计与代码的同步更新。Motion 功能则支持团队在 Figma 内协作完成动画、转场及 3D 变换设计，既可通过 AI 提示生成，也可使用预设样式或手动调整时间轴。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111541" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
-</div>
-</td></tr>
-<tr><td style="padding:14px 28px;">
-<div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">高通发布 Dragonfly 数据中心产品组合</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">高通在 2026 年投资者日上公布 Dragonfly 数据中心解决方案，正式扩展其面向 AI 数据中心的 CPU、推理加速器、内存架构、互连和定制芯片产品组合。该方案包括 Dragonfly C1000 CPU、高带宽计算架构 HBC、Dragonfly AI300 推理加速器，以及面向数据中心的连接与芯片设计服务。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">其中，HBC 是高通为缓解 AI 推理内存瓶颈提出的近内存计算架构。该架构将计算单元与高带宽内存更紧密结合，以提升每瓦带宽、有效内存带宽和容量效率。高通称，搭载 HBC Gen 1 的 AI250 加速器单卡设计内存带宽可达 133TB/s，有效内存带宽较采用 LPDDR5X 的 AI200 提升 18 倍，预计 2027 年中启动商业送样；采用 HBC Gen 2 的 AI300 则面向第三代风冷和液冷机架式 AI 推理平台，设计有效带宽较 AI200 提升 54 倍，预计 2028 年开始商业送样。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Dragonfly C1000 是高通面向数据中心工作负载打造的新一代 CPU，采用多芯片架构和定制 Oryon CPU 核心，核心数可扩展至 250 个以上，频率目标超过 5GHz。该 CPU 支持 PCIe Gen 7 与 CXL，内存子系统基于低功耗内存技术，并可选配 HBC；同时支持风冷和液冷部署，兼容 OCP ORv3 机架与服务器。高通称，C1000 面向智能体编排、通用计算和 AI 头节点等数据中心场景，预计 2028 年实现商业化。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111541" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">你可能错过的文章</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">社区速递 147 | 派友的五月好物盘点、测评乱象热议和安伯尼克复古掌机</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">「弯道超车」赛车入门指北 02：从周五到周日，车队在忙什么？</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">100 天从创意到落地：我们做了一台可以随口问 AI 的对讲机</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111773" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:20px 28px 4px;">
@@ -218,37 +204,51 @@
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">IDC：一季度全球手持智能相机出货量同比增长 33%，大疆和影石占据前二</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">市场调研机构 IDC 昨日发布《2026 年第一季度全球手持智能相机市场跟踪报告》：</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">今年一季度全球手持智能相机出货量达到 414 万台，同比增长 33%；销售额超过 105 亿元人民币，同比增长 20%。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">细分市场中：</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">4999 元起，红魔游戏平板 5 Pro 正式发布</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">昨天，红魔正式推出游戏平板 5 Pro，提供 12GB + 256GB 至 16GB + 1TB 三个存储规格，首销售价 4999 元起。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">搭载第五代骁龙 8 至尊版；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">9.06 英寸 2400×1504、185Hz OLED，首发 X10 发光材料，局部峰值亮度 1600nit，全局峰值亮度 1100nit；</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">影石回应 Luna Ultra 国补「骗补」质疑：品牌补贴保障统一到手价</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据《南方都市报》、《时代周报》消息，影石 Insta360 近日因首款双摄云台相机 Luna Ultra 的价格和补贴规则引发争议。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">该产品于 6 月 10 日发布，发布会及部分官方宣传图显示标准套餐售价 3999 元起，但有消费者发现，部分线上渠道需领取 15% 政府补贴后才能达到 3999 元到手价，而部分线下门店无需使用国补即可按 3999 元购买。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">另有线上页面显示，未领取国补时，相关商品价格约为 4729 元。有消费者因此质疑该产品线上线下标价规则不一致，可能占用消费者补贴名额。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">9.98 万元起，HORWIN 号外首款 400V 高压超级电摩正式交付</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">HORWIN 号外昨日宣布，旗下超级电摩 SENMENTI ONE 正式开始交付，售价 9.98 万元起，提供号外橙、异能紫、坤灵黑三种配色。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">SENMENTI ONE 搭载 HORWIN 自研的全球首款 400V 全车规 IM 一体化动力平台，零百加速 3.3 秒，最高时速 200 km/h。安全配置包括博世 ABS、ETCS 电子节气门控制系统以及 KYB 减震。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">续航与充电方面，SENMENTI ONE 搭载 16.9 kWh 三元锂电池，官方标称城市综合续航 300 公里，并支持汽车直流快充协议，充电 10 分钟可行驶 100 公里，整车还支持 3 kW 对外放电。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Akko 推出无摇杆街机控制器 FUNBOX</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">外设品牌 Akko 近期推出其首款无摇杆街机控制器 FUNBOX，面向格斗游戏玩家和键盘输入习惯用户。该产品已于 2026 年 6 月 24 日在日本市场开卖，日本含税售价为 22990 日元；Akko 全球官网则显示，FUNBOX 标准版在美国市场处于预购阶段，预计 2026 年 7 月中旬到货，当前标价为 99.99 美元。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">FUNBOX 主打低延迟输入与高度可定制化。该控制器采用 17 个游戏按键与 6 个系统按键设计，搭载凯华 Star Mini 低矮霍尔磁轴，支持 PC 端最高 8kHz 回报率、50kHz 扫描率，Rapid Trigger 精度可达 0.005mm。按键触发行程可在 0.1mm 至 2.8mm 范围内调节，用户可根据格斗游戏中的快速输入、方向切换和 SOCD 处理需求进行设置。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">硬件设计方面，FUNBOX 内置 2 英寸全彩 LCD 屏幕，可用于模式切换、板载存储、SOCD 设置、按键测试和自定义图片显示；机身侧面配有铝制多功能旋钮，顶面采用电火花哑光处理，以降低反光和指纹残留。其 PCB 支持轴体热插拔，标配凯华 Star Mini Magnetic 低矮磁轴，同时兼容凯华多款低矮机械轴。原装轴体总行程为 2.8mm，初始压力约 30gf，采用 POM、PC、尼龙三种材料，标称寿命超过 1 亿次。 来源</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111541" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">WPS 回应 C 盘占用争议：7 月新版本将支持路径自选与一键清理</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据《21世纪经济报道》消息，WPS 昨日针对近期引发热议的系统卡顿及 C 盘占用问题再次作出回应。公司表示，优化后的新版本将于 7 月正式上线，届时用户可前往官网下载更新。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">针对用户反映强烈的缓存与备份默认存放 C 盘、占用情况不直观等痛点，新版本将围绕「安装有选择、使用可管理」进行以下重点优化：</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">安装环节路径自选：在安装界面新增路径选择功能，将安装路径、文件备份路径、云文档存储路径三条路径分开设置，互不绑定；</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">比亚迪推出 BYD 灵动按键</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">比亚迪官方商城 6 月 25 日上线车载配件 BYD 灵动按键，首发价 259 元。该产品随比亚迪大唐汽车一同发布，目前首发适配大唐车型，后续将陆续支持更多车型。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">BYD 灵动按键定位为车内快捷控制配件，可通过磁吸或 3M 胶粘贴在车内任意位置。用户可将其设置为空调温度、风量调节、座椅通风或加热、音乐播放与音量控制、场景模式调用等 40 余项座舱功能，并通过单击、双击、旋转三种方式进行操作。官方称，其控制延迟不超过 30ms，意在降低驾驶过程中频繁触控中控屏带来的视线偏移。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">该产品还支持 NFC 碰一碰功能，手机靠近后即可快速连接车机蓝牙，便于不同用户或不同设备切换音乐播放。续航方面，BYD 灵动按键采用可拆卸纽扣电池供电，并结合低功耗蓝牙设计，标称单次续航可达 1 年。 来源</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111541" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">网易 CC 直播 8 月 31 日停止运营</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">网易 CC 直播昨日发布停运公告，称因产品开发运营策略调整，平台将于 2026 年 8 月 31 日 15:00 终止运营。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">按照公告，从 6 月 30 日 14:00 起，网易 CC 直播关闭全平台下载入口，停止充值、新用户注册以及新主播、新公会入驻。7 月 31 日 15:00 起，平台将停止直播和开播服务；8 月 31 日 15:00 后，网页、App、服务端和账号数据会停止提供服务。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">鸿蒙智行发布尊界 S800 Grand Design 典藏大观</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">6 月 25 日晚，华为常务董事余承东发布尊界 S800 Grand Design 典藏大观车型。新车官方指导价 138.8 万元起，预计 8 月底陆续交付；同步推出的锦绣繁花主题套装选装价为 20 万元。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">尊界 S800 Grand Design 典藏大观定位为尊界 S800 系列的超高端定制车型，提供增程和纯电两种动力版本。设计上，新车主打东方美学与豪华定制，提供旭日曜金、远山青黛两种专属车漆，并配备 Grand Design 典藏专属标识、同色长绒羊毛地毯、18 处真木饰板和细木镶嵌工艺。锦绣繁花主题套装则进一步加入 51 万针手工刺绣星空顶、双层威尔顿编织工艺地毯和桑蚕丝锦绣繁花靠枕等配置。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">座舱与智能化方面，新车搭载新一代鸿蒙 ALPS 健康座舱，并首发 MOFS 可吸附降解材料 2.0。智能驾驶方面，尊界 S800 Grand Design 典藏大观搭载华为乾崑智驾 ADS 5 与全维防碰撞系统 CAS 5.0，采用六激光雷达矩阵，并首发量产激光雷达洗刮一体系统，可对激光雷达脏污进行检测和自主清洁。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111541" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">Google 推出 Eclipsa Video 视频标准</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">7 月 1 日，Google 宣布推出基于开放 SMPTE ST 2094-50 规范的新视频标准 Eclipsa Video，用于改善 HDR 视频在不同屏幕上的亮度、色彩和对比度一致性问题。该规范由 Google 与 Apple、NBCUniversal 合作开发，核心机制是在视频中携带精确渲染指引，让兼容显示设备不再自行猜测亮度映射，而是按元数据处理画面。Eclipsa Video 提供 3 项主要能力：通过 HDR reference white 建立普通亮度基准，保证文字、应用界面和标准动态范围色彩可读且不过曝；根据不同屏幕物理亮度上限动态处理高光，在高端电视上保留明亮细节，在移动屏幕上智能缩放以避免突然刺眼；以逐帧自适应指令保留创作者调色意图，而非对整段视频套用单一静态设置。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Google 同时也宣布 Eclipsa Video 已原生集成至 Android 17，支持播放和拍摄，兼容条件为运行 Android 17（API level 37）及以上、配备 HDR 显示屏并通过 Eclipsa Compliance 测试的设备。 来源</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111773" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+</div>
+</td></tr>
+<tr><td style="padding:14px 28px;">
+<div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">《恋与深空》发布长文致歉，未来不再推出新男主</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">6 月 30 日，知名国产乙女游戏《恋与深空》官方就近期 6.0 版本首发以来引发的争议，发布致歉及内容调整公告，详细公告内容如图。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">官方在致歉文中表示，经过制作组内部讨论，游戏将对后续的角色规划、版本活动及玩家补偿做出全面调整：角色规划方面，官方宣布正式取消新男主「敖尹」的上线与开发安排，并承诺在未来的内容规划中不再推出新的男主，后续团队全员将转而专注于现有五位男主的故事打磨与长期陪伴体验，稳定主线产能与更新频次；针对即将到来的 6.0 版本更新，原计划推出的系统玩法及活动均会如期上线，为弥补玩家体验，原定于活动期间投放的服装、拍照动作、场景及玩家礼盒将在版本更新后通过游戏内邮件改为免费赠送；此外官方还推出了长达 30 天的登录补偿方案。 来源</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">此前，《恋与深空》官方也于 6 月 29 日就多起玩家争议集中发布声明，包括游戏剧情中出现与侵华日军 731 部队相关历史对应的药物编号、游戏角色名称包含战犯人名、「倭寇」负面谐音等问题。《恋与深空》官方核查后表示相关数字为虚构日期，但团队部分人员敏感性不足，将以最快速度完成线上修改，未来也将加强培训并完善内部审核机制；同时澄清角色名称「音译」解读为谣言，后续会保留证据追究相关账号责任。 来源</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111773" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+</div>
+</td></tr>
+<tr><td style="padding:14px 28px;">
+<div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">微软 Teams 个人版将在中国大陆停用</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">微软于 6 月 30 日确认调整旗下 Microsoft Teams 个人免费版（即 Teams for personal use，亦称 Teams Free）在中国大陆地区的服务。其中 Microsoft Teams 桌面客户端和网页版将于 2026 年 7 月 28 日起正式停用，届时中国大陆（以 IP 判定）用户将无法再通过个人微软账户登录、使用 Teams 个人版的任何服务。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">此次调整仅针对使用个人微软账户登录的 Teams 免费用户，并不影响工作或学校账户，拥有企业或教育机构 Teams 账号的用户仍可继续使用。此外用户使用 Skype 拨号盘、加入 Teams 工作或学校会议等功能也不会受到波及。 来源</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">有些业务都是环大陆地区开展咯</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：少数派派早报 ｜ <a href="https://sspai.com/post/111773" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:20px 28px 4px;">
@@ -256,9 +256,16 @@
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">美光第三财季营收同比增长 345.7%，称存储供应紧张将延续到 2027 年后</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">美光科技昨日发布 2026 财年第三财季业绩，收入 414.6 亿美元，同比增长 345.7%；GAAP 净利润 282.4 亿美元，同比增长 1398.3%；GAAP 毛利率 84.6%，同比提升 46.9 个百分点。财报发布后，美光盘后股价一度涨超 15%。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">云存储收入 137.69 亿美元，同比增长 306%；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">核心数据中心收入 115.24 亿美元，同比增长 653%；</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">SK 海力士正式启动赴美 IPO</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">SK 海力士昨日向美国证券交易委员会提交 F-1 招股说明书，正式启动赴美 IPO，计划在纳斯达克上市，股票代码为「SKHY」，发行形式为美国存托股份（ADS）。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">本次新发股份上限为 17,790,000 股，约占总股本的 2.50%。发行价格及 ADS 对应股份比例等关键条款尚未确定。承销商为美银证券、花旗、高盛及摩根大通。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">招股书显示，海力士今年第一季度营收为 52.576 万亿韩元（约合 345 亿美元），净利润为 40.346 万亿韩元（约合 265 亿美元），均较去年同期大幅增长。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+</div>
+</td></tr>
+<tr><td style="padding:14px 28px;">
+<div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">寒武纪盘中市值突破 1 万亿元，成科创板首只万亿股</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">寒武纪昨日盘中涨幅一度扩大至逾 8%，股价报 1605.99 元，总市值突破 1 万亿元，成为科创板首只市值达到万亿级别的股票。截至 15:00 收盘，寒武纪股价报 1595.55 元，当日涨幅为 7.66%、总市值约 9160 亿元。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:20px 28px 4px;">
@@ -266,59 +273,44 @@
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">《小黄人大眼萌 3》开启预售，7 月 3 日上映</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">《小黄人大眼萌 3 / 小黄人与大怪兽》已宣布开启预售，并将于 7 月 3 日正式上映，较北美市场晚两天。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">该片此次更换了三名新的主角小黄人，故事设定在 1920 年代的好莱坞，围绕小黄人们逐梦演艺圈展开。小黄人们在片场打工担任群演，同时希望拍摄一部怪兽电影，过程中遭遇了多只大怪兽。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">动力电池装车需求今年预计达 888.7 GWh，同比增长 15.8%</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">昨日，中国汽车动力电池产业创新联盟 2026 年度论坛在北京召开。国家动力电池创新中心副主任马小利在论坛上披露，受新能源汽车增量放缓影响，国内动力电池行业已由高速增长阶段转入「稳健增长、结构升级」阶段，整体增速较 2025 年有所下降。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">马小利预计，今年国内动力电池全年装车需求将达 888.7 GWh，同比增长 15.8%。分车型来看，新能源乘用车装车需求预计达 672.7 GWh，同比增长 10.8%；新能源商用车装车需求预计达 216.1 GWh，同比增长 34.7%，商用车增速明显高于乘用车。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">一汽-大众更换商品经营部负责人，国桐从深蓝回归</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据汽车像素昨日报道，一汽-大众成立约一年的商品经营部近日换帅，原深蓝汽车首席品牌官国桐出任该部门负责人。该部门在内部常被称为「产品部」，去年上半年新设，随后升为 L1 级部门。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">国桐曾在一汽-大众华南区、南区销售事业部、市场与衍生业务部任职，之后进入长安体系，并从 2022 年起担任深蓝汽车首席品牌官。报道称，一汽-大众此次用人逻辑是找回熟悉旧体系、又参与过自主新能源品牌建设的人。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">字节 CEO 梁汝波发全员信：要求 Leader 实质产出</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据凤凰网科技报道，字节跳动 CEO 梁汝波于 6 月 29 日晚间向全员发布邮件，宣布时隔四年更新公司领导力原则。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">梁汝波在邮件中表示，公司将运作思考和原则沉淀为管理理念，主要包括业务战略制定原则、组织管理、人才策略和公共事务四个部分。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">此次更新的领导力原则共 10 条，上一版本发布于 2022 年。梁汝波在邮件中重点说明了几项主要变化：</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">中汽协：5 月中国品牌乘用车销量占比升至 75%</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据中国汽车工业协会统计，2026 年 5 月，中国品牌乘用车销售 168.9 万辆，环比增长 5.7%，同比增长 4.2%，占乘用车销售总量的 75%，销量占有率比去年同期提升 6 个百分点。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">今年 1-5 月，中国品牌乘用车累计销售 732.6 万辆，同比下降 3.1%，占乘用车销售总量的 71%，销量占有率同比提升 2.2 个百分点。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">同期汽车市场整体仍承压。5 月汽车产销分别为 261.6 万辆和 262.9 万辆，同比分别下降 1.2% 和 2.1%；新能源汽车产销分别为 155.4 万辆和 149.6 万辆，同比分别增长 22.4% 和 14.4%；汽车出口 93 万辆，同比增长 68.7%。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">欧莱雅推出 15 美元 NYX 香氛系列，面向 Z 世代人群</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据路透社报道，欧莱雅昨日宣布推出旗下彩妆品牌 NYX Professional Makeup 的香氛系列，以 15 美元（约 80 毫升）的定价切入大众香水市场，目标人群为 Z 世代消费者。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">这是欧莱雅消费品部门首次涉足香氛品类。该部门负责人 Fabrice Megarbane 将此次发布定性为欧莱雅以「更平价」「更有趣」方式进入香水市场的初次尝试。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:14px 28px;">
 <div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">哥斯达黎加咖啡收成降至 55 年低点，同比减少 12%</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据路透社报道，哥斯达黎加咖啡研究所 Icafe 披露，哥斯达黎加 2025-2026 年度咖啡收成同比下降 12%，创下 55 年来最低水平。官方数据显示，本季咖啡种植者交付的咖啡果折合 159.2 万袋，每袋 46 公斤；上一季为 181.3 万袋。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">Icafe 经济研究与市场部门负责人 Marco Araya 表示，上一次出现更低收成还要追溯到 1970-1971 年度。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">该机构称，本季减产主要受到降雨不规律、劳动力短缺、咖啡作物两年生产周期，以及生产者面临的经济压力等因素影响，其中包括本币贬值带来的压力。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
-</div>
-</td></tr>
-<tr><td style="padding:14px 28px;">
-<div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">携程第一财季营收 162.08 亿元，归母净利润同比下降 41.57%</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">携程集团发布 2026 年第一季度未经审计财务业绩。期内，公司净营业收入为 162 亿元，同比增长 17%；归属于携程集团股东的净利润为 25 亿元，低于去年同期的 43 亿元；经调整 EBITDA 为 48 亿元，去年同期为 42 亿元。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">住宿预订营业收入为人民币 65 亿元，同比增长 17%；</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">交通票务营业收入为人民币 61 亿元，同比增长 12%；</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
-</div>
-</td></tr>
-<tr><td style="padding:14px 28px;">
-<div style="border:1px solid #efd6c2;border-radius:10px;padding:18px 18px 16px;background:#fffdf9;">
-<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">曝苹果折叠屏 iPhone 七月底量产，铰链问题已「大部分解决」</h3>
-<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">据韩国电子产业媒体 The Elec 报道，苹果首款折叠屏 iPhone 计划于 7 月底前后开始量产，并仍按原计划推进 9 月发布。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">报道称，苹果已确定这款折叠屏 iPhone 的显示屏、机身、结构件等主要规格，目前进入量产准备阶段。首批产品将由富士康负责生产，苹果已在 4 月完成第一轮试生产。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">铰链部分由中国台湾新日兴和美国安费诺供应，两家公司将提供 3D 打印方式制造的铰链模组。</li></ul>
-<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670010" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
+<h3 style="margin:0 0 10px;font-size:17px;line-height:1.45;color:#8a452b;">雷弗恩新片《她个人的地狱》发布海报，7 月 24 日北美上映</h3>
+<ul style="margin:0 0 12px;padding-left:19px;"><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">丹麦导演尼古拉斯·温丁·雷弗恩执导的新片《她个人的地狱》昨日发布新版宣传海报，画面中出现一名身着皮衣的神秘男性杀手形象。与此同时，影片方面透露新版预告也将于近期发布，影片计划于 7 月 24 日在北美正式公映。</li><li style="margin:0 0 7px;font-size:14px;line-height:1.75;color:#334155;">影片设定于一座未来感十足的都市，神秘迷雾笼罩全城并释放出致命实体，一名内心饱受创伤的年轻女性踏上寻父旅途，与一名试图救女于危难之中的美国士兵命运交织。</li></ul>
+<div style="font-size:12px;line-height:1.6;color:#7c6a5d;">来源：爱范儿早报 ｜ <a href="https://www.ifanr.com/1670629" style="color:#c15f3c;text-decoration:none;font-weight:700;">原文链接</a></div>
 </div>
 </td></tr>
 <tr><td style="padding:22px 28px 34px;">
 <div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:15px 16px;">
 <div style="font-size:14px;font-weight:700;color:#8a452b;margin-bottom:8px;">抓取状态</div>
 <ul style="margin:0;padding-left:18px;">
-<li style="font-size:12px;line-height:1.7;color:#64748b;">腾讯研究院AI速递：已更新，2026-06-26 00:05</li><li style="font-size:12px;line-height:1.7;color:#64748b;">少数派派早报：已更新，2026-06-26 08:55</li><li style="font-size:12px;line-height:1.7;color:#64748b;">爱范儿早报：已更新，2026-06-26 08:03</li>
+<li style="font-size:12px;line-height:1.7;color:#64748b;">腾讯研究院AI速递：已更新，2026-07-01 00:03</li><li style="font-size:12px;line-height:1.7;color:#64748b;">少数派派早报：已更新，2026-07-01 07:48</li><li style="font-size:12px;line-height:1.7;color:#64748b;">爱范儿早报：已更新，2026-07-01 08:02</li>
 </ul>
 </div>
 <div style="padding:18px 4px 0;font-size:11px;line-height:1.6;color:#94a3b8;text-align:center;">本日报由AI自动生成  ｜  版权及编辑制作©️EMiΔO</div>
 </td></tr>
 </table>
 </td></tr>
-</table>
-0:{"rsc":["$","$1","c",{"children":[[["$","header",null,{"className":"site-header","children":[["$","$L2",null,{"className":"site-brand","href":"/","aria-label":"HooMee 首页","children":["$","img",null,{"className":"brand-logo-img","src":"/images/hoomee-logo.png","alt":"HooMee"}]}],["$","nav",null,{"className":"site-nav","aria-label":"主导航","children":[["$","$L2","tech",{"href":"/tech/","aria-current":"page","children":"科技·资讯"}],["$","$L2","life",{"href":"/life/","children":"生活·记录"}],["$","$L2","pets",{"href":"/pets/","children":"萌宠·探索"}],["$","$L2","about",{"href":"/about/","children":"关于"}]]}]]}],["$","main",null,{"children":[["$","section",null,{"className":"article-hero article-image-hero education","style":{"backgroundImage":"linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(248, 250, 253, 0.82)), url(\"/images/articles/ai-morning-hero.png\")"},"aria-label":"文章头图"}],["$","article",null,{"className":"keyword-article email-article-shell","children":[["$","nav",null,{"className":"breadcrumbs chinese-breadcrumbs","aria-label":"面包屑","children":[["$","$1","首页-0",{"children":[null,["$","$L2",null,{"href":"/","children":"首页"}]]}],["$","$1","科技·资讯-1",{"children":[["$","span",null,{"children":"›"}],["$","$L2",null,{"href":"/tech/","children":"科技·资讯"}]]}],["$","$1","AI 早报-2",{"children":[["$","span",null,{"children":"›"}],["$","$L2",null,{"href":"/articles/ai-morning/","children":"AI 早报"}]]}],["$","$1","06-26 AI 早报-3",{"children":[["$","span",null,{"children":"›"}],["$","span",null,{"children":"06-26 AI 早报"}]]}]]}],["$","div",null,{"className":"email-article-content","dangerouslySetInnerHTML":{"__html":"$3"}}]]}]]}]],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3ggNV-LZ5eWxDW1tToxUX"}
+</table>0:{"rsc":["$","$1","c",{"children":[[["$","header",null,{"className":"site-header","children":[["$","$L2",null,{"className":"site-brand","href":"/","aria-label":"HooMee 首页","children":["$","img",null,{"className":"brand-logo-img","src":"/images/hoomee-logo.png","alt":"HooMee"}]}],["$","nav",null,{"className":"site-nav","aria-label":"主导航","children":[["$","$L2","tech",{"href":"/tech/","aria-current":"page","children":"科技·资讯"}],["$","$L2","life",{"href":"/life/","children":"生活·记录"}],["$","$L2","pets",{"href":"/pets/","children":"萌宠·探索"}],["$","$L2","about",{"href":"/about/","children":"关于"}]]}]]}],["$","main",null,{"children":[["$","section",null,{"className":"article-hero article-image-hero education","style":{"backgroundImage":"linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(248, 250, 253, 0.82)), url(\"/images/articles/ai-morning-hero.png\")"},"aria-label":"文章头图"}],["$","article",null,{"className":"keyword-article email-article-shell","children":[["$","nav",null,{"className":"breadcrumbs chinese-breadcrumbs","aria-label":"面包屑","children":[["$","$1","首页-0",{"children":[null,["$","$L2",null,{"href":"/","children":"首页"}]]}],["$","$1","科技·资讯-1",{"children":[["$","span",null,{"children":"›"}],["$","$L2",null,{"href":"/tech/","children":"科技·资讯"}]]}],["$","$1","AI 早报-2",{"children":[["$","span",null,{"children":"›"}],["$","$L2",null,{"href":"/articles/ai-morning/","children":"AI 早报"}]]}],["$","$1","07-01 AI 早报-3",{"children":[["$","span",null,{"children":"›"}],["$","span",null,{"children":"07-01 AI 早报"}]]}]]}],["$","div",null,{"className":"email-article-content","dangerouslySetInnerHTML":{"__html":"$3"}}]]}]]}]],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3ggNV-LZ5eWxDW1tToxUX"}
 4:["$","script","script-0",{"src":"/_next/static/chunks/0~~3iudbazaa4.js","async":true}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
