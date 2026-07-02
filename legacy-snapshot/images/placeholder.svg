@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-  <title id="title">HooMee Coffee placeholder image</title>
-  <desc id="desc">A warm abstract placeholder for missing HooMee Coffee article and gallery images.</desc>
+  <title id="title">HooMee Coffee archive image</title>
+  <desc id="desc">A warm abstract HooMee Coffee image for archived pages.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0" stop-color="#fff7ed"/>

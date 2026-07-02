@@ -1,7 +1,7 @@
-:HL["/_next/static/chunks/055t~yys4ikqz.css","style"]
+:HL["/_next/static/chunks/0on9q5_hk3obx.css","style"]
 :HL["/images/hoomee-logo.png","image"]
 :HL["/images/life-records/cover-home.jpg","image"]
 :HL["/images/life-records/cover-food.jpg","image"]
 :HL["/images/life-records/cover-media.jpg","image"]
 :HL["/images/life-records/cover-study.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"life","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"6Qwgj7lX1fjtfqtNxIQeM"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"life","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"nvmK6ucBUlEzW17w5smBZ"}

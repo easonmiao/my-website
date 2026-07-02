@@ -1,8 +1,8 @@
-:HL["/_next/static/chunks/055t~yys4ikqz.css","style"]
+:HL["/_next/static/chunks/0on9q5_hk3obx.css","style"]
 :HL["/images/hoomee-logo.png","image"]
 :HL["/images/articles/ai-morning-hero.png","image"]
 :HL["/images/articles/finance-morning-hero.png","image"]
-:HL["/images/tech-history/cover-iphone.jpg","image"]
-:HL["/images/tech-history/cover-alphago.jpg","image"]
+:HL["/images/tech-history/cover-ai.jpg","image"]
+:HL["/images/tech-history/cover-alphago.webp","image"]
 :HL["/images/tech-history/cover-icbc.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"tech","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"6Qwgj7lX1fjtfqtNxIQeM"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"tech","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"nvmK6ucBUlEzW17w5smBZ"}
