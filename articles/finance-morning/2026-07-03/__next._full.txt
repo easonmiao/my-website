@@ -1,0 +1,96 @@
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;background:#f6efe9;border-collapse:collapse;">
+    <tr>
+      <td align="center" style="padding:24px 17px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;max-width:760px;background:#fffdf8;border-collapse:collapse;border:1px solid #eaded4;">
+          <tr><td style="height:7px;background:#c9685f;font-size:0;line-height:0;">&nbsp;</td></tr>
+          <tr>
+            <td style="padding:26px 24px 10px 24px;">
+              <div style="font-size:13px;color:#8b6f69;word-break:break-word;">EMiAO's Financial Blogs / 2026-07-03 Daily Note</div>
+              <h1 style="margin:10px 0 14px 0;font-size:32px;line-height:1.18;font-weight:720;color:#2b2422;letter-spacing:0;">07-03 商业财经早报</h1>
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;background:#fff7f2;border:1px solid #f0d7cf;">
+                <tr>
+                  <td style="padding:12px 14px;font-size:13px;color:#5a4742;line-height:1.65;">
+                    <strong>信息窗口</strong>：2026-07-01 08:56 CST 至 2026-07-03 08:39 CST<br>
+                    <strong>核心更新</strong>：19 条定稿节点<br>
+                    <strong>阅读形态</strong>：Tana / outliner / 浪花珊瑚<br>
+                    <strong>状态</strong>：工作日正常营业中
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:8px 24px 24px 24px;">
+              <div style="border-left:3px solid #f0836a;padding-left:14px;margin:14px 0 22px 0;">
+                <h2 style="font-size:22px;margin:0 0 8px 0;line-height:1.28;color:#3a2c2a;">今日早安</h2>
+                <p style="margin:0 0 8px 0;font-size:14px;">资金面继续偏宽，央行 7 月 2 日公开市场单日净回笼 820 亿元，但银行间短端回购利率回落，跨月后流动性压力缓释。</p>
+                <p style="margin:0 0 8px 0;font-size:14px;">市场面延续“股弱债稳、商品分化”：A 股科技题材交易过热触发集中风险提示，利率债窄幅回暖，贵金属反弹而油化链下跌。</p>
+                <p style="margin:0;font-size:14px;">外部变量主要来自美国就业走弱、日债与亚洲科技股波动、欧盟维持 Google Android 反垄断罚款。</p>
+              </div>
+              <div style="background:#fff1ee;border:1px solid #f1d5cd;padding:14px 16px;margin:0 0 22px 0;">
+                <h2 style="font-size:22px;margin:0 0 10px 0;line-height:1.28;color:#3a2c2a;">信息速览</h2>
+                <ol style="margin:0;padding-left:22px;font-size:13px;line-height:1.72;color:#3f3330;">
+                  <li>美国 6 月非农新增就业仅 5.7 万人，明显低于预期。</li>
+                  <li>美伊多哈间接会谈缓和地缘溢价，国内 SC 原油跌超 5%。</li>
+                  <li>欧盟法院维持 Google Android 反垄断案约 41 亿欧元罚款。</li>
+                  <li>央行 7 月 2 日逆回购净回笼 820 亿元，操作利率 1.40%。</li>
+                  <li>银行间质押式回购市场总体宽松，R001 成交额超 6.3 万亿元。</li>
+                  <li>国债期货主力合约全线上涨，利率债收益率多数小幅下行。</li>
+                  <li>银行间经纪新规过渡期收官，免费报价模式退场。</li>
+                  <li>A 股 6 月以来超 500 家公司发布异动或风险提示公告。</li>
+                  <li>光伏三项强制性国标公布，落后产能出清压力上升。</li>
+                  <li>商务部称中美原则同意将相关农产品纳入对等降税框架。</li>
+                  <li>CNFIN 07:12 早报新增央行 6 月工具投放、A 股开户、智能网联汽车强制国标等信息。</li>
+                  <li>财新 7月3日财经早知道关注互联网大厂云端招聘和 AI 岗位需求。</li>
+                </ol>
+              </div>
+              <h2 style="font-size:22px;margin:24px 0 12px 0;border-bottom:1px solid #f0836a;padding-bottom:8px;color:#3a2c2a;">国际经济形势</h2>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;">
+                <div style="font-size:12px;color:#f0836a;font-weight:700;">#global #美国就业</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2422;">美国 6 月非农就业显著低于预期，利率路径重新交给通胀数据</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;"><li>非农就业仅增 5.7 万人，4 月和 5 月数据合计下修 7.4 万人。</li><li>失业率降至 4.2%，但伴随劳动参与率下降和劳动力退出。</li><li>市场削减 7 月加息押注，继续等待 7 月 14 日 CPI。</li></ul>
+                <p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434934_1.html" style="color:#c9685f;">原文链接</a></p>
+              </div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;">
+                <div style="font-size:12px;color:#f0836a;font-weight:700;">#global #能源</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2422;">美伊谈判缓和地缘溢价，油价和化工链同步回落</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;"><li>多哈间接会谈围绕被冻结资产和霍尔木兹海峡安全推进。</li><li>SC 原油主力跌超 5%，PX、PTA、燃料油等跟随走弱。</li><li>谈判反复或航道扰动仍是油价阶段性反弹风险。</li></ul>
+                <p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434796_1.html" style="color:#c9685f;">原文链接</a></p>
+              </div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;">
+                <div style="font-size:12px;color:#f0836a;font-weight:700;">#global #科技监管</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2422;">Google Android 反垄断案终审失利，欧盟平台监管强度延续</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;"><li>欧盟法院维持 Android 相关反垄断处罚决定。</li><li>案件聚焦预装 Search、Chrome 等是否构成滥用支配地位。</li><li>跨境科技、云服务、AI 算力和数据合规监管外溢仍需关注。</li></ul>
+                <p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：New York Post ｜ <a href="https://nypost.com/2026/07/02/business/google-loses-fight-against-eus-record-4-7b-fine-over-alleged-antitrust-practices/" style="color:#c9685f;">原文链接</a></p>
+              </div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#global #亚洲市场</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2422;">日本债券遭海外资金大额抛售，日韩股市承压</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>海外投资者 6 月净抛售日本债券 3.12 万亿日元。</li><li>20 年期日债收益率一度上行 11 个基点。</li><li>韩国综合指数大跌 7.89% 并触发临时停牌，日经 225 指数下跌 2.47%。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260703/4435062_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <h2 style="font-size:22px;margin:24px 0 12px 0;border-bottom:1px solid #f0836a;padding-bottom:8px;color:#3a2c2a;">国内财经动态</h2>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #货币政策</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">央行单日净回笼 820 亿元，跨月后资金面保持宽松</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>央行开展 2885 亿元 7 天期逆回购，利率 1.40%。</li><li>当日 3705 亿元到期，公开市场净回笼 820 亿元。</li><li>R001 成交额超 6.3 万亿元，DR001 成交额突破 2 万亿元。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434886_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #债券市场</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">利率债窄幅回暖，债市仍处低波动纠结区间</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>国债期货主力合约全线上涨。</li><li>10 年期国债收益率小幅下行至 1.7325%。</li><li>机构认为资产缺口支撑配置，但息差和利差限制下行空间。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434750_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #银行间市场</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">银行间经纪新规过渡期收官，免费报价模式退场</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>经纪服务从免费分散报价转向签约付费和规范留痕。</li><li>百万亿元量级银行间市场信息撮合生态被重塑。</li><li>银行需同步规范经纪服务采购、交易信息合规和成本核算。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434956_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #流动性工具</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">央行披露 6 月工具投放，MLF 净投放 2000 亿元</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>6 月 MLF 净投放 2000 亿元。</li><li>公开市场国债买卖净投放 100 亿元，7 天逆回购净投放 5826 亿元。</li><li>其他结构性货币政策工具净回笼 1372 亿元。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经早报 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260703/4435013_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #中美经贸</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">商务部称中美原则同意将相关农产品纳入对等降税框架</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>中美设定扩大农产品双向贸易的指导性目标。</li><li>企业将按市场化原则自主开展贸易。</li><li>中欧贸易投资磋商机制拟每年举行 1 至 2 次部长级会议。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经晚报 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434833_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #资本市场</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">A 股风险提示公告集中出现，科技高景气赛道成重点</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>6 月以来超 500 家上市公司披露异动或风险提示。</li><li>AI 算力、存储、光通信、半导体材料等赛道集中。</li><li>半导体行业累计超 160 家公司披露风险提示。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434803_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #市场开户</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">A 股上半年新开户 2016 万户，达到去年全年的 73.5%</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>6 月 A 股新开户 286.46 万户，同比增长 73.99%。</li><li>上半年累计新开户 2016.13 万户，同比增长约 60%。</li><li>开户活跃与风险提示集中并存，热门赛道交易拥挤加剧。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经早报 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260703/4435013_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #银行股</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">上市银行市值缩水，股东与管理层增持成为稳定信号</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>A 股银行板块总市值 14.17 万亿元，较年初缩水 1.54 万亿元。</li><li>42 家 A 股上市银行中 36 家上半年股价下跌。</li><li>齐鲁银行、渝农商行、南京银行等披露增持进展。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434886_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #就业科技</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">互联网大厂释放 20 万云端招聘岗位，AI+人才需求继续抬升</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>财新 7 月 3 日财经早知道关注 20 万岗位集中释放。</li><li>AI 相关岗位占比持续攀升。</li><li>人社部等四部门延续一次性扩岗补助政策至 2026 年底。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网、新华财经早报 ｜ <a href="https://finance.caixin.com/2026-07-03/102460146.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#domestic #产业政策</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">光伏能耗能效强制国标落地，落后产能进入出清倒计时</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>三项强制国标覆盖多晶硅、硅片、组件、逆变器等环节。</li><li>标准将于 2027 年 1 月 1 日实施。</li><li>机构预计落后产能出清压力上升。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434770_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <h2 style="font-size:22px;margin:24px 0 12px 0;border-bottom:1px solid #f0836a;padding-bottom:8px;color:#3a2c2a;">重点领域改革</h2>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#reform #能源体系</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">新型能源体系“十五五”规划强调油气全国一张网</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>规划将油气全国一张网作为能源强国基础。</li><li>跨区域管网、储运、调度和安全保供能力是主线。</li><li>相关基础设施仍将形成中长期项目融资需求。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/news/index.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#reform #汽车安全</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">组合驾驶辅助系统强制国标发布，智能网联汽车安全基线补齐</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>GB 47955-2026 强制性国家标准获批发布。</li><li>标准拟于 2027 年 1 月 1 日正式实施。</li><li>智能网联汽车进入更强准入、质量监督和追溯周期。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经早报 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260703/4435013_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#reform #体育产业</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">国务院批复体育强国建设“十五五”规划</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>批复提出完善全民健身公共服务体系。</li><li>推进三大球振兴和体育产业提质扩容。</li><li>场馆改造、赛事经济、文旅消费值得跟踪。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经晚报 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434833_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#reform #民航消费</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">7 月初国内航线票价处于低位，暑运需求恢复但价格竞争仍强</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>7 月国内航线机票预订量已超 1580 万张。</li><li>7 月第一周国内机票预订均价较去年同期低近两成。</li><li>客流恢复与低票价并存，航司收益弹性仍受压。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经晚报 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434833_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="border:1px solid #eaded4;padding:14px;margin:0 0 12px 0;"><div style="font-size:12px;color:#f0836a;font-weight:700;">#reform #银行布局</div><h3 style="font-size:16px;line-height:1.42;margin:6px 0;">银行参股同业案例增多，区域战略和资产配置逻辑强化</h3><ul style="margin:0;padding-left:20px;font-size:13px;"><li>厦门国际银行增持廊坊银行、中信银行竞得云南红塔银行股权等案例落地。</li><li>银行参股同业情形从跨区展业到战略投资更加多元。</li><li>需关注资本占用、关联交易和并表管理。</li></ul><p style="font-size:12px;color:#7b6762;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260702/4434886_1.html" style="color:#c9685f;">原文链接</a></p></div>
+              <div style="background:#3a2c2a;color:#fffdf8;padding:16px;margin:24px 0 18px 0;">
+                <h2 style="font-size:22px;line-height:1.28;margin:0 0 8px 0;color:#fffdf8;">最近深度阅读</h2>
+                <p style="font-size:14px;margin:0 0 8px 0;"><a href="https://finance.caixin.com/2026-07-03/102460146.html" style="color:#ffd1c4;">财经早知道｜互联网大厂云端招聘，20万岗位集中释放</a></p>
+                <p style="font-size:13px;margin:0;line-height:1.68;color:#f5e7e0;">财新 7 月 3 日财经早知道关注互联网大厂云端招聘和 AI 相关岗位占比提升。结合稳岗扩岗政策，稳就业与 AI 人才需求构成本期宏观和产业政策交汇点。</p>
+              </div>
+              <p style="font-size:12px;color:#8b6f69;line-height:1.7;margin:20px 0 0 0;">◔.̮◔✧<br>EMiAO's Financial Blogs内容均源自互联网公开信息，由HannaH&EMiAO共同策划，AI Agent自动编辑发送<br>若有疑问欢迎邮件easonmiao@agent.qq.com反馈<br>感谢支持～<br><br>本日报由AI自动生成 ｜ 版权及编辑制作©️EMiΔO</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+0:{"c":["","articles","finance-morning","2026-07-03",""],"title":"07-03 商业财经早报｜流动性、就业与科技监管","html":"static fallback updated"}
