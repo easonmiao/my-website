@@ -1,0 +1,174 @@
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;background:#f5f1e8;border-collapse:collapse;">
+    <tr>
+      <td align="center" style="padding:24px 17px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="width:100%;max-width:760px;background:#fffef9;border-collapse:collapse;border:1px solid #e2d8c4;">
+          <tr><td style="height:7px;background:#7c8f5a;font-size:0;line-height:0;">&nbsp;</td></tr>
+          <tr>
+            <td style="padding:26px 24px 10px 24px;">
+              <div style="font-size:13px;color:#7b7164;word-break:break-word;">EMiAO's Financial Blogs / 2026-07-06 Daily Note</div>
+              <h1 style="margin:10px 0 14px 0;font-size:32px;line-height:1.18;font-weight:720;color:#2b2621;letter-spacing:0;">07-06 商业财经早报</h1>
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;background:#f7f4e8;border:1px solid #ded4b6;">
+                <tr>
+                  <td style="padding:12px 14px;font-size:13px;color:#51483b;line-height:1.65;">
+                    <strong>信息窗口</strong>：2026-07-03 08:53 CST 至 2026-07-06 08:39 CST<br>
+                    <strong>核心更新</strong>：18 条定稿节点<br>
+                    <strong>阅读形态</strong>：Tana / outliner / 淡彩原木<br>
+                    <strong>状态</strong>：工作日正常营业中
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:8px 24px 24px 24px;">
+              <div style="border-left:3px solid #b9a66b;padding-left:14px;margin:14px 0 22px 0;">
+                <h2 style="font-size:22px;margin:0 0 8px 0;line-height:1.28;color:#314c5f;">今日早安</h2>
+                <p style="margin:0 0 8px 0;font-size:14px;">资金面在本期 05:00 前尚未看到央行周一公开市场新增披露，周末主要增量集中在平台监管、资本市场再融资规则和国资数字化监管。</p>
+                <p style="margin:0 0 8px 0;font-size:14px;">市场面需要关注 7月6日 A 股交易制度变化、ST 股涨跌幅扩大和盘后交易安排；再融资规则调整也会影响上市公司融资节奏。</p>
+                <p style="margin:0;font-size:14px;">外部变量围绕霍尔木兹海峡通航、俄乌政治解决信号、美国锂资源采购和 BIS 代币化货币体系讨论。</p>
+              </div>
+              <div style="background:#f7f4e8;border:1px solid #ded4b6;padding:14px 16px;margin:0 0 22px 0;">
+                <h2 style="font-size:22px;margin:0 0 10px 0;line-height:1.28;color:#314c5f;">信息速览</h2>
+                <ol style="margin:0;padding-left:22px;font-size:13px;line-height:1.72;color:#39322c;"><li>霍尔木兹海峡有限通航，能源与航运风险尚未完全解除。</li><li>“欧佩克+”主要产油国决定 8 月日均增产原油 18.8 万桶。</li><li>俄美元首通话释放政治解决乌克兰问题信号。</li><li>美国启动碳酸锂国防储备采购，五年上限 1.62 万吨。</li><li>电子商务法修正草案公开征求意见。</li><li>三部门明确 2027年起恢复对新能源汽车等四类车辆征收车船税。</li><li>证监会再融资规则征求意见，定增储架发行成为重点。</li><li>A 股交易制度 7月6日起调整。</li><li>BIS 建议代币化技术纳入现行货币体系。</li><li>我国快递业务量年内突破 1000 亿件。</li><li>社保缴费基数征管趋严。</li><li>6月中国大宗商品价格指数环比下跌 1.7%。</li></ol>
+              </div>
+<h2 style="font-size:22px;margin:24px 0 12px 0;border-bottom:1px solid #b9a66b;padding-bottom:8px;color:#314c5f;">国际经济形势</h2>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#global #航运能源</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">霍尔木兹海峡恢复有限通航，能源与航运风险仍未完全解除</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>新华财经 7月5日披露，霍尔木兹海峡商业航运正逐步恢复，但运输能力、航运效率和市场信心尚未回到冲突前水平。</li><li>该航道仍是全球能源运输关键节点，通航效率和保险、运费变化会继续影响原油、LNG 与化工链价格预期。</li><li>对银行资产端而言，能源贸易、航运物流、化工库存和相关保证金需求仍可能出现短周期波动。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260705/4435765_1.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#global #原油供给</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">“欧佩克+”主要产油国决定 8 月继续增产</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>新华财经 7月6日 06:17 发布环球财经消息，7 个“欧佩克+”主要产油国决定 8 月继续提高原油产量。</li><li>公告称 8 月日均增产原油 18.8 万桶，并重申维护市场稳定承诺，供给端边际变化会继续牵动油价和化工品定价。</li><li>在霍尔木兹海峡有限恢复通航背景下，供给增量与航运风险会共同影响能源企业库存、贸易融资和套保需求。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260706/4435801_1.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#global #地缘政治</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">普京与特朗普通话，俄方重申倾向政治解决乌克兰问题</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>新华财经 7月5日报道，俄总统普京 7月4日与美国总统特朗普通话时表示仍倾向通过政治外交手段解决乌克兰问题。</li><li>俄方同时强调必须考虑俄方原则立场，意味着谈判预期虽有修复，但冲突与制裁路径仍存在不确定性。</li><li>相关变量继续影响欧洲能源、粮食、避险资产和美元流动性，商业银行需关注外贸客户汇率与结算风险。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/news/index.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#global #美国资源</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">美国启动碳酸锂国防储备采购，未来五年采购上限 1.62 万吨</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>财新 7月4日报道，美国启动碳酸锂国防储备采购，未来五年采购上限为 1.62 万吨。</li><li>锂资源从新能源产业链上游进一步进入战略储备视野，可能强化全球矿产、加工和电池材料供应链政策属性。</li><li>国内相关产业客户的价格套保、库存安排和跨境投资风险，将更依赖资源国政策和采购节奏变化。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网 ｜ <a href="https://www.caixin.com/2026-07-04/102460952.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+<h2 style="font-size:22px;margin:24px 0 12px 0;border-bottom:1px solid #b9a66b;padding-bottom:8px;color:#314c5f;">国内财经动态</h2>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #平台经济</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">电子商务法修正草案公开征求意见，平台治理进入新一轮制度调整</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>7月4日，市场监管总局、商务部公布《电子商务法（修正草案征求意见稿）》并公开征求意见，意见反馈截止 2026年8月4日。</li><li>财新梳理称，征求意见稿新增 10 条、修改 12 条，重点包括扩大调整范围、明确监管机制、丰富监管工具并鼓励电商出海。</li><li>平台商户经营、跨境电商、支付结算、消费者保护和新就业形态权益安排，后续都可能影响银行零售和小微场景金融服务。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网 ｜ <a href="https://china.caixin.com/2026-07-05/102461048.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #税收政策</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">三部门明确恢复对新能源汽车等四类车辆征税</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>财新 7月6日财经早知道披露，三部门发布公告，自 2027年1月1日起取消对节能汽车减半征收车船税政策。</li><li>同一公告还取消对纯电动商用车、插电式和增程式混合动力汽车、燃料电池商用车免征车船税政策。</li><li>政策调整指向税收公平和产业健康发展，车企、物流企业和商用车运营主体的全生命周期成本测算需重新评估。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网 ｜ <a href="https://finance.caixin.com/2026-07-06/102461081.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #社保征管</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">社保缴费基数征管趋严，多地税务开始抓“夯实率”</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>财新 7月6日 07:00 报道，多地税务部门开始核查社保缴费基数与个税工资不匹配问题，要求企业自查和调整申报。</li><li>社保缴费基数按全口径就业人员平均工资核定，通常设置 300% 上限和 60% 下限，实际工资落在区间内则按实际工资作为基数。</li><li>企业人力成本、现金流和小微经营压力可能上升，银行对企业账户流水、薪酬代发和经营贷客户的成本结构也需同步观察。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网 ｜ <a href="https://www.caixin.com/2026-07-06/102461077.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #资本市场</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">再融资规则全面调整，定增储架发行和小额快速融资同步优化</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>财新 7月4日报道，证监会就完善上市公司再融资规则公开征求意见，市场关注定增储架发行制度和小额快速再融资优化。</li><li>新华财经周报披露，沪深上市公司小额快速融资上限拟由 3 亿元提升至 6 亿元，净资产超过 100 亿元企业上限提升至 10 亿元。</li><li>规则调整意在提高上市公司融资便利性，同时强化募资投向主业、可转债监管和套利约束。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网、新华财经 ｜ <a href="https://finance.caixin.com/2026-07-04/102460980.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #交易制度</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">A股交易制度 7月6日起生变，ST 股涨跌幅扩大并增加盘后交易</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>财新 7月4日报道，下周一 A 股交易制度调整，ST 股涨跌幅扩大至 10%，并增加盘后交易时段。</li><li>制度调整会影响部分风险警示股票的波动率、撮合节奏和盘后流动性，券商、资管和银行代销风控需同步关注。</li><li>在上半年开户活跃、题材交易拥挤背景下，交易制度变化可能放大个股分化和投资者适当性管理压力。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网 ｜ <a href="https://finance.caixin.com/2026-07-04/102460968.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #货币体系</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">BIS 建议将代币化技术纳入现行货币体系，央行货币仍是清算锚点</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>财新 7月5日报道，BIS 年度经济报告专章讨论稳定币和 RWA 等创新工具，认为稳定币未能满足货币基本属性。</li><li>BIS 的核心主张是保留代币化技术红利，但将其纳入现有货币体系，以央行数字货币作为全体系唯一清算锚点。</li><li>这对银行数字资产、跨境支付、托管清算和合规科技具有参考意义，也提示影子银行式链上创新的监管边界。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网 ｜ <a href="https://finance.caixin.com/2026-07-05/102461052.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #快递消费</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">我国快递业务量年内突破 1000 亿件，较 2025 年提前 9 天</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>新华财经 7月5日早报披露，国家邮政局数据显示，截至 6月30日，今年我国快递业务量已超过 1000 亿件。</li><li>这一节点比 2025 年提前 9 天，折射线上消费、产业带发货和即时零售等场景仍保持较高活跃度。</li><li>快递量增长对小微经营流水、支付结算、物流仓储融资和县域消费金融均有持续参考价值。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260705/4435719_1.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #大宗商品</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">6月中国大宗商品价格指数为 130.3 点，环比下跌 1.7%</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>新华财经 7月5日报道，6月中国大宗商品价格指数 CBPI 为 130.3 点，环比下跌 1.7%。</li><li>能源、化工、有色等相关大宗商品价格继续回调，企业原材料成本压力阶段性缓解。</li><li>价格回落改善部分制造业成本端，但也会影响上游企业库存估值、抵质押品价值和授信监测。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260705/4435751_1.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #国资监管</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">数智穿透监管被列为国资监管改革重要任务</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>新华财经 7月5日财经分析称，今年以来国务院国资委推动国资监管模式迭代升级，相关会议将智能穿透监管列为改革重要任务之一。</li><li>穿透监管强调用数据链条提升资产、资金、投资和风险管理透明度，目标是在“放活”与“管好”之间取得平衡。</li><li>地方国企、平台公司和金融机构合作中，资金流向、关联交易、担保链条和投资项目数据化约束会继续增强。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260705/4435770_1.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#domestic #上市公司</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">高斯贝尔拟由大客户 6.5 亿元包揽定增，募集资金用于偿债和补流</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>新华财经 7月5日报道，高斯贝尔拟向长沙炬神管理咨询合伙企业定向发行股份，募集资金总额 6.5 亿元。</li><li>报道披露，此次募集资金全部用于偿债及补充流动资金，认购方为公司重要客户，市场关注其后续控制权安排。</li><li>案例反映部分上市公司仍通过定增修复资产负债表，银行授信端需关注客户集中度、偿债资金来源和股权结构变化。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260705/4435754_1.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+<h2 style="font-size:22px;margin:24px 0 12px 0;border-bottom:1px solid #b9a66b;padding-bottom:8px;color:#314c5f;">重点领域改革</h2>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#reform #国资改革</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">国资监管数字化提速，地方平台融资与风控透明度要求提高</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>数智穿透监管把国资企业资产、资金、投资、采购和风险控制纳入更强数据治理框架。</li><li>对银行而言，地方国企和平台客户的授信材料、资金用途、关联交易和项目回款数据将更适合穿透核验。</li><li>这一方向与防范地方债务风险、提高国有资本运营效率相衔接，后续可重点跟踪贵州本地国资平台执行情况。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：新华财经 ｜ <a href="https://www.cnfin.com/yw-lb/detail/20260705/4435770_1.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#reform #平台治理</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">电子商务法修订强化平台监管工具，涉外电商规则同步补强</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>征求意见稿扩大电子商务法调整范围，进一步明确监管机制，并补充监管工具和规制手段。</li><li>草案同时鼓励电子商务出海并赋权涉外反制，跨境电商经营规则、数据和支付安排将更加制度化。</li><li>银行在跨境结算、小微商户、支付账户、供应链金融和消费者权益场景中，需要关注平台责任边界变化。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网 ｜ <a href="https://china.caixin.com/2026-07-05/102461048.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#reform #资本市场</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">再融资制度优化服务新质生产力，但套利约束同步增强</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>再融资规则调整拟提高小额快速融资上限、建立定增储架发行制度，便利上市公司及时融资。</li><li>监管同时强调募集资金投向主业、统一市价发行定价机制和强化可转债监管，压缩资金套利空间。</li><li>银行投行、托管、理财和上市公司客户服务可获得新业务机会，但需同步识别产业真实性和融资用途。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网 ｜ <a href="https://finance.caixin.com/2026-07-04/102460980.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+
+              <div style="border:1px solid #e2d8c4;padding:14px;margin:0 0 12px 0;background:#fffef9;">
+                <div style="font-size:12px;color:#7c8f5a;font-weight:700;">#reform #货币金融</div>
+                <h3 style="font-size:16px;line-height:1.42;margin:6px 0;color:#2b2621;">代币化金融进入主流政策讨论，银行清算和托管角色需提前预研</h3>
+                <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.72;color:#39322c;"><li>BIS 报告不否定代币化技术，但要求将其嵌入受监管的现行货币体系。</li><li>央行数字货币作为清算锚点的思路，意味着商业银行在账户、托管、合规和支付接口中的角色仍不可替代。</li><li>稳定币、RWA、代币化基金等产品若进入合规二级市场，银行需储备风控、会计、反洗钱和投资者适当性规则。</li></ul>
+                <p style="font-size:12px;color:#776b5c;word-break:break-word;overflow-wrap:anywhere;">信息来源：财新网 ｜ <a href="https://finance.caixin.com/2026-07-05/102461052.html" style="color:#6d7f9a;">原文链接</a></p>
+              </div>
+              <div style="background:#314c5f;color:#fffef9;padding:16px;margin:24px 0 18px 0;">
+                <h2 style="font-size:22px;line-height:1.28;margin:0 0 8px 0;color:#fffef9;">最近深度阅读</h2>
+                <p style="font-size:14px;margin:0 0 8px 0;"><a href="https://finance.caixin.com/2026-07-05/102461052.html" style="color:#f4d68a;">BIS畅想下一代货币体系 建议将代币化技术融入现行体系</a></p>
+                <p style="font-size:13px;margin:0;line-height:1.68;color:#f6efe3;">财新 7月5日报道 BIS 年度经济报告对稳定币、RWA 和代币化技术作出系统讨论。文章重点在于区分技术创新与货币信任锚点：代币化可被保留，但应嵌入现行受监管货币体系，并以央行货币作为最终清算基础。</p>
+              </div>
+              <p style="font-size:12px;color:#7b7164;line-height:1.7;margin:20px 0 0 0;">◔.̮◔✧<br>EMiAO's Financial Blogs内容均源自互联网公开信息，由HannaH&EMiAO共同策划，AI Agent自动编辑发送<br>若有疑问欢迎邮件easonmiao@agent.qq.com反馈<br>感谢支持～<br><br>本日报由AI自动生成 ｜ 版权及编辑制作©️EMiΔO</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
