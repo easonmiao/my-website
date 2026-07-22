@@ -1,17 +1,10 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
-import {
-  AmaIcon,
-  PhotosIcon,
-  PreferencesIcon,
-  ProjectsIcon,
-  WritingIcon,
-} from '~/components/dock-icons'
+import { PreferencesIcon } from '~/components/dock-icons'
 import { LiquidGlass } from '~/components/liquid-glass'
 import { Preferences } from '~/components/preferences'
 import { useDockActiveIndicator } from '~/hooks/use-dock-active-indicator'
@@ -25,12 +18,12 @@ import {
 } from '~/lib/locale-route'
 import { playDockSound } from '~/lib/sound'
 
-const ITEMS = [
-  { href: '/blog', zh: '写作', en: 'Writing', icon: WritingIcon },
-  { href: '/photos', zh: '照片', en: 'Photos', icon: PhotosIcon },
-  { href: '/projects', zh: '项目', en: 'Projects', icon: ProjectsIcon },
-  { href: '/ama', zh: '咨询', en: 'AMA', icon: AmaIcon },
-] as const
+const ITEMS: ReadonlyArray<{
+  href: string
+  zh: string
+  en: string
+  icon: React.ComponentType
+}> = []
 
 export function DockTip({
   zh,
@@ -123,7 +116,7 @@ export function DockFallback({ locale }: { locale: Locale }) {
         goKey={dockGoKeyFor('/')}
       >
         <span className="dock-avatar">
-          <Image src="/images/avatar.png" alt="" width={26} height={26} />
+          <span aria-hidden>H</span>
         </span>
       </DockItem>
       <span className="dock-rule" aria-hidden />
@@ -198,7 +191,7 @@ export function Dock() {
         onNavigate={handleNavigate}
       >
         <span className="dock-avatar">
-          <Image src="/images/avatar.png" alt="" width={26} height={26} />
+          <span aria-hidden>H</span>
         </span>
       </DockItem>
       <span className="dock-rule" aria-hidden />

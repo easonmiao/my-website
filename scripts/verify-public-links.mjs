@@ -6,7 +6,7 @@ import { JSDOM } from 'jsdom'
 import { openProductionServer } from './production-server.mjs'
 
 const productionOrigin =
-  process.env.PUBLIC_LINKS_EXPECTED_ORIGIN ?? 'https://cali.so'
+  process.env.PUBLIC_LINKS_EXPECTED_ORIGIN ?? 'https://www.hoomee.cc'
 const externalTimeoutMs = 12_000
 const externalConcurrency = 8
 const verifyExternal = process.env.VERIFY_EXTERNAL_LINKS === '1'

@@ -1,16 +1,15 @@
-import { Geist, Geist_Mono } from 'next/font/google'
 import localFont from 'next/font/local'
 
 import type { Locale } from '~/lib/locale-route'
 
-const geist = Geist({
-  subsets: ['latin'],
+const geist = localFont({
+  src: './_fonts/Geist-Variable.woff2',
   variable: '--font-geist',
   display: 'swap',
 })
 
-const geistMono = Geist_Mono({
-  subsets: ['latin'],
+const geistMono = localFont({
+  src: './_fonts/GeistMono-Variable.woff2',
   variable: '--font-geist-mono',
   display: 'swap',
 })

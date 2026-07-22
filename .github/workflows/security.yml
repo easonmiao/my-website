@@ -34,8 +34,8 @@ jobs:
       RATE_LIMIT_HASH_KEY: AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI=
       GOOGLE_CLIENT_ID: ci.apps.googleusercontent.com
       GOOGLE_CLIENT_SECRET: ci-google-secret
-      PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL || 'https://example.com' }}
-      SITE_URL: ${{ vars.PUBLIC_SITE_URL || 'https://example.com' }}
+      PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL || 'https://www.hoomee.cc' }}
+      SITE_URL: ${{ vars.PUBLIC_SITE_URL || 'https://www.hoomee.cc' }}
       BUNNY_MEDIA_REGION: ny
       BUNNY_MEDIA_ZONE: ci-media
       BUNNY_MEDIA_PASSWORD: ci-media-password

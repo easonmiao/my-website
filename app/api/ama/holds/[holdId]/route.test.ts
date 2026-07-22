@@ -1,6 +1,7 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
-import { GET, getLocalConfirmationFixture } from './route'
+import { getLocalConfirmationFixture } from './fixture'
+import { GET } from './route'
 import { getAmaBookingServices } from '~/lib/ama/booking/server'
 
 vi.mock('~/lib/ama/booking/server', () => ({

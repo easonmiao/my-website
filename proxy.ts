@@ -8,6 +8,10 @@ import {
 } from './lib/public-content-routes'
 
 function missingPublicContent(pathname: string) {
+  if (/^\/(?:en\/)?(?:ama|blog|newsletters|photos|projects)(?:\/|$)/.test(pathname)) {
+    return true
+  }
+
   const postMatch = pathname.match(/^\/(?:en\/)?blog\/([^/]+)\/?$/)
   if (postMatch) {
     const slug = postMatch[1]
@@ -79,5 +83,15 @@ export const config = {
     '/en/blog/:slug',
     '/newsletters/:id',
     '/en/newsletters/:id',
+    '/ama/:path*',
+    '/en/ama/:path*',
+    '/blog',
+    '/en/blog',
+    '/newsletters/:path*',
+    '/en/newsletters/:path*',
+    '/photos/:path*',
+    '/en/photos/:path*',
+    '/projects/:path*',
+    '/en/projects/:path*',
   ],
 }

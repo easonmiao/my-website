@@ -1,10 +1,9 @@
 # Fork setup and deployment
 
-This repository contains the reusable v3 application, but it is not a generic
-template yet. The original author licenses the application source under MIT;
-personal writing, photos, identity, branding, personal data and third-party
-assets are explicitly outside that grant. Replace or remove every item below
-before publishing a fork.
+This repository is configured for **HooMee Coffee** at
+`https://www.hoomee.cc`. The original author licenses the application source
+under MIT; personal writing, photos, identity, branding, personal data and
+third-party assets are explicitly outside that grant and have been removed.
 
 ## 1. Replace the public identity
 
@@ -38,8 +37,8 @@ the required values. Do not commit `.env.local`.
 The public URL pair must use your domain:
 
 ```dotenv
-PUBLIC_SITE_URL=https://example.com
-SITE_URL=https://example.com
+PUBLIC_SITE_URL=https://www.hoomee.cc
+SITE_URL=https://www.hoomee.cc
 ```
 
 Always-required runtime values:
@@ -104,5 +103,6 @@ pnpm verify:public-discovery
 pnpm verify:security-boundary
 ```
 
-Do not publish while the identity search still returns deployable Cali content.
-
+Do not publish while the identity search returns Cali content outside upstream
+attribution, historical research documentation, tests, or external service
+implementation names.

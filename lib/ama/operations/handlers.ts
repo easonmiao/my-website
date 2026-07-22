@@ -56,7 +56,7 @@ export type OperationHandlerDependencies = {
 
 export function deriveCalendarEventId(bookingId: string, startsAt: Date) {
   return createHash('sha256')
-    .update(`cali.so:ama:calendar-event:${bookingId}:${startsAt.toISOString()}`)
+    .update(`www.hoomee.cc:ama:calendar-event:${bookingId}:${startsAt.toISOString()}`)
     .digest('hex')
 }
 

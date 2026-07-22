@@ -1,7 +1,5 @@
-import { amaPageMetadata, AmaPageView } from '../../_views/ama-page'
-
-export const metadata = amaPageMetadata('zh')
+import { notFound } from 'next/navigation'
 
 export default function ChineseAmaPage() {
-  return <AmaPageView locale="zh" />
+  notFound()
 }

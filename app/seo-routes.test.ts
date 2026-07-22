@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { buildEnglishFeedXml } from './feed.en.xml/route'
+import { buildEnglishFeedXml } from '~/lib/feeds'
 import robots from './robots'
 import sitemap from './sitemap'
 import { getAllPosts } from '~/lib/content'

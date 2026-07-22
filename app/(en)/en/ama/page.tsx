@@ -1,7 +1,5 @@
-import { amaPageMetadata, AmaPageView } from '../../../_views/ama-page'
-
-export const metadata = amaPageMetadata('en')
+import { notFound } from 'next/navigation'
 
 export default function EnglishAmaPage() {
-  return <AmaPageView locale="en" />
+  notFound()
 }

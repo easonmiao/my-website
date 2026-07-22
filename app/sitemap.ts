@@ -2,7 +2,6 @@ import type { MetadataRoute } from 'next'
 
 import { getAllPosts } from '~/lib/content'
 import { localeRoutePair } from '~/lib/locale-metadata'
-import { archivedNewsletterIds } from '~/lib/newsletters'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts()
@@ -21,11 +20,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...pairedEntry('/', latest),
-    ...pairedEntry('/blog', latest),
-    ...pairedEntry('/photos', latest),
-    ...pairedEntry('/projects', latest),
-    ...pairedEntry('/ama'),
-    ...archivedNewsletterIds.flatMap((id) => pairedEntry(`/newsletters/${id}`)),
-    ...posts.flatMap((post) => pairedEntry(`/blog/${post.slug}`, post.publishedAt)),
   ]
 }

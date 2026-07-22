@@ -5,13 +5,13 @@ import type { Post } from './content'
 import { formatDate, formatDateEn } from './date'
 import type { Locale } from './locale-route'
 import type { ArchivedNewsletter } from './newsletters'
+import { siteProfile } from './site-profile'
 import {
   coverDataUri,
   ogColors,
   ogRuntimeFonts,
   OgPolaroid,
   OgSheet,
-  publicImageDataUri,
 } from './og'
 import { tiltFromSlug } from './polaroid'
 import {
@@ -19,7 +19,7 @@ import {
   type PublicSection,
 } from './public-page-metadata'
 
-const NAME = 'Cali Castle'
+const NAME = siteProfile.name
 const HOME_INTRODUCTIONS: Record<Locale, string> = {
   zh: publicPageMetadata.home.zh.ogDescription,
   en: publicPageMetadata.home.en.ogDescription,
@@ -32,8 +32,6 @@ async function renderHomeOgImage(locale: Locale) {
   cacheLife('max')
 
   const introduction = HOME_INTRODUCTIONS[locale]
-  const portrait = await publicImageDataUri('/images/headshot.jpg')
-
   return new ImageResponse(
     (
       <OgSheet>
@@ -41,8 +39,7 @@ async function renderHomeOgImage(locale: Locale) {
           style={{
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: 72,
+            justifyContent: 'flex-start',
             padding: '0 112px',
             width: '100%',
           }}
@@ -52,7 +49,7 @@ async function renderHomeOgImage(locale: Locale) {
               display: 'flex',
               flexDirection: 'column',
               gap: 28,
-              width: 680,
+              width: 820,
             }}
           >
             <div
@@ -76,26 +73,6 @@ async function renderHomeOgImage(locale: Locale) {
             >
               {introduction}
             </div>
-          </div>
-          <div
-            style={{
-              display: 'flex',
-              flexShrink: 0,
-              padding: 8,
-              paddingBottom: 24,
-              backgroundColor: ogColors.paper,
-              boxShadow: '0 0 0 1px rgb(0 0 0 / 0.04), 0 8px 30px rgb(0 0 0 / 0.12)',
-              transform: 'rotate(2deg)',
-            }}
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={portrait}
-              alt=""
-              width={216}
-              height={198}
-              style={{ objectFit: 'cover', width: 216, height: 198 }}
-            />
           </div>
         </div>
       </OgSheet>
@@ -280,7 +257,7 @@ async function renderSectionOgImage(section: PublicSection, locale: Locale) {
   cacheLife('max')
 
   const copy = publicPageMetadata[section][locale]
-  const signature = 'Cali Castle'
+  const signature = siteProfile.name
 
   return new ImageResponse(
     (
@@ -368,8 +345,8 @@ async function renderNewsletterOgImage(newsletter: NewsletterOgInput, locale: Lo
     locale === 'en' ? newsletter.descriptionEn : newsletter.description
   const archiveLabel =
     locale === 'en'
-      ? `Cali Castle · Archive ${newsletter.id.padStart(3, '0')}`
-      : `Cali Castle · 存档 ${newsletter.id.padStart(3, '0')}`
+      ? `${siteProfile.name} · Archive ${newsletter.id.padStart(3, '0')}`
+      : `${siteProfile.name} · 存档 ${newsletter.id.padStart(3, '0')}`
   const cover = await coverDataUri(
     `/content/newsletters/${newsletter.id}/cover.png`,
   )

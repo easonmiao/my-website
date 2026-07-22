@@ -159,44 +159,7 @@ export function XCardBody({ data }: { data: SocialSnapshot }) {
 }
 
 export function XiaohongshuCardBody() {
-  return (
-    <span className="xiaohongshu-card-content" data-profile-id="5cbba503000000001101b6a2">
-      <span className="service-card-head">
-        <Image
-          src="/images/headshot.jpg"
-          alt=""
-          width={40}
-          height={40}
-          className="service-card-avatar"
-        />
-        <span className="service-card-names">
-          <span className="service-card-name">Cali Castle</span>
-          <span className="service-card-sub">小红书号 calicastle</span>
-        </span>
-        <span className="service-card-glyph xiaohongshu-card-wordmark" aria-hidden>
-          <Image
-            src="/images/xiaohongshu-wordmark.svg"
-            alt=""
-            width={48}
-            height={23}
-          />
-        </span>
-      </span>
-      <span className="service-card-bio xiaohongshu-card-bio">
-        <span>设计工程师，Cali 宝宝助手 app 开发者设计师</span>
-        <span>@佐玩 Zolplay 创始人 CEO</span>
-      </span>
-      <span className="service-card-stat">
-        <span>
-          <b>10+</b> 粉丝
-        </span>
-        <span aria-hidden>·</span>
-        <span>
-          <b>1千+</b> 获赞与收藏
-        </span>
-      </span>
-    </span>
-  )
+  return null
 }
 
 export function TelegramCardBody({ data }: { data: SocialSnapshot }) {
@@ -318,22 +281,13 @@ export function GitHubCard({
 }
 
 export function XiaohongshuCard({
-  trigger = '小红书',
-  triggerClassName,
+  trigger: _trigger = '小红书',
+  triggerClassName: _triggerClassName,
 }: {
   trigger?: React.ReactNode
   triggerClassName?: string
 }) {
-  return (
-    <Card
-      trigger={trigger}
-      href="https://xhslink.com/m/7vluP5ANiNE"
-      className="link-card service-card xiaohongshu-card"
-      triggerClassName={triggerClassName}
-    >
-      <XiaohongshuCardBody />
-    </Card>
-  )
+  return null
 }
 
 // Email's card is the front of a mailed envelope: stamps, cancellation

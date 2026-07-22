@@ -7,7 +7,7 @@ import { JSDOM } from 'jsdom'
 import { openProductionServer } from './production-server.mjs'
 
 const productionOrigin =
-  process.env.PUBLIC_DISCOVERY_EXPECTED_ORIGIN ?? 'https://cali.so'
+  process.env.PUBLIC_DISCOVERY_EXPECTED_ORIGIN ?? 'https://www.hoomee.cc'
 
 function localizedPages(pathname, zh, en, imageAlt) {
   const zhPath = pathname
