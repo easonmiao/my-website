@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-import { HomePageView } from '../_views/home-page'
+import { HooMeeHome } from '~/components/hoomee-site'
 import { localeMetadata } from '~/lib/locale-metadata'
 import { seo } from '~/lib/seo'
 
@@ -18,5 +18,5 @@ export const metadata: Metadata = {
 }
 
 export default function ChineseHomePage() {
-  return <HomePageView locale="zh" />
+  return <HooMeeHome />
 }

@@ -10,9 +10,8 @@ export const siteProfile = {
 } as const
 
 export const publicSections = {
-  blog: false,
-  photos: false,
-  projects: false,
+  blog: true,
+  photos: true,
+  projects: true,
   ama: false,
 } as const
-

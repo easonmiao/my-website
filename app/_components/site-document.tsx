@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { Suspense } from 'react'
 
 import { AmbientBackground } from '~/components/ambient-background'
-import { Dock, DockFallback } from '~/components/dock'
+import { HooMeeFooter, HooMeeHeader } from '~/components/hoomee-site'
 import { LocaleRestorer } from '~/components/locale-restorer'
 import { LocaleSuggestion } from '~/components/locale-suggestion'
 import { PreviewCardTimingProvider } from '~/components/preview-card-timing'
@@ -13,7 +13,6 @@ import {
   RouteMotionController,
   RouteViewTransition,
 } from '~/components/route-motion-controller'
-import { SiteFooter } from '~/components/site-footer'
 import { ThemeProvider } from '~/components/theme-provider'
 import { PREPAINT_SCRIPT } from '~/lib/security/inline-scripts'
 import { seo } from '~/lib/seo'
@@ -95,17 +94,15 @@ export async function SiteDocument({
             </Suspense>
             {restoreLocale && <LocaleRestorer />}
             <AmbientBackground />
-            <div className="flex min-h-screen flex-col pb-20">
-              <main className="flex-1 pt-14">
+            <div className="flex min-h-screen flex-col">
+              <HooMeeHeader />
+              <main className="flex-1">
                 {/* The non-none default isolates route content while keeping the
                     CSS-named list → loading shell → article groups active. */}
                 <RouteViewTransition>{children}</RouteViewTransition>
               </main>
-              <SiteFooter locale={locale} />
+              <HooMeeFooter />
             </div>
-            <Suspense fallback={<DockFallback locale={locale} />}>
-              <Dock />
-            </Suspense>
           </PreviewCardTimingProvider>
         </ThemeProvider>
         <Analytics />
