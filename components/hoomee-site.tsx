@@ -11,13 +11,13 @@ export function HooMeeHeader() {
   return <header className="hm-header">
     <Link href="/" className="hm-brand" aria-label="HooMee Coffee 首页"><Logo /></Link>
     <nav aria-label="主导航" className="hm-nav">
-      <Link href="/tech">科技·资讯</Link><Link href="/life">生活·记录</Link><Link href="/pets">萌宠·探索</Link><Link href="/about">关于</Link>
+      <Link href="/tech">科技·资讯</Link><Link href="/life">生活·记录</Link><Link href="/pets">萌宠·探索</Link><Link href="/tujie/">Tujie</Link><Link href="/memories">旧版回忆</Link><Link href="/about">关于</Link>
     </nav>
   </header>
 }
 
 export function HooMeeFooter() {
-  return <footer className="hm-footer"><div className="hm-footer-inner"><Logo /><p>认真收纳技术、生活和陪伴。</p><div><Link href="/tech">科技</Link><Link href="/life">生活</Link><Link href="/pets">萌宠</Link><Link href="/about">关于</Link></div><small>© 2026 HooMee Coffee</small></div></footer>
+  return <footer className="hm-footer"><div className="hm-footer-inner"><Logo /><p>认真收纳技术、生活和陪伴。</p><div><Link href="/tech">科技</Link><Link href="/life">生活</Link><Link href="/pets">萌宠</Link><Link href="/tujie/">Tujie</Link><Link href="/memories">旧版回忆</Link><Link href="/about">关于</Link></div><small>© 2026 HooMee Coffee</small></div></footer>
 }
 
 function SectionIntro({ section }: { section: HooMeeSection }) {
@@ -55,6 +55,10 @@ export function HooMeeArticle({ slug, date }: { slug: string; date: string }) {
   const issue = featureIssues[sectionSlug].find((item) => item.date === date) ?? featureIssues[sectionSlug][0]
   const [series] = articleSections[sectionSlug]
   return <article className="hm-page hm-reading"><nav aria-label="面包屑"><Link href="/">首页</Link><span>/</span><Link href={`/articles/${slug}`}>{series}</Link><span>/</span><span>{issue.date}</span></nav><header><time>{issue.date}</time><h1>{issue.title}</h1><p>{issue.description}</p><img src={issue.image} alt="" /></header><aside><strong>本期导航</strong><a href="#highlights">今日速览</a><a href="#details">重点内容</a><a href="#sources">来源与说明</a></aside><section id="highlights"><h2>今日速览</h2><ol><li>先看本期最重要的变化，再决定是否深入阅读原始信息。</li><li>每条信息保留来源与背景，方便在需要时继续验证。</li><li>内容按主题整理，阅读时可快速跳到自己关心的部分。</li></ol></section><section id="details"><h2>重点内容</h2><h3>值得继续跟进的变化</h3><p>这一期把零散的新闻放回更长的脉络中：产品、市场和使用方式并不会独立变化。真正重要的，是它们如何一起改变今天的工作和生活。</p><p>HooMee 的记录不追求把每一条信息都说完，而是尝试留下更清晰的判断入口。对想深入的读者，原始来源依然是最好的下一步。</p><h3>把信息变成下一步</h3><p>阅读后可以先记下一个问题：这件事会影响我的工具选择、工作流，还是仅仅值得被观察？这个小问题能帮助资讯从“看过”变成可行动的线索。</p></section><section id="sources"><h2>来源与说明</h2><p>本页由 HooMee 整理编辑；外部资讯以原始发布渠道为准。若有更新，会在本期页面持续补充。</p></section><nav className="hm-article-pagination"><Link href={`/articles/${slug}`}>返回系列</Link><Link href="/tech">继续探索科技·资讯</Link></nav></article>
+}
+
+export function HooMeeMemories() {
+  return <div className="hm-page hm-memories"><section className="hm-article-index-head"><p className="hm-kicker">HOOMEE · MEMORY LANE</p><h1>旧版回忆</h1><p>新版已经出发；这里完整保留两段曾经的 HooMee 旅程，随时可以回去看看。</p></section><section className="hm-block"><div className="hm-memory-grid"><a href="/memories/previous-site/legacy/index.html"><span>2026 · 产品目录版</span><h2>HooMee 产品目录</h2><p>科技、生活和 BanBan 被组织成一个更具探索感的内容首页。</p><strong>打开旧版 ↗</strong></a><a href="/memories/previous-site/legacy-snapshot/index.html"><span>更早以前 · 经典静态版</span><h2>HooMee 初代网站</h2><p>保留最初的栏目、人物与日常记录，回到一开始的样子。</p><strong>打开旧版 ↗</strong></a></div></section></div>
 }
 
 export function HooMeeAbout() { return <div className="hm-page"><section className="hm-about-hero"><img src="/hoomee/icons/about.png" alt="" /><p className="hm-kicker">ABOUT HOOMEE</p><h1>一个认真收纳日常的地方。</h1><p>HooMee Coffee 由 EMiAO、HannaH 和 BanBan 共同打理。技术的变化、生活的细节与陪伴的片段，都值得拥有自己的位置。</p></section><section className="hm-block hm-about-grid"><div><h2>三位主理人</h2><p>EMiAO 记录科技与商业，HannaH 记录生活，BanBan 负责提醒大家：慢一点，也没关系。</p></div><img src="/hoomee/logo/hoomee-horizontal.png" alt="HooMee Coffee" /></section><section className="hm-block"><div className="hm-kicker">MILESTONES</div><h2>正在发生</h2><div className="hm-timeline"><div><strong>2026 · 现在</strong><p>围绕科技、生活与萌宠，逐步建立长期可回看的内容索引。</p></div><div><strong>下一步</strong><p>让每个栏目有更清晰的入口、更好读的详情页和更可靠的内容后台。</p></div></div></section></div> }

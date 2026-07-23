@@ -6744,6 +6744,8 @@ body:has(.ama-success-stage) main {
   }
 }
 
+.hm-memory-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.hm-memory-grid>a{display:block;padding:36px;border:1px solid #e2d5c8;border-radius:24px;background:linear-gradient(135deg,#fffaf4,#f0e1d1);color:#34231b;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease}.hm-memory-grid>a:nth-child(2){background:linear-gradient(135deg,#f6f2ec,#e7eadf)}.hm-memory-grid>a:hover{transform:translateY(-4px);box-shadow:0 18px 40px #54321f1a}.hm-memory-grid span{display:block;margin-bottom:28px;color:#7a4b30;font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.hm-memory-grid h2{margin:0 0 12px;font-size:1.75rem}.hm-memory-grid p{margin:0 0 28px;line-height:1.75}.hm-memory-grid strong{color:#854f2e}@media(max-width:680px){.hm-memory-grid{grid-template-columns:1fr}.hm-memory-grid>a{padding:28px}.hm-nav{gap:10px;overflow-x:auto}.hm-nav a{white-space:nowrap}}
+
 @keyframes ama-waiting-dots {
   0% {
     content: '·';

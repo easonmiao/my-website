@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="business data network">
+  <rect width="1200" height="750" fill="#f1f3f4"/>
+  <g fill="none" stroke="#bdc1c6" stroke-width="5">
+    <path d="M250 520 L520 270 L820 430 L980 210"/>
+    <path d="M250 520 L820 430 M520 270 L980 210"/>
+  </g>
+  <circle cx="250" cy="520" r="70" fill="#4285f4"/>
+  <circle cx="520" cy="270" r="82" fill="#34a853"/>
+  <circle cx="820" cy="430" r="76" fill="#fbbc04"/>
+  <circle cx="980" cy="210" r="70" fill="#ea4335"/>
+  <text x="90" y="96" fill="#202124" font-family="Arial, sans-serif" font-size="34" font-weight="700">Business Network</text>
+  <text x="90" y="140" fill="#5f6368" font-family="Arial, sans-serif" font-size="22">Signals, capital and operating data</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="mobile internet">
+  <rect width="1200" height="750" fill="#e8f0fe"/>
+  <rect x="410" y="92" width="380" height="570" rx="58" fill="#202124"/>
+  <rect x="440" y="138" width="320" height="460" rx="28" fill="#fff"/>
+  <circle cx="600" cy="628" r="18" fill="#f1f3f4"/>
+  <path d="M520 330 C548 298 652 298 680 330" fill="none" stroke="#4285f4" stroke-width="22" stroke-linecap="round"/>
+  <path d="M560 374 C578 354 622 354 640 374" fill="none" stroke="#34a853" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="600" cy="422" r="18" fill="#fbbc04"/>
+  <text x="82" y="94" fill="#202124" font-family="Arial, sans-serif" font-size="32" font-weight="700">Mobile Internet</text>
+</svg>
