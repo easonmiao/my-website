@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f7f7" />
+    <meta name="description" content="HooMee Coffee 是 EMiAO、HannaH 和 BanBan 共同打理的中文个人博客，这里收纳科技资讯、生活记录和萌宠探索。" />
+    <title>HooMee Coffee — 科技、生活与萌宠的共同主页</title>
+    <link rel="canonical" href="https://www.hoomee.cc/no3/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="HooMee Coffee" />
+    <meta property="og:title" content="HooMee Coffee — 科技、生活与萌宠的共同主页" />
+    <meta property="og:description" content="EMiAO、HannaH 和 BanBan 共同打理的中文个人博客，收纳科技资讯、生活记录和萌宠探索。" />
+    <meta property="og:url" content="https://www.hoomee.cc/no3/" />
+    <meta property="og:image" content="https://www.hoomee.cc/no3/assets/hoomee-coffee-logo.png" />
+    <meta property="og:image:alt" content="HooMee Coffee" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HooMee Coffee — 科技、生活与萌宠的共同主页" />
+    <meta name="twitter:description" content="EMiAO、HannaH 和 BanBan 共同打理的中文个人博客，收纳科技资讯、生活记录和萌宠探索。" />
+    <meta name="twitter:image" content="https://www.hoomee.cc/no3/assets/hoomee-coffee-logo.png" />
+    <meta name="twitter:image:alt" content="HooMee Coffee" />
+    <link rel="icon" type="image/png" href="assets/hoomee-coffee-icon.png" />
+    <link rel="apple-touch-icon" href="assets/hoomee-coffee-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.hoomee.cc/no3/#organization",
+            "name": "HooMee Coffee",
+            "url": "https://www.hoomee.cc/no3/",
+            "logo": "https://www.hoomee.cc/no3/assets/hoomee-coffee-icon.png",
+            "member": [
+              {
+                "@type": "Person",
+                "@id": "https://www.hoomee.cc/no3/#emiao",
+                "name": "EMiAO"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://www.hoomee.cc/no3/#hannah",
+                "name": "HannaH"
+              }
+            ]
+          },
+          {
+            "@type": "Blog",
+            "@id": "https://www.hoomee.cc/no3/#blog",
+            "name": "HooMee Coffee",
+            "url": "https://www.hoomee.cc/no3/",
+            "description": "EMiAO、HannaH 和 BanBan 共同打理的中文个人博客，收纳科技资讯、生活记录和萌宠探索。",
+            "inLanguage": "zh-CN",
+            "publisher": {
+              "@id": "https://www.hoomee.cc/no3/#organization"
+            },
+            "author": [
+              {
+                "@id": "https://www.hoomee.cc/no3/#emiao"
+              },
+              {
+                "@id": "https://www.hoomee.cc/no3/#hannah"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="portrait-nav" aria-label="Primary navigation">
+  <a class="portrait-nav__brand" href="https://www.hoomee.cc/" aria-label="HooMee 首页">
+    <img class="portrait-brand-logo" src="assets/hoomee-coffee-logo.png" alt="HooMee Coffee">
+  </a>
+  <div class="portrait-nav__sections" aria-label="HooMee 栏目">
+    <a href="https://www.hoomee.cc/tech/"><span class="nav-label__full">科技·资讯</span><span class="nav-label__short">科技</span></a>
+    <a href="https://www.hoomee.cc/life/"><span class="nav-label__full">生活·记录</span><span class="nav-label__short">生活</span></a>
+    <a href="https://www.hoomee.cc/pets/"><span class="nav-label__full">萌宠·探索</span><span class="nav-label__short">萌宠</span></a>
+    <a href="https://www.hoomee.cc/about/"><span class="nav-label__full">关于</span><span class="nav-label__short">关于</span></a>
+  </div>
+  <div class="portrait-nav__actions">
+    <a class="portrait-gradient-button portrait-nav__signup" href="https://www.hoomee.cc/tech/"><span>探索</span></a>
+  </div>
+</nav>
+
+<main class="portrait-hero" id="top">
+  <div class="portrait-hero__beam" aria-hidden="true"></div>
+  <div class="portrait-hero__content" data-reveal>
+    <img class="portrait-hero__logo" src="assets/hoomee-coffee-logo.png" alt="HooMee Coffee">
+    <p class="portrait-hero__eyebrow">科技、生活与萌宠，共同写在这里。</p>
+    <h1><span>HooMee 是一个</span><span>把日常<em>认真归档</em></span><span>的地方。</span></h1>
+    <p class="portrait-hero__lede">EMiAO、HannaH 和 BanBan 共同打理的中文个人博客，收纳科技资讯、生活记录和萌宠探索。</p>
+
+    <form class="portrait-claim" id="signup" role="search">
+      <label class="portrait-claim__field">
+        <input type="search" name="q" placeholder="搜索 HooMee 全站内容" aria-label="搜索 HooMee 全站内容" aria-controls="site-search-results" aria-expanded="false" autocomplete="off">
+      </label>
+      <button class="portrait-gradient-button portrait-claim__button" type="submit"><span>一键搜索</span></button>
+    </form>
+    <div class="portrait-search-results" id="site-search-results" aria-label="搜索结果" aria-live="polite" hidden></div>
+    <p class="portrait-hero__login">想认识我们？ <a href="https://www.hoomee.cc/about/">关于 HooMee</a></p>
+  </div>
+</main>
+
+<section class="portrait-profile-wrap" id="portrait-profile" aria-label="HooMee Coffee 内容预览">
+  <article class="portrait-profile" data-assembly-shell>
+    <header class="portrait-profile__header" data-assembly-chrome>
+      <div class="portrait-profile__identity">
+        <img src="assets/hoomee-coffee-icon.png" alt="HooMee Coffee" loading="lazy" decoding="async">
+        <div>
+          <h2>HooMee Coffee</h2>
+          <p>三位主理人，把科技、生活与萌宠整理成可回看的日常索引。</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="portrait-bento">
+      <figure class="portrait-tile portrait-tile--hiker" data-assembly-tile="hiker">
+        <img src="assets/hoomee-personal-tech.webp" alt="HooMee 科技记录">
+      </figure>
+      <figure class="portrait-tile portrait-tile--dog" data-assembly-tile="dog">
+        <img src="assets/hoomee-banban-hero.webp" alt="BanBan 日常">
+      </figure>
+      <figure class="portrait-tile portrait-tile--women" data-assembly-tile="women">
+        <img src="assets/hoomee-life-portrait.webp" alt="生活记录">
+      </figure>
+      <article class="portrait-tile portrait-tile--gap" data-assembly-tile="gap">
+        <img src="assets/hoomee-finance-personal.webp" alt="银行与城市">
+        <div><span>商业 · 观察</span><h3>银行与城市</h3></div>
+      </article>
+      <article class="portrait-tile portrait-tile--matcha" data-assembly-tile="matcha">
+        <div class="portrait-tile__copy"><span>主理人 · 日常</span><h3>EMiAO × HannaH</h3><p>两个人一起，把热爱与生活慢慢写下来。</p></div>
+        <img src="assets/hoomee-couple.webp" alt="EMiAO 与 HannaH">
+      </article>
+      <article class="portrait-tile portrait-tile--article" data-assembly-tile="article">
+        <img src="assets/hoomee-tech-landscape.webp" alt="科技与世界">
+        <div><span>科技 · 观察</span><h3>科技与世界</h3><p>从产品发布到 AI 变化，记录技术进入生活的瞬间。</p></div>
+      </article>
+    </div>
+
+    <footer class="portrait-profile__toolbar" aria-label="浏览内容栏目" data-assembly-chrome>
+      <a href="https://www.hoomee.cc/tech/"><span aria-hidden="true">▧</span> 科技</a>
+      <a href="https://www.hoomee.cc/life/"><span aria-hidden="true">▶</span> 生活</a>
+      <a href="https://www.hoomee.cc/pets/"><span aria-hidden="true">↗</span> 萌宠</a>
+      <a href="https://www.hoomee.cc/about/"><span aria-hidden="true">T</span> 关于</a>
+    </footer>
+  </article>
+</section>
+
+    <main class="wallet-commerce">
+  <section class="wallet-identity" data-reveal>
+    <div class="wallet-identity__halo"></div>
+    <div class="wallet-identity__copy">
+      <h2>记录技术变化，拆解商业脉络，<br>让资讯成为<em class="rainbow-text">可行动的判断。</em></h2>
+      <p>EMiAO 持续整理 AI 早报、科技分享与商业财经早报，把分散的信息连成清晰、可回看的线索。</p>
+    </div>
+  </section>
+
+  <section class="wallet-stories shell">
+    <article class="wallet-story" data-reveal>
+      <div class="story-well story-well--peach">
+        <div class="activity-card product-card">
+          <div class="card-kicker"><strong>AI 技术雷达</strong><span class="live-dot">● 实时追踪</span></div>
+          <div class="activity-row"><div class="avatar-pair"><i>O</i><i>A</i></div><div><strong>OpenAI <b>×</b> Apple</strong><small>模型、端侧与产品信号</small></div><div><strong>最近整理</strong><small>重点线索</small></div></div>
+          <div class="activity-row"><div class="avatar-pair"><i>G</i><i>I</i></div><div><strong>Google <b>×</b> IBM</strong><small>智能体、芯片与工具进展</small></div><div><strong>6 条</strong><small>已筛选</small></div></div>
+          <div class="send-field">⌕ <span>搜索模型、产品与 AI 工具…</span></div>
+        </div>
+      </div>
+      <div class="story-copy">
+        <span class="eyebrow eyebrow--peach">◎ &nbsp; AI 产品 · 模型 · 工具</span>
+        <h2>捕捉每一次<em class="rainbow-text">技术跃迁，</em><br>看懂它如何落地。</h2>
+        <p>从模型能力、AI 产品到智能体与端侧工具，EMiAO 筛选真正影响使用体验的技术信号。</p>
+        <div class="people"><span>O</span><span>A</span><span>G</span><span>I</span><small>模型 · 产品 · 智能体 · 芯片持续追踪</small></div>
+      </div>
+    </article>
+
+    <article class="wallet-story wallet-story--reverse" data-reveal>
+      <div class="story-copy">
+        <span class="eyebrow eyebrow--sky">✿ &nbsp; 生活主理人 · HannaH</span>
+        <h2>把喜欢的生活，<br><em class="rainbow-text">慢慢写成自己的样子。</em></h2>
+        <p>HannaH 记录家的细节、认真吃过的食物、旅途风景，以及看过的电影和读过的书，让喜欢的生活留下温度。</p>
+        <ul class="check-list check-list--blue"><li>记录空间与家的变化</li><li>收藏旅行与日常风景</li><li>分享影音、书籍与味觉记忆</li></ul>
+      </div>
+      <div class="story-well story-well--sky">
+        <div class="life-profile-card product-card">
+          <div class="life-profile-card__photo"><img src="assets/hoomee-life-portrait.webp" alt="HannaH 的生活记录" loading="lazy" decoding="async"><span>生活 · 记录</span></div>
+          <div class="life-profile-card__head"><div class="life-profile-card__avatar">H</div><div><strong>HannaH</strong><small>HooMee 生活主理人</small></div><i>✿</i></div>
+          <p>把家、远方与每一次心动，认真收进自己的生活索引。</p>
+          <div class="life-profile-card__tags"><span>居家</span><span>美食</span><span>旅行</span><span>影音</span><span>阅读</span></div>
+          <div class="life-profile-card__note"><span>最近记录</span><strong>日常风景里的小小欢喜</strong></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="wallet-story" data-reveal>
+      <div class="story-well story-well--mint">
+        <div class="savings-card product-card">
+          <div class="savings-label"><i>＋</i> 生活记录</div><strong class="savings-amount">365<small>天</small></strong>
+          <div class="savings-growth">↑ 持续收纳日常 <span>HannaH</span></div>
+          <div class="savings-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="earnings"><small>最近记录</small><div>近期 <b>居家 · 美食</b></div><div>过往 <b>影音 · 书籍</b></div></div>
+        </div>
+      </div>
+      <div class="story-copy">
+        <span class="eyebrow eyebrow--mint">♧ &nbsp; 生活记录</span>
+        <h2>把普通日子，<br>整理成<em class="rainbow-text">值得回看的生活。</em></h2>
+        <p>HannaH 记录居家、美食、影音与书籍，让散落的感受慢慢长成一份生活索引。</p>
+        <div class="story-stats"><div><strong>居家</strong><span>空间与日常</span></div><div><strong>美食</strong><span>味觉与分享</span></div><div><strong>影音</strong><span>书籍与片单</span></div></div>
+        <small class="powered">◉ &nbsp; 由 HannaH 持续整理</small>
+      </div>
+    </article>
+
+    <article class="wallet-story wallet-story--reverse" data-reveal>
+      <div class="story-copy">
+        <span class="eyebrow eyebrow--pink">♢ &nbsp; BanBan 日常</span>
+        <h2>家里的小小陪伴，<br>也是<em class="rainbow-text">生活的大事。</em></h2>
+        <p>照片、状态和偶尔冒出的可爱瞬间，都由 BanBan 收进自己的萌宠探索日记。</p>
+        <ul class="check-list check-list--pink"><li>记录 BanBan 的近期状态。</li><li>收藏家里的陪伴片段。</li><li>连接更多小红书萌宠日常。</li></ul>
+        <small class="powered">B A N B A N_ &nbsp; 萌宠探索主理人</small>
+      </div>
+      <div class="story-well story-well--pink">
+        <div class="private-card">
+          <div class="private-label">♢ &nbsp; BanBan 的一天</div><strong>喵<small>呜</small></strong><code>hoomee.cc/pets/banban</code>
+          <div class="privacy-toggle"><span>♢ &nbsp; 最近状态</span><i></i></div>
+          <div class="private-assets"><div><i class="coin coin--usdc">早</i><span><b>窗边晒太阳</b><small>上午记录</small></span><strong>惬意</strong></div><div><i class="coin coin--usdt">午</i><span><b>巡视小房间</b><small>午后记录</small></span><strong>认真</strong></div><div><i class="coin coin--eth">夜</i><span><b>沙发陪伴</b><small>晚间记录</small></span><strong>安稳</strong></div></div>
+          <dl><dt>主理人</dt><dd>BanBan</dd><dt>日常入口</dt><dd>⌁ 萌宠探索</dd></dl>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="wallet-pack" data-reveal>
+    <div class="pack-heading shell"><h2>HooMee 收纳<br><em class="rainbow-text">每一种值得关注的日常。</em></h2><p>从科技资讯到生活记录，再到 BanBan 的萌宠探索，<br>沿着五个入口开始阅读。</p><a href="https://www.hoomee.cc/" class="dark-button">→ &nbsp; 浏览 HooMee</a></div>
+    <div class="feature-carousel" data-feature-carousel aria-roledescription="carousel" aria-label="HooMee 内容栏目">
+      <div class="feature-carousel__viewport">
+        <div class="feature-rail" data-feature-track>
+          <article class="feature-slide is-active" data-feature-slide aria-label="1 of 5: AI 早报">
+            <div class="feature-slide__copy"><span>由 <b class="stripe">EMiAO</b> 整理</span><h3>AI 早报</h3><p>用一杯咖啡的时间，掌握模型、产品、芯片与端侧 AI 的近期变化。</p></div>
+            <div class="feature-demo buy-panel"><div><small>最近整理</small><strong>AI <b>早报</b></strong></div><i>↓</i><div><small>重点线索</small><strong>6 条 <b>趋势</b></strong><span>⊖ 已整理</span></div><dl><dt>产品</dt><dd>Apple · Google</dd><dt>芯片</dt><dd>IBM</dd><dt>模型</dt><dd>OpenAI</dd></dl><a href="https://www.hoomee.cc/tech/">阅读 AI 早报</a></div>
+          </article>
+          <article class="feature-slide" data-feature-slide aria-label="2 of 5: 科技分享">
+            <div class="feature-slide__copy"><span>来自 HooMee 科技栏目</span><h3>科技分享</h3><p>不只追逐新名词，也把工具、产品与技术趋势放回真实使用场景中。</p></div>
+            <div class="feature-demo pay-link-panel"><span class="pay-link-panel__mark">H</span><small>hoomee.cc/tech/</small><strong>科技分享</strong><p>看懂技术，也看见它怎样改变工作与生活。</p><b>持续更新</b><i><span></span></i><a href="https://www.hoomee.cc/tech/">进入科技栏目</a></div>
+          </article>
+          <article class="feature-slide" data-feature-slide aria-label="3 of 5: 商业财经早报">
+            <div class="feature-slide__copy"><span>由 EMiAO 持续追踪</span><h3>商业财经早报</h3><p>连接政策、市场、银行与产业信号，看清商业变化的来路与去向。</p></div>
+            <div class="feature-demo swap-panel"><small>重点观察</small><div><i class="coin coin--eth">◆</i><strong>年中流动性</strong><span>政策信号</span></div><b class="swap-arrow">↓</b><small>延伸线索</small><div><i class="coin coin--usdc">财</i><strong>外部通胀</strong><span>能源航运</span></div><dl><dt>银行</dt><dd>民营银行压力</dd><dt>区域</dt><dd>贵州银行化险</dd></dl><a href="https://www.hoomee.cc/tech/">阅读商业财经早报</a></div>
+          </article>
+          <article class="feature-slide" data-feature-slide aria-label="4 of 5: 生活记录">
+            <div class="feature-slide__copy"><span>由 HannaH 整理</span><h3>生活记录</h3><p>居家、美食、影音与书籍，让每一次认真生活都有迹可循。</p></div>
+            <div class="feature-demo bridge-panel"><small>最近归档</small><strong>生活 · 记录</strong><div class="chain-route"><span><i class="chain-dot chain-dot--base"></i><b>居家</b></span><em>→</em><span><i class="chain-dot chain-dot--arb"></i><b>美食</b></span></div><dl><dt>正在观看</dt><dd>影音片单</dd><dt>正在阅读</dt><dd>书籍笔记</dd><dt>主理人</dt><dd>HannaH</dd></dl><a href="https://www.hoomee.cc/life/">翻开生活索引</a></div>
+          </article>
+          <article class="feature-slide" data-feature-slide aria-label="5 of 5: BanBan 日常">
+            <div class="feature-slide__copy"><span>来自 HooMee 萌宠栏目</span><h3>BanBan 日常</h3><p>照片、状态和家里的陪伴片段，组成 BanBan 自己的萌宠探索地图。</p></div>
+            <div class="feature-demo track-panel"><small>最近状态</small><strong>BanBan</strong><span class="track-change">↑ 心情很好</span><div class="track-chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><ul><li><i class="coin coin--usdc">早</i><span>窗边晒太阳<small>上午记录</small></span><b>惬意</b></li><li><i class="coin coin--eth">夜</i><span>沙发陪伴<small>晚间记录</small></span><b>安稳</b></li></ul></div>
+          </article>
+        </div>
+      </div>
+      <div class="rail-controls">
+        <div class="rail-dots" role="tablist" aria-label="选择内容栏目">
+          <button class="is-active" type="button" data-carousel-dot aria-label="前往 AI 早报" aria-selected="true"></button>
+          <button type="button" data-carousel-dot aria-label="前往科技分享" aria-selected="false"></button>
+          <button type="button" data-carousel-dot aria-label="前往商业财经早报" aria-selected="false"></button>
+          <button type="button" data-carousel-dot aria-label="前往生活记录" aria-selected="false"></button>
+          <button type="button" data-carousel-dot aria-label="前往 BanBan 日常" aria-selected="false"></button>
+        </div>
+        <button class="carousel-toggle" type="button" data-carousel-toggle aria-label="暂停轮播"><span aria-hidden="true">Ⅱ</span></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="wallet-security shell" data-reveal>
+    <div class="security-copy"><span class="eyebrow eyebrow--sky">♢ &nbsp; 三位主理人</span><h2>三种视角，<br>共同写成一个家。</h2><p>EMiAO 追踪科技与商业，HannaH 整理生活，BanBan 收藏家里的陪伴；每个人都保留自己的声音。</p></div>
+    <div class="wallet-promo card"><img src="assets/hoomee-coffee-icon.png" alt="HooMee Coffee" loading="lazy" decoding="async"><div><strong>HooMee Coffee</strong><span>认识 EMiAO、HannaH 和 BanBan</span></div><b>关于</b></div>
+  </section>
+
+  <section class="wallet-early-access" id="wallet-early-access" data-reveal>
+    <i class="float-icon float-icon--one">♢</i><i class="float-icon float-icon--two">♧</i><i class="float-icon float-icon--three">$</i><i class="float-icon float-icon--four">✣</i>
+    <div><h2>欢迎来到 HooMee Coffee<br>从你在意的栏目开始</h2><p>科技、生活与萌宠都在这里慢慢更新，<br>也欢迎你随时回来，继续上一次的阅读。</p><a href="https://www.hoomee.cc/" class="dark-button">进入 HooMee</a><small>● &nbsp; 科技 · 生活 · 萌宠，持续更新</small></div>
+  </section>
+
+  <section class="creator-commerce shell" data-reveal>
+    <div class="commerce-copy"><span class="eyebrow">♧ &nbsp; 最近整理 &nbsp; <small>重点线索</small></span><h2>值得关注的变化，<br>已经替你整理好。</h2><p>从 AI 产品与芯片趋势，到流动性、通胀和银行改革，两份早报串起科技与商业的关键线索。</p><ul class="check-list check-list--green"><li>Apple、Google 与 IBM 新进展</li><li>OpenAI 与端侧 AI 趋势</li><li>年中流动性与贵州银行化险</li></ul></div>
+    <div class="commerce-stage">
+      <div class="creator-profile"><div class="creator-head"><span>E</span><div><strong>EMiAO</strong><small>科技资讯主理人</small></div></div><div class="creator-icons">◆ &nbsp; ● &nbsp; ■ &nbsp; ▲ &nbsp; ★ &nbsp; ⬟</div><span>AI 早报</span><h3>最近 AI 早报</h3><p>Apple 调整产品价格、Google Computer Use 与 IBM 芯片</p><strong>持续更新</strong><a href="https://www.hoomee.cc/tech/">立即阅读</a></div>
+      <div class="purchase-card"><strong>重点<small>线索</small></strong><span>商业财经早报</span><small>年中流动性、外部通胀与贵州银行化险</small><div>✓ &nbsp; 最近内容已整理</div><p>跟踪央行流动性、能源航运与银行改革<br><b>约 5 分钟读完</b></p><a href="https://www.hoomee.cc/tech/">打开商业财经早报</a></div>
+      <span class="play-again">↻ &nbsp; 查看更多更新</span>
+    </div>
+  </section>
+</main>
+
+    <div class="community-footer">
+  <section class="social-constellation" aria-labelledby="social-title" data-reveal>
+    <div class="constellation-lines" aria-hidden="true"></div>
+    <div class="social-orbit" aria-hidden="true">
+      <span class="social-bubble bubble-notion">H</span>
+      <span class="social-bubble bubble-substack">O</span>
+      <span class="social-bubble bubble-twitch">O</span>
+      <span class="social-bubble bubble-tiktok">M</span>
+      <span class="social-bubble bubble-pinterest">E</span>
+      <span class="social-bubble bubble-instagram">E</span>
+      <span class="social-bubble bubble-spotify">✦</span>
+      <span class="social-bubble bubble-github">AI</span>
+      <span class="social-bubble bubble-youtube">影</span>
+      <span class="social-bubble bubble-x">食</span>
+      <span class="social-bubble bubble-medium">书</span>
+      <span class="social-bubble bubble-figma">猫</span>
+      <span class="social-bubble bubble-playstation">咖</span>
+      <span class="social-bubble bubble-book">家</span>
+      <span class="social-bubble bubble-orb">日</span>
+      <span class="social-bubble bubble-link">记</span>
+    </div>
+    <div class="constellation-copy">
+      <p>把喜欢的世界，认真收进同一个地方</p>
+      <h2 id="social-title">科技、生活与萌宠，<br><em>在 HooMee 相遇。</em></h2>
+      <a class="constellation-cta" href="https://www.hoomee.cc/">进入 HooMee Coffee</a>
+    </div>
+  </section>
+
+  <section class="creation-section shell" id="create" aria-labelledby="creation-title" data-reveal>
+    <div class="creation-copy">
+      <h2 id="creation-title">从你喜欢的<em>栏目开始。</em></h2>
+      <div class="creation-steps" role="tablist" aria-label="浏览 HooMee 栏目">
+        <button class="creation-step is-active" type="button" role="tab" aria-selected="true" data-step="frame">
+          <span>科技 · 资讯</span>
+          <small>AI 早报、科技分享、商业财经早报与银行图鉴，把变化整理成可以行动的判断。</small>
+        </button>
+        <button class="creation-step" type="button" role="tab" aria-selected="false" data-step="size">
+          <span>生活 · 记录</span>
+          <small>居家、美食、影音和书籍，把每一个普通日子整理成可以回看的生活索引。</small>
+        </button>
+        <button class="creation-step" type="button" role="tab" aria-selected="false" data-step="position">
+          <span>萌宠 · 探索</span>
+          <small>照片、状态与家里的陪伴片段，一起进入 BanBan 的可爱日常。</small>
+        </button>
+      </div>
+    </div>
+
+    <div class="creation-stage" data-state="frame" aria-live="polite">
+      <div class="creation-glow" aria-hidden="true"></div>
+      <div class="photo-board">
+        <figure class="photo-card photo-artist"><img src="assets/hoomee-board-travel.webp" alt="威尼斯旅行记录" loading="lazy" decoding="async"></figure>
+        <figure class="photo-card photo-campfire"><img src="assets/hoomee-board-banban.webp" alt="BanBan 的户外日常" loading="lazy" decoding="async"></figure>
+        <figure class="photo-card photo-work"><img src="assets/hoomee-board-portrait.webp" alt="HannaH 的旅行记录" loading="lazy" decoding="async"></figure>
+        <figure class="photo-card photo-field"><img src="assets/hoomee-board-aesthetic.webp" alt="咖啡与猫咪的生活片段" loading="lazy" decoding="async"></figure>
+        <figure class="photo-card photo-joy"><img src="assets/hoomee-board-family.webp" alt="HooMee 与猫咪的家庭合影" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="creation-tools" aria-label="Add content">
+        <a href="https://www.hoomee.cc/tech/"><span aria-hidden="true">▧</span><b>AI 早报</b></a>
+        <a href="https://www.hoomee.cc/life/"><span aria-hidden="true">▷</span><b>生活记录</b></a>
+        <a href="https://www.hoomee.cc/pets/"><span aria-hidden="true">↗</span><b>BanBan 日常</b></a>
+        <a href="https://www.hoomee.cc/about/"><span aria-hidden="true">T</span><b>关于 HooMee</b></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="plus-section shell" aria-labelledby="plus-title" data-reveal>
+    <div class="plus-panel">
+      <div class="plus-card">
+        <div class="plus-badge" aria-hidden="true"><span>✦</span></div>
+        <h2 id="plus-title">关于 HooMee <span aria-hidden="true">✦</span></h2>
+        <p class="plus-intro">HooMee Coffee 是 EMiAO、HannaH 和 BanBan 共同打理的中文个人博客。这里收纳科技资讯、生活记录和萌宠探索，也保留旧版内容入口。</p>
+
+        <div class="plus-features">
+          <article class="plus-feature plus-domain">
+            <span class="plus-icon" aria-hidden="true">◉</span>
+            <h3>EMiAO</h3>
+            <p>科技咨询主理人。持续整理 AI 早报、科技分享、商业财经早报、银行图鉴、视频与播客推荐。</p>
+          </article>
+          <article class="plus-feature plus-support">
+            <span class="plus-icon" aria-hidden="true">✿</span>
+            <h3>HannaH</h3>
+            <p>生活记录主理人。记录居家、美食、影音与书籍，把日常整理成可以回看的生活索引。</p>
+          </article>
+          <article class="plus-feature plus-early">
+            <span class="plus-icon" aria-hidden="true">♙</span>
+            <h3>BanBan</h3>
+            <p>萌宠探索主理人。收集 BanBan 日常、小红书 @HooMee斑斑 和家里的陪伴片段。</p>
+          </article>
+          <article class="plus-feature plus-chat">
+            <span class="plus-icon" aria-hidden="true">◔</span>
+            <h3>HooMee Memories</h3>
+            <p>过往内容被整理进回忆档案，曾经的记录与设计仍然可以随时回看。</p>
+          </article>
+        </div>
+
+        <div class="plus-price"><strong>3</strong><em>位主理人</em></div>
+        <a class="plus-cta" href="https://www.hoomee.cc/about/">了解 HooMee <span aria-hidden="true">✦</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section shell" aria-labelledby="faq-title" data-reveal>
+    <h2 id="faq-title">关于 HooMee</h2>
+    <div class="faq-columns">
+      <div class="faq-column">
+        <article class="faq-item is-open">
+          <button type="button" data-accordion aria-expanded="true"><span>HooMee Coffee 是什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>HooMee 是一个把日常认真归档的地方，由 EMiAO、HannaH 和 BanBan 共同打理，收纳科技资讯、生活记录和萌宠探索。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>谁在打理 HooMee？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>EMiAO 负责科技咨询，HannaH 负责生活，BanBan 负责萌宠。三位主理人各自记录热爱的领域。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>科技 · 资讯里有什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>这里有 AI 早报、科技分享、商业财经早报、银行图鉴、视频推荐和播客推荐，把模型、产品、商业与金融变化整理成清晰入口。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>生活 · 记录里有什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>HannaH 记录居家、美食、影音与书籍，把每一个普通日子整理成可以回看的生活索引。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>萌宠 · 探索里有什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>这里收录 BanBan 的照片、状态、家里的陪伴片段，也连接小红书 @HooMee斑斑。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>EMiAO 关注什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>EMiAO 负责科技、金融和咨询三条内容线，关注工具变化如何进入真实工作流，也用白话拆解银行与商业脉络。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>HannaH 关注什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>HannaH 负责生活板块，用居家、美食、影音和书籍，保存值得反复回看的日常。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>BanBan 关注什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>BanBan 负责萌宠板块，用照片与状态记录家里的陪伴时刻，也连接 HooMee 斑斑的小红书主页。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>旧版内容还可以访问吗？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>可以。HooMee 将过往内容整理进回忆档案，曾经的记录与设计仍然可以随时回看。</p></div>
+        </article>
+      </div>
+
+      <div class="faq-column">
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>HooMee 正式成立</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>2026 年 1 月，三位主理人集结。EMiAO、HannaH 和 BanBan 决定一起做一个网站，从域名到设计，从零开始记录各自热爱的领域。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>栏目定位确立</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>2026 年 3 月，分工明确：资讯与科技数码交给 EMiAO，生活与影音由 HannaH 掌舵，萌宠栏目自然是 BanBan 的天下。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>网站正式上线</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>2026 年 5 月，经过数月筹备与打磨，HooMee Café 正式面向世界，欢迎每一位访客在这里找到共鸣与惊喜。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>新网页改版</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>2026 年 6 月，HooMee 围绕新的视觉系统重新设计，同时保留三位主理人的内容结构，并将旧版网页完整存档。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>AI 早报记录什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>AI 早报追踪模型、产品和工具更新，帮助你用更短的时间理解当前最值得关注的人工智能变化。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>商业财经早报记录什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>商业财经早报关注宏观、银行和区域金融，把市场信号与行业变化整理成容易理解的重点线索。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>科技分享记录什么？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>科技分享关注效率工具、网页制作和设备工作流，从工具变化出发，回到真实的使用体验。</p></div>
+        </article>
+        <article class="faq-item">
+          <button type="button" data-accordion aria-expanded="false"><span>从哪里开始阅读？</span><i aria-hidden="true"></i></button>
+          <div class="faq-answer"><p>可以从科技、生活或萌宠任一栏目进入，也可以前往“关于 HooMee”认识三位主理人，再选择你感兴趣的内容方向。</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer shell" data-reveal>
+    <a class="footer-brand" href="https://www.hoomee.cc/" aria-label="HooMee Coffee 首页"><img src="assets/hoomee-coffee-logo.png" alt="HooMee Coffee" loading="lazy" decoding="async"></a>
+    <div class="footer-links">
+      <div class="footer-stack">
+        <nav aria-label="科技资讯"><h3>科技 · 资讯</h3><a href="https://www.hoomee.cc/tech/">科技首页</a><a href="https://www.hoomee.cc/tech/">AI 早报</a><a href="https://www.hoomee.cc/tech/">商业财经早报</a><a href="https://www.hoomee.cc/tech/">科技分享</a></nav>
+        <nav aria-label="生活记录"><h3>生活 · 记录</h3><a href="https://www.hoomee.cc/life/">生活首页</a><a href="https://www.hoomee.cc/life/">生活记录</a></nav>
+      </div>
+      <div class="footer-stack">
+        <nav aria-label="深度内容"><h3>深度内容</h3><a href="https://www.hoomee.cc/tujie/">银行图鉴</a><a href="https://www.hoomee.cc/tech/">视频推荐</a><a href="https://www.hoomee.cc/tech/">播客推荐</a><a href="https://www.hoomee.cc/tech/">最近更新</a></nav>
+        <nav aria-label="萌宠探索"><h3>萌宠 · 探索</h3><a href="https://www.hoomee.cc/pets/">BanBan 日常</a><a href="https://xhslink.com/m/7kBzRYtXutL">小红书主页</a><a href="https://www.hoomee.cc/about/">认识 BanBan</a></nav>
+      </div>
+      <div class="footer-stack">
+        <nav aria-label="HooMee 档案"><h3>HooMee 档案</h3><a href="https://www.hoomee.cc/about/">关于 HooMee</a><a href="https://www.hoomee.cc/memories/">回忆档案</a><a href="https://www.hoomee.cc/memories/">过往记录</a></nav>
+        <nav aria-label="快速入口"><h3>快速入口</h3><a href="https://www.hoomee.cc/">首页</a><a href="https://www.hoomee.cc/tech/">科技</a><a href="https://www.hoomee.cc/life/">生活</a><a href="https://www.hoomee.cc/pets/">萌宠</a></nav>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>© HooMee Coffee 2026</p>
+      <p><a href="https://www.hoomee.cc/"><span class="status-dot" aria-hidden="true"></span>网站首页</a><span aria-hidden="true">|</span><a href="https://www.hoomee.cc/memories/">回忆档案</a><a href="https://www.hoomee.cc/about/">关于</a></p>
+    </div>
+  </footer>
+</div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
