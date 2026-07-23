@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Steve Jobs launching iPhone">
+  <defs>
+    <linearGradient id="stage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".72" stop-color="#1b1b1d"/>
+      <stop offset="1" stop-color="#35363a"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4285f4"/>
+      <stop offset=".42" stop-color="#34a853"/>
+      <stop offset=".7" stop-color="#fbbc04"/>
+      <stop offset="1" stop-color="#ea4335"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#stage)"/>
+  <ellipse cx="600" cy="665" rx="410" ry="60" fill="#fff" opacity=".08"/>
+  <rect x="520" y="115" width="160" height="330" rx="34" fill="#111" stroke="#f1f3f4" stroke-width="9"/>
+  <rect x="540" y="152" width="120" height="235" rx="16" fill="url(#phone)"/>
+  <circle cx="600" cy="414" r="15" fill="#f1f3f4"/>
+  <path d="M382 582 C390 520 434 482 488 482 C545 482 586 522 598 582" fill="none" stroke="#f1f3f4" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="490" cy="388" r="54" fill="#f1f3f4"/>
+  <rect x="440" y="440" width="108" height="132" rx="46" fill="#f1f3f4"/>
+  <text x="70" y="86" fill="#fff" font-family="Arial, sans-serif" font-size="32" font-weight="700">iPhone Launch</text>
+  <text x="70" y="126" fill="#bdc1c6" font-family="Arial, sans-serif" font-size="22">A new pocket computer and the mobile web era</text>
+</svg>

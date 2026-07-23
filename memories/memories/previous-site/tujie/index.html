@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f8ff">
+  <meta name="description" content="HooMee 图解：把网页、公众号文章和文档变成适合阅读、理解与分享的解释型长图。">
+  <title>HooMee 图解｜一篇文章，一图看懂</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="返回 HooMee 首页">
+      <span class="brand-mark" aria-hidden="true"><i></i><b></b></span>
+      <span class="brand-name">HooMee 图解</span>
+    </a>
+    <div class="header-actions">
+      <a class="podcast-link" href="/">返回 HooMee</a>
+      <button class="quota-pill" id="quotaButton" type="button">正在查询次数…</button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero-card" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <p class="eyebrow">HOOMEE VISUAL AI</p>
+        <h1 id="heroTitle">一篇文章，<span>一图看懂</span></h1>
+        <p class="hero-desc">把网页或文档，变成适合阅读、理解与分享的解释型长图</p>
+        <ul class="hero-points" aria-label="功能特点">
+          <li>内容分析</li><li>数字校验</li><li>高清画质</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <span class="glass-loop loop-a"></span>
+        <span class="glass-loop loop-b"></span>
+      </div>
+    </section>
+
+    <section class="workspace" id="create">
+      <div class="section-heading">
+        <div><p class="section-kicker">CREATE</p><h2>添加内容</h2></div>
+        <p>支持公众号、网页、正文及 TXT / Markdown 文件</p>
+      </div>
+
+      <div class="source-tabs" role="tablist" aria-label="内容来源">
+        <button class="source-tab active" data-source="link" type="button"><span>↗</span>文章链接</button>
+        <button class="source-tab" data-source="text" type="button"><span>文</span>粘贴正文</button>
+        <button class="source-tab" data-source="file" type="button"><span>＋</span>上传文件</button>
+      </div>
+
+      <div class="input-card">
+        <div class="input-meta"><strong id="inputLabel">文章链接</strong><span id="inputCounter">0</span></div>
+        <textarea id="sourceInput" rows="6" placeholder="粘贴公众号或网页链接" spellcheck="false"></textarea>
+        <label class="file-drop hidden" id="fileDrop">
+          <input id="fileInput" type="file" accept=".txt,.md,text/plain,text/markdown">
+          <span class="file-icon">＋</span>
+          <strong>选择 TXT 或 Markdown 文件</strong>
+          <small>文件仅在浏览器中读取，不会单独上传</small>
+        </label>
+        <div class="input-hint" id="inputHint">抓取失败时，可以切换为“粘贴正文”或上传文件</div>
+      </div>
+
+      <details class="settings-card" id="settingsCard">
+        <summary>
+          <div><strong>图解设置</strong><span id="settingsSummary">深海蓝白 · 默认画质</span></div>
+          <span class="expand-label">展开 <i>⌄</i></span>
+        </summary>
+        <div class="settings-content">
+          <div class="setting-group">
+            <div class="setting-title"><strong>选择主题</strong><span>当前仅开放深海蓝白</span></div>
+            <div class="option-grid theme-grid">
+              <button class="option-card selected" type="button" data-theme="深海蓝白">
+                <span class="theme-preview ocean"><i></i></span><b>深海蓝白</b><small>金融 · 政策</small>
+              </button>
+              <button class="option-card locked" type="button" aria-disabled="true">
+                <span class="theme-preview obsidian">敬请期待</span><b>曜石黑金</b><small>科技 · 商业</small>
+              </button>
+              <button class="option-card locked" type="button" aria-disabled="true">
+                <span class="theme-preview paper">敬请期待</span><b>纸白朱红</b><small>人文 · 历史</small>
+              </button>
+            </div>
+          </div>
+          <div class="setting-group">
+            <div class="setting-title"><strong>生成画质</strong><span>自动平衡速度与细节</span></div>
+            <div class="quality-row">
+              <button class="quality-option selected" type="button" data-quality="default"><b>默认画质</b><small>高清原生尺寸</small></button>
+              <button class="quality-option locked" type="button" aria-disabled="true"><b>高清画质</b><small>敬请期待</small></button>
+              <button class="quality-option locked" type="button" aria-disabled="true"><b>超清画质</b><small>敬请期待</small></button>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <button class="primary-button" id="generateButton" type="button" disabled>
+        <span>开始生成长图</span><i>→</i>
+      </button>
+      <p class="submit-note">每天可免费生成 1 次 · 生成任务将在云端安全处理</p>
+    </section>
+
+    <section class="progress-panel hidden" id="progressPanel" aria-live="polite">
+      <div class="progress-head"><div><p class="section-kicker">GENERATING</p><h2 id="progressTitle">正在理解文章</h2></div><span id="progressPercent">12%</span></div>
+      <div class="progress-track"><i id="progressBar"></i></div>
+      <div class="stage-list">
+        <div class="stage active" data-stage="0"><span>01</span><div><b>理解原文</b><small>提取标题、观点与关键数字</small></div></div>
+        <div class="stage" data-stage="1"><span>02</span><div><b>组织简报</b><small>构建完整的视觉叙事结构</small></div></div>
+        <div class="stage" data-stage="2"><span>03</span><div><b>生成视觉</b><small>按主题创作电影感页面</small></div></div>
+        <div class="stage" data-stage="3"><span>04</span><div><b>高清交付</b><small>检查细节并输出完整长图</small></div></div>
+      </div>
+      <p class="progress-tip">生成通常需要 1–3 分钟，可以保留此页面继续等待</p>
+    </section>
+
+    <section class="result-panel hidden" id="resultPanel">
+      <div class="result-head"><div><p class="section-kicker">DELIVERED</p><h2>你的图解已经完成</h2></div><button class="secondary-button" id="newTaskButton" type="button">再做一张</button></div>
+      <div class="result-layout">
+        <div class="result-image-wrap"><img id="resultImage" alt="生成的完整图解长图"></div>
+        <aside class="result-info">
+          <span class="status-chip">● 已完成</span>
+          <h3 id="resultName">HooMee 图解作品</h3>
+          <dl><div><dt>交付内容</dt><dd>完整长图</dd></div><div><dt>内容来源</dt><dd id="resultSource">网页链接</dd></div><div><dt>生成方式</dt><dd>AI 生图</dd></div><div><dt>编辑制作</dt><dd>HooMee 图解</dd></div></dl>
+          <a class="download-button" id="downloadButton" href="#" download="hoomee-tujie.png">下载完整长图</a>
+          <p>内容经微信云端安全处理，并调用腾讯混元 Hy3（内容分析）＋ Ai Image（兼容通道）完成分析与视觉生成。AI 生成内容仅供参考。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="usage-section">
+      <div><p class="section-kicker">HOW IT WORKS</p><h2>三步生成解释型长图</h2></div>
+      <div class="usage-grid">
+        <article><span>01</span><h3>添加内容</h3><p>粘贴文章链接、正文，或上传文字文件。</p></article>
+        <article><span>02</span><h3>AI 分析与生成</h3><p>提取事实、数字与逻辑，组织成视觉叙事。</p></article>
+        <article><span>03</span><h3>下载与分享</h3><p>生成适合手机阅读与传播的完整高清长图。</p></article>
+      </div>
+      <details class="privacy-details"><summary>使用说明与隐私说明 <i>＋</i></summary><p>提交的内容用于本次分析与图像生成。请勿上传涉密、侵权或包含敏感个人信息的内容。系统会进行必要的安全处理与使用次数控制，AI 生成内容请在发布前自行核对。</p></details>
+    </section>
+  </main>
+
+  <footer><a href="/">HooMee</a><span>© 2026 HooMee 图解</span><span>把复杂内容讲明白</span></footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <div class="welcome-modal hidden" id="welcomeModal" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
+    <div class="modal-card"><span class="modal-mark"><i></i><b></b></span><p class="section-kicker">WELCOME</p><h2 id="welcomeTitle">欢迎使用 HooMee 图解</h2><p>把公众号、网页、正文或文件，变成适合手机阅读与分享的解释型长图。</p><ol><li>添加文章链接或正文</li><li>确认图解设置</li><li>等待生成并下载作品</li></ol><button class="primary-button" id="welcomeButton" type="button">开始使用</button></div>
+  </div>
+
+  <script src="./config.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

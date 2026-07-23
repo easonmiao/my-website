@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="SpaceX rocket launch">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1024"/>
+      <stop offset=".55" stop-color="#244b86"/>
+      <stop offset="1" stop-color="#f7b267"/>
+    </linearGradient>
+    <radialGradient id="fire" cx="50%" cy="55%" r="52%">
+      <stop offset="0" stop-color="#fff8d6"/>
+      <stop offset=".32" stop-color="#fbbc04"/>
+      <stop offset=".62" stop-color="#ea4335"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#sky)"/>
+  <circle cx="965" cy="115" r="78" fill="#fff" opacity=".12"/>
+  <path d="M0 620 C190 555 300 590 430 540 C595 475 730 522 900 455 C1025 405 1120 418 1200 370 L1200 750 L0 750 Z" fill="#dfe7f3" opacity=".23"/>
+  <g transform="translate(600 335)">
+    <path d="M-42 180 L0 -245 L42 180 Z" fill="#f8fbff"/>
+    <path d="M-42 180 L0 -245 L0 180 Z" fill="#d8e5f7"/>
+    <rect x="-28" y="-48" width="56" height="150" rx="28" fill="#f8fbff"/>
+    <rect x="-78" y="95" width="48" height="98" rx="18" fill="#c8d8ee"/>
+    <rect x="30" y="95" width="48" height="98" rx="18" fill="#c8d8ee"/>
+    <path d="M-22 190 C-78 300 -118 420 -105 500 C-52 420 54 420 105 500 C118 420 78 300 22 190 Z" fill="url(#fire)" opacity=".95"/>
+  </g>
+  <text x="56" y="88" fill="#fff" font-family="Arial, sans-serif" font-size="32" font-weight="700">SpaceX Rocket Launch</text>
+  <text x="56" y="128" fill="#fff" opacity=".78" font-family="Arial, sans-serif" font-size="22">Reusable launch systems and a new industrial imagination</text>
+</svg>

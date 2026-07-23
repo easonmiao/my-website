@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>萌宠 · HooMee Coffee</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script>
+        if(localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)){
+            document.documentElement.classList.add('dark');
+        }
+    </script>
+    
+    <style>
+        .page-header { padding-top: 8rem; padding-bottom: 3rem; text-align: center; }
+        .page-header h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: -0.025em; margin-bottom: 0.5rem; }
+        .page-header p { color: #6b7280; font-size: 1.1rem; }
+        
+        .host-card { display: flex; align-items: center; gap: 1.5rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1.5rem; margin-bottom: 3rem; }
+        .dark .host-card { background: #1f2937; border-color: #374151; }
+        
+        .host-avatar { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 3px solid #ffe66d; }
+        .host-info h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.25rem; }
+        .host-info p { color: #6b7280; font-size: 0.9rem; }
+        
+        .tag { display: inline-block; padding: 4px 12px; background: #fefce8; color: #ca8a04; font-size: 0.8rem; font-weight: 600; border-radius: 100px; margin-top: 0.5rem; }
+        .dark .tag { background: rgba(202, 138, 4, 0.2); color: #fde047; }
+
+        /* CSS 原生瀑布流 - 横竖屏无缝适配方案 */
+        .masonry-wrapper {
+            column-count: 3;
+            column-gap: 1.5rem;
+            width: 100%;
+        }
+        
+        .post-card {
+            break-inside: avoid;
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 1.5rem;
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        
+        .post-img-wrap {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            background: #f3f4f6;
+        }
+        .dark .post-img-wrap { background: #111827; }
+
+        .post-img-wrap img {
+            width: 100%;
+            height: auto;
+            object-fit: contain; /* 核心落实：无论横屏竖屏，绝对完整保留，不切任何像素 */
+            display: block;
+        }
+        
+        .post-body { padding: 1rem; text-align: left; }
+        .post-body h3 { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-top: 0.25rem; }
+        .post-date { font-size: 0.85rem; color: #ff4757; font-weight: 600; }
+
+        @media (max-width: 900px) { .masonry-wrapper { column-count: 2; } }
+        @media (max-width: 600px) { .masonry-wrapper { column-count: 1; } }
+    </style>
+</head>
+<body>
+
+    <div id="nav-placeholder"></div>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>萌宠</h1>
+            <p>猫咪日常与治愈瞬间，每一个毛茸茸的时刻都值得记录</p>
+        </div>
+    </div>
+
+    <section style="padding-top: 0;">
+        <div class="container">
+            <div class="host-card">
+                <img src="images/BanBan.png" alt="BanBan" class="host-avatar">
+                <div class="host-info">
+                    <h3>BanBan</h3>
+                    <p>萌宠栏目主理人（一只虎斑德文猫）。粘人精、淘气鬼、好奇狗。来杯斑斑咖啡吧 ☕️</p>
+                    <span class="tag">萌宠</span>
+                </div>
+            </div>
+
+            <div class="section-header">
+                <span class="section-label">Latest</span>
+                <h2 class="section-title">斑斑的小红书搬运站</h2>
+            </div>
+            
+            <div class="masonry-wrapper">
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/01.jpg" alt="你们德文都这么魔丸吗😅" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23ffe66d%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(01.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 42</span><h3>你们德文都这么魔丸吗😅</h3></div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/02.jpg" alt="咪的配得感" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%234ecdc4%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23fff%22>图片未找到(02.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 21</span><h3>咪的配得感</h3></div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/03.jpg" alt="穿上衣服也是小淑女一枚啦" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23ff6b6b%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23fff%22>图片未找到(03.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 10</span><h3>穿上衣服也是小淑女一枚啦</h3></div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/04.jpg" alt="今天终于和我贴贴了" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%2393c5fd%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(04.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 10</span><h3>今天终于和我贴贴了</h3></div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/05.jpg" alt="小咪就是用来暖脚的对吧" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23fbcfe8%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(05.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 9</span><h3>小咪就是用来暖脚的对吧</h3></div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/06.jpg" alt="需要抱抱的小老虎" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23ffe66d%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(06.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 7</span><h3>需要抱抱的小老虎</h3></div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/07.jpg" alt="你们的猫咪会这样睡吗" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%234ecdc4%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23fff%22>图片未找到(07.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 6</span><h3>你们的猫咪会这样睡吗</h3></div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/08.jpg" alt="【樱花季的喵喵探班】" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23ff6b6b%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23fff%22>图片未找到(08.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 3</span><h3>【樱花季的喵喵探班】</h3></div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/09.jpg" alt="甜品 咖啡 猫 治愈一切" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%2393c5fd%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(09.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 3</span><h3>甜品 咖啡 猫 治愈一切</h3></div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img-wrap">
+                        <img src="images/xhs/10.jpg" alt="这6盆多少钱拿下？" loading="lazy" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22400%22 style=%22background:%23fbcfe8%22><text x=%2250%25%22 y=%2250%25%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%23333%22>图片未找到(10.jpg)</text></svg>'">
+                    </div>
+                    <div class="post-body"><span class="post-date">❤️ 2</span><h3>这6盆多少钱拿下？</h3></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>
