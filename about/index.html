@@ -3,24 +3,131 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="认识 HooMee Coffee：由 EMiAO、HannaH 和 BanBan 共同打理的中文个人博客。">
   <title>关于｜HooMee Coffee</title>
+  <link rel="icon" type="image/png" href="/hoomee/logo/hoomee-icon.png">
   <link rel="stylesheet" href="/site.css?v=20260726-no3">
+  <style>
+    :root{--about-ink:#08304c;--about-muted:#69747c;--about-line:rgba(8,48,76,.1);--about-rainbow:linear-gradient(90deg,#4b87ff 0%,#aa59ef 25%,#ed4f93 47%,#ff9b3f 71%,#77bf46 100%)}
+    body{background:#f7f7f7;color:var(--about-ink)}
+    body::before{display:none}
+    .nav .back-no3{border:2px solid transparent;background:linear-gradient(#fff,#fff) padding-box,var(--about-rainbow) border-box;color:var(--about-ink)!important;box-shadow:0 5px 15px rgba(28,57,72,.1)}
+    .nav .back-no3:hover{background:linear-gradient(#f8fafb,#f8fafb) padding-box,var(--about-rainbow) border-box!important;color:var(--about-ink)!important}
+    .site-main{padding:58px 0 0}
+    .about-shell{width:min(1160px,calc(100% - 48px));margin:0 auto}
+    .about-canvas{position:relative;min-height:720px;padding:clamp(52px,7vw,96px);overflow:hidden;border-radius:32px;background:radial-gradient(circle at 14% 8%,rgba(255,255,255,.96),transparent 28%),radial-gradient(circle at 87% 72%,rgba(156,216,255,.35),transparent 36%),linear-gradient(145deg,#eef9ff 0%,#dff2ff 100%)}
+    .about-orbit{position:absolute;inset:0;pointer-events:none;opacity:.62}
+    .about-orbit::before,.about-orbit::after{content:"";position:absolute;border:1px solid rgba(8,48,76,.11);border-radius:50%}
+    .about-orbit::before{width:720px;height:720px;left:-340px;bottom:-420px}
+    .about-orbit::after{width:440px;height:440px;right:-150px;top:-150px}
+    .about-node{position:absolute;width:12px;height:12px;border:3px solid #fff;border-radius:50%;background:#4b87ff;box-shadow:0 5px 18px rgba(8,48,76,.18)}
+    .about-node:nth-child(1){left:13%;top:34%}.about-node:nth-child(2){left:28%;bottom:18%;background:#ef5b93}.about-node:nth-child(3){right:18%;top:22%;background:#ffad45}.about-node:nth-child(4){right:8%;bottom:23%;background:#78c455}
+    .about-hero-copy{position:relative;z-index:2;min-width:0;max-width:850px;margin-left:auto;text-align:right}
+    .about-eyebrow{margin:0 0 24px;color:#69747c;font-size:13px;font-weight:650;letter-spacing:.02em}
+    .about-hero-copy h1{margin:0;color:var(--about-ink);font-size:clamp(54px,7.2vw,100px);font-weight:650;line-height:.98;letter-spacing:-.065em;text-wrap:balance}
+    .rainbow-line{color:transparent;background:var(--about-rainbow);background-clip:text;-webkit-background-clip:text}
+    .about-lead{max-width:640px;margin:34px 0 0 auto;color:#5f6f7a;font-size:19px;line-height:1.75}
+    .about-signature{position:absolute;left:clamp(32px,6vw,84px);bottom:58px;display:flex;align-items:center;gap:14px;color:#40627a;font-size:13px}
+    .about-signature img{width:52px;height:52px;padding:8px;border:1px solid rgba(8,48,76,.08);border-radius:16px;background:rgba(255,255,255,.78)}
+    .about-signature strong,.about-signature span{display:block}.about-signature span{margin-top:3px;color:#71818b}
+    .statement{position:relative;margin:72px 0 0;min-height:620px;overflow:hidden;border-radius:30px;background:#dceef9}
+    .statement>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+    .statement::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,28,45,.54),rgba(5,28,45,.02) 72%)}
+    .statement-card{position:absolute;z-index:2;left:48px;bottom:48px;width:min(480px,calc(100% - 96px));padding:34px;border-radius:22px;background:rgba(255,255,255,.94);box-shadow:0 24px 60px rgba(7,36,56,.2)}
+    .statement-card small{font-size:12px;color:#6d7880}.statement-card h2{margin:12px 0;color:var(--about-ink);font-size:clamp(32px,4vw,50px);line-height:1.04;letter-spacing:-.05em;text-wrap:balance}.statement-card p{margin:0;color:#65737d;line-height:1.75}
+    .about-section{margin-top:96px}
+    .section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:28px;margin-bottom:30px}
+    .section-head small{color:#7a858c;font-size:12px}.section-head h2{max-width:720px;margin:9px 0 0;font-size:clamp(38px,5vw,62px);line-height:1;letter-spacing:-.055em;text-wrap:balance}.section-head>p{max-width:390px;margin:0;color:#748089;line-height:1.7}
+    .principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .principle{min-height:410px;padding:30px;display:flex;flex-direction:column;border-radius:24px;background:#eef8ff;box-shadow:inset 0 0 0 1px rgba(8,48,76,.06)}
+    .principle:nth-child(2){background:#fff1f6}.principle:nth-child(3){background:#f1faec}
+    .principle-index{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;background:rgba(255,255,255,.76);font-size:13px;font-variant-numeric:tabular-nums}
+    .principle h3{margin:auto 0 16px;font-size:32px;line-height:1.05;letter-spacing:-.045em}.principle p{margin:0;color:#66757f;line-height:1.75}
+    .owners-stage{padding:54px;border-radius:30px;background:linear-gradient(145deg,#e9f7ff,#f5fbff)}
+    .owners{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:34px}
+    .owner{min-height:410px;padding:28px;display:flex;flex-direction:column;border-radius:22px;background:rgba(255,255,255,.9);box-shadow:0 0 0 1px rgba(8,48,76,.07)}
+    .owner img{width:112px;height:112px;padding:10px;border-radius:28px;background:#f4f8fa;object-fit:contain}
+    .owner small{margin-top:auto;color:#81909a;font-size:12px}.owner h3{margin:10px 0 8px;font-size:28px;letter-spacing:-.035em}.owner p{margin:0;color:#66757f;line-height:1.7}
+    .faq-stage{width:min(900px,100%);margin:96px auto 110px}
+    .faq-stage .section-head{display:block;text-align:center}.faq-stage .section-head h2{margin:10px auto}
+    .faq-list{margin-top:34px;border-top:1px solid var(--about-line)}
+    .faq-list details{border-bottom:1px solid var(--about-line)}
+    .faq-list summary{min-height:72px;padding:22px 4px;display:flex;align-items:center;justify-content:space-between;gap:18px;cursor:pointer;font-size:17px;font-weight:650;list-style:none}
+    .faq-list summary::-webkit-details-marker{display:none}.faq-list summary::after{content:"＋";color:#82909a;font-size:22px;font-weight:400}.faq-list details[open] summary::after{content:"−"}.faq-list p{max-width:690px;margin:-4px 0 24px;color:#697780;line-height:1.8}
+    .portrait-footer{padding:54px 0;background:#fff;border-top:1px solid rgba(8,48,76,.06)}
+    .footer-grid{width:min(1160px,calc(100% - 48px));margin:auto;display:grid;grid-template-columns:2fr repeat(3,1fr);gap:48px}
+    .footer-brand img{width:154px;height:42px;object-fit:contain;object-position:left}.footer-brand p{max-width:300px;margin:18px 0 0;color:#79858d;line-height:1.65;font-size:14px}
+    .footer-column strong{display:block;margin-bottom:14px;font-size:13px}.footer-column a{display:block;padding:5px 0;color:#76828a;font-size:14px}.footer-column a:hover{color:var(--about-ink)}
+    @media(max-width:760px){
+      .site-main{padding-top:30px}.about-shell{width:calc(100% - 24px)}.about-canvas{min-height:630px;padding:54px 22px 26px;border-radius:22px}.about-hero-copy{text-align:left}.about-hero-copy h1{font-size:clamp(44px,12.5vw,52px);overflow-wrap:anywhere;word-break:break-all;text-wrap:wrap}.about-lead{font-size:16px;line-height:1.7}.about-signature{left:22px;bottom:28px}.statement{min-height:520px;margin-top:30px;border-radius:22px}.statement-card{left:16px;right:16px;bottom:16px;width:auto;padding:24px;border-radius:18px}.about-section{margin-top:64px}.section-head{display:block}.section-head>p{margin-top:16px}.principles,.owners{grid-template-columns:1fr}.principle{min-height:300px}.owners-stage{padding:28px 18px;border-radius:22px}.owner{min-height:320px}.faq-stage{margin:64px auto 76px}.footer-grid{width:calc(100% - 32px);grid-template-columns:1fr 1fr;gap:32px 22px}.footer-brand{grid-column:1/-1}
+    }
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+  </style>
 </head>
 <body>
   <nav class="nav" aria-label="主导航">
     <a class="brand-link" href="/no3/" aria-label="HooMee Coffee No.3 首页"><img src="/hoomee/logo/hoomee-horizontal.png" alt="HooMee Coffee"></a>
-    <div class="nav-links"><a href="/tech/">科技·资讯</a><a href="/life/">生活·记录</a><a href="/pets/">萌宠·探索</a><a href="/about/">关于</a><a class="back-no3" href="/no3/">回到 No.3</a></div>
+    <div class="nav-links"><a href="/tech/">科技·资讯</a><a href="/life/">生活·记录</a><a href="/pets/">萌宠·探索</a><a href="/about/" aria-current="page">关于</a><a class="back-no3" href="/no3/">回到 No.3</a></div>
   </nav>
+
   <main class="site-main">
-    <section class="intro">
-      <div><span class="kicker">ABOUT HOOMEE COFFEE</span><h1>一个认真收纳<span class="rainbow-text">日常</span>的地方。</h1><p>HooMee Coffee 由 EMiAO、HannaH 和 BanBan 共同打理。技术的变化、生活的细节与陪伴的片段，都值得拥有自己的位置。</p></div>
-      <img src="/hoomee/icons/about.png" alt="关于 HooMee Coffee">
-    </section>
-    <section class="wrap"><div class="cards">
-      <a href="/tech/"><h2>EMiAO</h2><p>记录科技、商业与工具。</p></a>
-      <a href="/life/"><h2>HannaH</h2><p>记录食物、居家与文化。</p></a>
-      <a href="/pets/"><h2>BanBan</h2><p>提醒大家：慢一点，也没关系。</p></a>
-    </div></section>
+    <div class="about-shell">
+      <section class="about-canvas" aria-labelledby="about-title">
+        <div class="about-orbit" aria-hidden="true"><i class="about-node"></i><i class="about-node"></i><i class="about-node"></i><i class="about-node"></i></div>
+        <div class="about-hero-copy">
+          <p class="about-eyebrow">由日常相连，也向世界敞开。</p>
+          <h1 id="about-title">一个属于<br>科技、生活与<br><span class="rainbow-line">小小陪伴</span>的地方。</h1>
+          <p class="about-lead">HooMee Coffee 由 EMiAO、HannaH 和 BanBan 共同打理。我们把不断变化的世界与认真生活的片段，整理成清晰、温暖、可以反复翻看的个人索引。</p>
+        </div>
+        <div class="about-signature"><img src="/hoomee/logo/hoomee-icon.png" alt=""><span><strong>HooMee Coffee</strong><span>三位主理人 · 一个共同主页</span></span></div>
+      </section>
+
+      <section class="statement" aria-label="HooMee Coffee 的日常">
+        <img src="/hoomee/home/hero.jpg" alt="HooMee Coffee 的生活与创作片段">
+        <div class="statement-card">
+          <small>OUR SHARED HOME</small>
+          <h2>不是把生活填满，<br>而是把<span class="rainbow-line">值得的事</span>留下。</h2>
+          <p>这里没有固定的答案。技术、商业、学习、旅行、食物和猫咪，共同组成我们看待世界的方式。</p>
+        </div>
+      </section>
+
+      <section class="about-section" aria-labelledby="principles-title">
+        <div class="section-head"><div><small>HOW WE WRITE</small><h2 id="principles-title">三件一直在做的事。</h2></div><p>从信息到体验，从记录到回看，栏目不同，但整理世界的方式始终一致。</p></div>
+        <div class="principles">
+          <article class="principle"><span class="principle-index">01</span><h3>把复杂的事<br>讲清楚。</h3><p>筛选技术、产品与商业信息，保留真正影响判断的线索，也让陌生概念更容易理解。</p></article>
+          <article class="principle"><span class="principle-index">02</span><h3>把喜欢的事<br>写具体。</h3><p>食物、空间、影音、书籍与旅行，都从真实感受出发，让生活记录保持自己的温度。</p></article>
+          <article class="principle"><span class="principle-index">03</span><h3>把小小陪伴<br>当成大事。</h3><p>BanBan 的日常不只是可爱瞬间，也是家的一部分，是值得认真保存的时间。</p></article>
+        </div>
+      </section>
+
+      <section class="about-section owners-stage" aria-labelledby="owners-title">
+        <div class="section-head"><div><small>THE PEOPLE &amp; CAT</small><h2 id="owners-title">认识三位主理人。</h2></div><p>各自维护喜欢的栏目，也一起决定 HooMee Coffee 的样子。</p></div>
+        <div class="owners">
+          <a class="owner" href="/tech/"><img src="/hoomee/icons/emiao.png" alt=""><small>科技与商业</small><h3>EMiAO</h3><p>整理 AI、科技产品、商业财经与工具方法，把变化连成可以行动的判断。</p></a>
+          <a class="owner" href="/life/"><img src="/hoomee/icons/hannah.png" alt=""><small>生活与学习</small><h3>HannaH</h3><p>记录居家、美食、旅行、影音与书籍，把喜欢的日子写成自己的生活索引。</p></a>
+          <a class="owner" href="/pets/"><img src="/hoomee/icons/banban.png" alt=""><small>萌宠与陪伴</small><h3>BanBan</h3><p>负责晒太阳、巡视房间和不经意的可爱，也提醒大家偶尔慢一点。</p></a>
+        </div>
+      </section>
+
+      <section class="faq-stage" aria-labelledby="faq-title">
+        <div class="section-head"><small>FREQUENTLY ASKED</small><h2 id="faq-title">关于这里。</h2></div>
+        <div class="faq-list">
+          <details><summary>HooMee Coffee 会更新什么内容？</summary><p>主要包括科技资讯与观察、生活与学习记录、BanBan 的萌宠日常，以及过往博客内容的整理归档。</p></details>
+          <details><summary>文章由谁撰写？</summary><p>科技与商业内容主要由 EMiAO 整理，生活与学习内容主要由 HannaH 记录，BanBan 负责以自己的方式参与萌宠栏目。</p></details>
+          <details><summary>如何找到原来的博客内容？</summary><p>旧站内容会逐步整理到「时光归档」，同时尽量保留原有入口，方便从新的栏目系统继续访问。</p></details>
+          <details><summary>可以从哪里开始浏览？</summary><p>回到 No.3 首页可以快速认识所有栏目；也可以直接进入科技、生活或萌宠页面，从当下最感兴趣的内容开始。</p></details>
+        </div>
+      </section>
+    </div>
   </main>
+
+  <footer class="portrait-footer">
+    <div class="footer-grid">
+      <div class="footer-brand"><img src="/hoomee/logo/hoomee-horizontal.png" alt="HooMee Coffee"><p>把科技、生活与萌宠，整理成清晰、温暖、可以回看的日常索引。</p></div>
+      <div class="footer-column"><strong>栏目</strong><a href="/tech/">科技·资讯</a><a href="/life/">生活·记录</a><a href="/pets/">萌宠·探索</a></div>
+      <div class="footer-column"><strong>功能</strong><a href="/tujie/">HooMee 图解</a><a href="/about/">关于我们</a><a href="/no3/">No.3 首页</a></div>
+      <div class="footer-column"><strong>归档</strong><a href="/memories/">时光归档</a><a href="/memories/previous-site/legacy/index.html">旧站入口</a></div>
+    </div>
+  </footer>
 </body>
 </html>

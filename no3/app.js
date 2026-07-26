@@ -1,24 +1,3 @@
-const monochromeStorageKey='hoomee-no3-monochrome';
-const monochromeToggle=document.querySelector('[data-monochrome-toggle]');
-
-function setMonochromeTheme(enabled,{persist=false}={}){
-  document.documentElement.classList.toggle('is-monochrome',enabled);
-  document.body.classList.toggle('is-monochrome',enabled);
-  monochromeToggle?.setAttribute('aria-pressed',String(enabled));
-  monochromeToggle?.setAttribute('aria-label',enabled?'切换为彩色模式':'切换为黑白模式');
-  if(persist){
-    try{localStorage.setItem(monochromeStorageKey,enabled?'true':'false')}catch{}
-  }
-}
-
-let savedMonochrome=false;
-try{savedMonochrome=localStorage.getItem(monochromeStorageKey)==='true'}catch{}
-setMonochromeTheme(savedMonochrome);
-monochromeToggle?.addEventListener('click',()=>{
-  const enabled=!document.documentElement.classList.contains('is-monochrome');
-  setMonochromeTheme(enabled,{persist:true});
-});
-
 const observer=new IntersectionObserver((entries)=>entries.forEach((entry)=>{if(entry.isIntersecting)entry.target.classList.add('is-visible')}),{threshold:.03,rootMargin:'0px 0px -4% 0px'});
 document.querySelectorAll('[data-reveal]').forEach((el)=>observer.observe(el));
 
