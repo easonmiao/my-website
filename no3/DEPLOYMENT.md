@@ -7,7 +7,7 @@ Production URL: https://www.hoomee.cc/no3/
 - `index.html`
 - `styles.css`
 - `app.js`
-- `assets/` — only assets referenced by the packaged HTML and CSS
+- `assets/` — only assets referenced by the packaged HTML, CSS, and JavaScript
 
 Upload this package as the existing website's `no3` directory. The package uses
 relative URLs, so it can be served from `/no3/` without changing the website root.

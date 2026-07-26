@@ -179,7 +179,7 @@
     elements.resultImage.src = url
     elements.download.href = url
     elements.resultSource.textContent = state.sourceType === 'link' ? '网页链接' : state.sourceType === 'file' ? '上传文件' : '粘贴正文'
-    elements.resultName.textContent = state.fileName || 'HooMee 图解作品'
+    elements.resultName.textContent = state.fileName || 'HooMee Coffee 图解作品'
     localStorage.removeItem('hoomee_tujie_active_job')
     setTimeout(() => {
       elements.progress.classList.add('hidden')

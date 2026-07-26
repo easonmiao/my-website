@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f4f8ff">
-  <meta name="description" content="HooMee 图解：把网页、公众号文章和文档变成适合阅读、理解与分享的解释型长图。">
-  <title>HooMee 图解｜一篇文章，一图看懂</title>
+  <meta name="description" content="HooMee Coffee 图解：把网页、公众号文章和文档变成适合阅读、理解与分享的解释型长图。">
+  <title>HooMee Coffee 图解｜一篇文章，一图看懂</title>
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -14,14 +14,20 @@
   <div class="ambient ambient-two"></div>
 
   <header class="site-header">
-    <a class="brand" href="/" aria-label="返回 HooMee 首页">
-      <span class="brand-mark" aria-hidden="true"><i></i><b></b></span>
-      <span class="brand-name">HooMee 图解</span>
-    </a>
-    <div class="header-actions">
-      <a class="podcast-link" href="/">返回 HooMee</a>
-      <button class="quota-pill" id="quotaButton" type="button">正在查询次数…</button>
-    </div>
+    <nav class="tujie-nav" aria-label="主导航">
+      <a class="brand" href="/no3/" aria-label="返回 HooMee Coffee No.3 首页">
+        <img src="/hoomee/logo/hoomee-horizontal.png" alt="HooMee Coffee">
+        <span class="brand-name">图解</span>
+      </a>
+      <div class="tujie-nav-links">
+        <a href="/tech/">科技·资讯</a>
+        <a href="/life/">生活·记录</a>
+        <a href="/pets/">萌宠·探索</a>
+        <a href="/about/">关于</a>
+        <a class="back-no3" href="/no3/">回到 No.3</a>
+      </div>
+    </nav>
+    <button class="quota-pill" id="quotaButton" type="button">正在查询次数…</button>
   </header>
 
   <main class="page-shell">
@@ -119,8 +125,8 @@
         <div class="result-image-wrap"><img id="resultImage" alt="生成的完整图解长图"></div>
         <aside class="result-info">
           <span class="status-chip">● 已完成</span>
-          <h3 id="resultName">HooMee 图解作品</h3>
-          <dl><div><dt>交付内容</dt><dd>完整长图</dd></div><div><dt>内容来源</dt><dd id="resultSource">网页链接</dd></div><div><dt>生成方式</dt><dd>AI 生图</dd></div><div><dt>编辑制作</dt><dd>HooMee 图解</dd></div></dl>
+          <h3 id="resultName">HooMee Coffee 图解作品</h3>
+          <dl><div><dt>交付内容</dt><dd>完整长图</dd></div><div><dt>内容来源</dt><dd id="resultSource">网页链接</dd></div><div><dt>生成方式</dt><dd>AI 生图</dd></div><div><dt>编辑制作</dt><dd>HooMee Coffee 图解</dd></div></dl>
           <a class="download-button" id="downloadButton" href="#" download="hoomee-tujie.png">下载完整长图</a>
           <p>内容经微信云端安全处理，并调用腾讯混元 Hy3（内容分析）＋ Ai Image（兼容通道）完成分析与视觉生成。AI 生成内容仅供参考。</p>
         </aside>
@@ -138,11 +144,11 @@
     </section>
   </main>
 
-  <footer><a href="/">HooMee</a><span>© 2026 HooMee 图解</span><span>把复杂内容讲明白</span></footer>
+  <footer><a href="/no3/">HooMee Coffee</a><span>© 2026 HooMee Coffee 图解</span><span>把复杂内容讲明白</span></footer>
 
   <div class="toast" id="toast" role="status"></div>
   <div class="welcome-modal hidden" id="welcomeModal" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
-    <div class="modal-card"><span class="modal-mark"><i></i><b></b></span><p class="section-kicker">WELCOME</p><h2 id="welcomeTitle">欢迎使用 HooMee 图解</h2><p>把公众号、网页、正文或文件，变成适合手机阅读与分享的解释型长图。</p><ol><li>添加文章链接或正文</li><li>确认图解设置</li><li>等待生成并下载作品</li></ol><button class="primary-button" id="welcomeButton" type="button">开始使用</button></div>
+    <div class="modal-card"><span class="modal-mark"><i></i><b></b></span><p class="section-kicker">WELCOME</p><h2 id="welcomeTitle">欢迎使用 HooMee Coffee 图解</h2><p>把公众号、网页、正文或文件，变成适合手机阅读与分享的解释型长图。</p><ol><li>添加文章链接或正文</li><li>确认图解设置</li><li>等待生成并下载作品</li></ol><button class="primary-button" id="welcomeButton" type="button">开始使用</button></div>
   </div>
 
   <script src="./config.js"></script>

@@ -1,3 +1,24 @@
+const monochromeStorageKey='hoomee-no3-monochrome';
+const monochromeToggle=document.querySelector('[data-monochrome-toggle]');
+
+function setMonochromeTheme(enabled,{persist=false}={}){
+  document.documentElement.classList.toggle('is-monochrome',enabled);
+  document.body.classList.toggle('is-monochrome',enabled);
+  monochromeToggle?.setAttribute('aria-pressed',String(enabled));
+  monochromeToggle?.setAttribute('aria-label',enabled?'切换为彩色模式':'切换为黑白模式');
+  if(persist){
+    try{localStorage.setItem(monochromeStorageKey,enabled?'true':'false')}catch{}
+  }
+}
+
+let savedMonochrome=false;
+try{savedMonochrome=localStorage.getItem(monochromeStorageKey)==='true'}catch{}
+setMonochromeTheme(savedMonochrome);
+monochromeToggle?.addEventListener('click',()=>{
+  const enabled=!document.documentElement.classList.contains('is-monochrome');
+  setMonochromeTheme(enabled,{persist:true});
+});
+
 const observer=new IntersectionObserver((entries)=>entries.forEach((entry)=>{if(entry.isIntersecting)entry.target.classList.add('is-visible')}),{threshold:.03,rootMargin:'0px 0px -4% 0px'});
 document.querySelectorAll('[data-reveal]').forEach((el)=>observer.observe(el));
 
@@ -5,13 +26,13 @@ const siteSearch=document.querySelector('.portrait-claim');
 const siteSearchInput=siteSearch?.querySelector('input[type="search"]');
 const siteSearchResults=document.querySelector('#site-search-results');
 const sitePages=[
-  {title:'HooMee 首页',description:'科技、生活与萌宠，共同写在这里。',url:'https://www.hoomee.cc/',keywords:'首页 hoomee coffee emiao hannah banban'},
+  {title:'HooMee Coffee 首页',description:'科技、生活与萌宠，共同写在这里。',url:'https://www.hoomee.cc/no3/',keywords:'首页 hoomee coffee emiao hannah banban'},
   {title:'科技 · 资讯',description:'AI 早报、科技分享、商业财经与产品观察。',url:'https://www.hoomee.cc/tech/',keywords:'科技 资讯 ai 人工智能 早报 商业 财经 金融 银行 视频 播客 emiao'},
   {title:'生活 · 记录',description:'居家、美食、旅行、影音与书籍。',url:'https://www.hoomee.cc/life/',keywords:'生活 日常 居家 美食 旅行 电影 影音 阅读 书籍 hannah'},
   {title:'萌宠 · 探索',description:'BanBan 的照片、状态与陪伴片段。',url:'https://www.hoomee.cc/pets/',keywords:'萌宠 宠物 猫 banban 斑斑 日常 陪伴'},
   {title:'图解 · Tujie',description:'用图解读银行、商业与重要概念。',url:'https://www.hoomee.cc/tujie/',keywords:'图解 tujie 银行图鉴 金融 商业 数据 解释'},
-  {title:'回忆 · Memories',description:'回看 HooMee 的过往内容与设计记录。',url:'https://www.hoomee.cc/memories/',keywords:'回忆 memories 档案 存档 旧版 历史 过去'},
-  {title:'关于 HooMee',description:'认识 EMiAO、HannaH 和 BanBan。',url:'https://www.hoomee.cc/about/',keywords:'关于 主理人 团队 emiao hannah banban hoomee'}
+  {title:'回忆 · Memories',description:'回看 HooMee Coffee 的过往内容与设计记录。',url:'https://www.hoomee.cc/memories/',keywords:'回忆 memories 档案 存档 旧版 历史 过去'},
+  {title:'关于 HooMee Coffee',description:'认识 HooMee Coffee 的 EMiAO、HannaH 和 BanBan。',url:'https://www.hoomee.cc/about/',keywords:'关于 主理人 团队 emiao hannah banban hoomee coffee'}
 ];
 let siteMatches=[];
 
@@ -118,12 +139,76 @@ document.querySelectorAll('[data-accordion]').forEach((button)=>button.addEventL
 
 const steps=document.querySelectorAll('[data-step]');
 const stage=document.querySelector('.creation-stage');
+const photoBoardImages=[...document.querySelectorAll('.photo-board .photo-card img')];
+const photoSets={
+  frame:[
+    {src:'assets/hoomee-tech-landscape.webp',alt:'科技与城市的观察'},
+    {src:'assets/hoomee-personal-tech.webp',alt:'个人科技工作空间'},
+    {src:'assets/hoomee-tech-share.webp',alt:'AlphaGo 与人工智能分享'},
+    {src:'assets/hoomee-ai-morning.webp',alt:'AI 早报视觉'},
+    {src:'assets/hoomee-finance-morning.webp',alt:'商业财经早报视觉'}
+  ],
+  size:[
+    {src:'assets/hoomee-board-travel.webp',alt:'威尼斯旅行记录'},
+    {src:'assets/hoomee-life-portrait.webp',alt:'HannaH 的旅行记录'},
+    {src:'assets/hoomee-board-portrait.webp',alt:'旅途中的生活肖像'},
+    {src:'assets/hoomee-board-aesthetic.webp',alt:'咖啡与猫咪的生活片段'},
+    {src:'assets/hoomee-board-family.webp',alt:'HooMee Coffee 与猫咪的家庭合影'}
+  ],
+  position:[
+    {src:'assets/hoomee-board-banban.webp',alt:'BanBan 的户外探索'},
+    {src:'assets/hoomee-pets-apple-bed.webp',alt:'BanBan 坐在苹果猫窝里'},
+    {src:'assets/hoomee-pets-window-chair.webp',alt:'BanBan 在窗边晒太阳'},
+    {src:'assets/hoomee-pets-lounge.webp',alt:'BanBan 的居家日常'},
+    {src:'assets/hoomee-pets-play.webp',alt:'BanBan 的玩耍时刻'}
+  ]
+};
+const photoSetOffsets={frame:0,size:0,position:0};
+let photoSwapToken=0;
+
+function applyPhotoSet(state,{animate=true,rotate=false}={}){
+  const set=photoSets[state];
+  if(!stage||photoBoardImages.length!==5||!set)return;
+  if(rotate)photoSetOffsets[state]=(photoSetOffsets[state]+1)%set.length;
+  const offset=photoSetOffsets[state];
+  const ordered=set.map((_,index)=>set[(index+offset)%set.length]);
+  const updateImages=()=>{
+    ordered.forEach((item,index)=>{
+      photoBoardImages[index].src=item.src;
+      photoBoardImages[index].alt=item.alt;
+    });
+  };
+  const canAnimate=animate&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!canAnimate){
+    updateImages();
+    stage.classList.remove('is-swapping');
+    stage.removeAttribute('aria-busy');
+    return;
+  }
+  const token=++photoSwapToken;
+  stage.classList.add('is-swapping');
+  stage.setAttribute('aria-busy','true');
+  setTimeout(()=>{
+    if(token!==photoSwapToken)return;
+    updateImages();
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{
+      if(token!==photoSwapToken)return;
+      stage.classList.remove('is-swapping');
+      stage.removeAttribute('aria-busy');
+    }));
+  },150);
+}
+
 steps.forEach((step)=>step.addEventListener('click',()=>{
   steps.forEach((item)=>{item.classList.remove('is-active');item.setAttribute('aria-selected','false')});
   step.classList.add('is-active');
   step.setAttribute('aria-selected','true');
-  if(stage)stage.dataset.state=step.dataset.step;
+  if(stage){
+    stage.dataset.state=step.dataset.step;
+    applyPhotoSet(step.dataset.step,{animate:true,rotate:true});
+  }
 }));
+applyPhotoSet(stage?.dataset.state||'frame',{animate:false});
 
 const balances=['$421.67','$1,250.00','2.14 ETH','$2,450.00'];
 document.querySelectorAll('[data-balance-dot]').forEach((dot,index)=>dot.addEventListener('click',()=>{
