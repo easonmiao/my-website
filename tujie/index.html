@@ -5,26 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#eef8ff">
   <meta name="description" content="HooMee Coffee 图解：把网页、公众号文章和文档变成适合阅读、理解与分享的解释型长图。">
+  <link rel="canonical" href="https://www.hoomee.cc/tujie/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HooMee Coffee 图解｜一篇文章，一图看懂">
+  <meta property="og:description" content="把网页、公众号文章和文档变成适合阅读、理解与分享的解释型长图。">
+  <meta property="og:url" content="https://www.hoomee.cc/tujie/">
+  <meta property="og:image" content="https://www.hoomee.cc/hoomee/tech/ai.webp">
+  <meta name="twitter:card" content="summary_large_image">
   <title>HooMee Coffee 图解｜一篇文章，一图看懂</title>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"HooMee Coffee 图解","url":"https://www.hoomee.cc/tujie/","applicationCategory":"DesignApplication","operatingSystem":"Web","description":"把网页、公众号文章和文档变成适合阅读、理解与分享的解释型长图。"}</script>
   <link rel="icon" type="image/png" href="/hoomee/logo/hoomee-icon.png">
-  <link rel="stylesheet" href="./styles.css?v=20260726-portrait-longform">
+  <link rel="stylesheet" href="./styles.css?v=20260726-audit3">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
   <header class="site-header">
-    <nav class="tujie-nav" aria-label="主导航">
-      <a class="brand" href="/no3/" aria-label="返回 HooMee Coffee No.3 首页"><img src="/hoomee/logo/hoomee-horizontal.png" alt="HooMee Coffee"></a>
+    <nav class="tujie-nav" aria-label="主导航" data-site-nav>
+      <a class="brand" href="/no3/" aria-label="返回 HooMee Coffee 首页"><img src="/hoomee/logo/hoomee-horizontal.webp" alt="HooMee Coffee"></a>
+      <span class="tujie-nav-current">HooMee 图解</span>
+      <button class="tujie-nav-menu" type="button" aria-expanded="false" aria-label="打开导航菜单" data-nav-toggle>菜单</button>
       <div class="tujie-nav-links">
         <a href="/tech/">科技·资讯</a>
         <a href="/life/">生活·记录</a>
         <a href="/pets/">萌宠·探索</a>
         <a href="/about/">关于</a>
-        <a class="back-no3" href="/no3/">回到 No.3</a>
+        <a href="/no3/">首页</a>
+        <a class="back-no3" href="/no3/#site-search">搜索</a>
       </div>
     </nav>
     <button class="quota-pill" id="quotaButton" type="button">正在查询次数…</button>
   </header>
 
-  <main class="page-shell">
+  <main class="page-shell" id="main-content">
     <section class="product-hero" aria-labelledby="heroTitle">
       <div class="hero-network" aria-hidden="true">
         <i></i><i></i><i></i><i></i>
@@ -149,9 +161,9 @@
 
   <footer class="portrait-footer">
     <div class="footer-grid">
-      <div class="footer-brand"><img src="/hoomee/logo/hoomee-horizontal.png" alt="HooMee Coffee"><p>把科技、生活与萌宠，整理成清晰、温暖、可以回看的日常索引。</p></div>
+      <div class="footer-brand"><img src="/hoomee/logo/hoomee-horizontal.webp" alt="HooMee Coffee" width="520" height="135" loading="lazy"><p>把科技、生活与萌宠，整理成清晰、温暖、可以回看的日常索引。</p></div>
       <div class="footer-column"><strong>栏目</strong><a href="/tech/">科技·资讯</a><a href="/life/">生活·记录</a><a href="/pets/">萌宠·探索</a></div>
-      <div class="footer-column"><strong>功能</strong><a href="/tujie/">HooMee 图解</a><a href="/about/">关于我们</a><a href="/no3/">No.3 首页</a></div>
+      <div class="footer-column"><strong>功能</strong><a href="/tujie/">HooMee 图解</a><a href="/about/">关于我们</a><a href="/no3/">首页</a></div>
       <div class="footer-column"><strong>归档</strong><a href="/memories/">时光归档</a><a href="/memories/previous-site/legacy/index.html">旧站入口</a></div>
     </div>
   </footer>
@@ -162,6 +174,7 @@
   </div>
 
   <script src="./config.js"></script>
+  <script src="/site-nav.js" defer></script>
   <script src="./app.js?v=20260726-no3"></script>
 </body>
 </html>

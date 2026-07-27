@@ -4,11 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="认识 HooMee Coffee：由 EMiAO、HannaH 和 BanBan 共同打理的中文个人博客。">
+  <link rel="canonical" href="https://www.hoomee.cc/about/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="关于 HooMee Coffee">
+  <meta property="og:description" content="一个属于科技、生活与小小陪伴的地方。">
+  <meta property="og:url" content="https://www.hoomee.cc/about/">
+  <meta property="og:image" content="https://www.hoomee.cc/hoomee/home/hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <title>关于｜HooMee Coffee</title>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"AboutPage","name":"关于 HooMee Coffee","url":"https://www.hoomee.cc/about/","mainEntity":{"@type":"Organization","name":"HooMee Coffee","url":"https://www.hoomee.cc/no3/"}}</script>
   <link rel="icon" type="image/png" href="/hoomee/logo/hoomee-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20260726-no3">
+  <link rel="stylesheet" href="/site.css?v=20260726-audit2">
   <style>
-    :root{--about-ink:#08304c;--about-muted:#69747c;--about-line:rgba(8,48,76,.1);--about-rainbow:linear-gradient(90deg,#4b87ff 0%,#aa59ef 25%,#ed4f93 47%,#ff9b3f 71%,#77bf46 100%)}
+    :root{--about-ink:#08304c;--about-muted:#69747c;--about-line:rgba(8,48,76,.1);--about-rainbow:linear-gradient(90deg,#2f76df 0%,#9344ce 25%,#d63d78 47%,#d46600 71%,#2e8b3c 100%)}
     body{background:#f7f7f7;color:var(--about-ink)}
     body::before{display:none}
     .nav .back-no3{border:2px solid transparent;background:linear-gradient(#fff,#fff) padding-box,var(--about-rainbow) border-box;color:var(--about-ink)!important;box-shadow:0 5px 15px rgba(28,57,72,.1)}
@@ -65,12 +73,15 @@
   </style>
 </head>
 <body>
-  <nav class="nav" aria-label="主导航">
-    <a class="brand-link" href="/no3/" aria-label="HooMee Coffee No.3 首页"><img src="/hoomee/logo/hoomee-horizontal.png" alt="HooMee Coffee"></a>
-    <div class="nav-links"><a href="/tech/">科技·资讯</a><a href="/life/">生活·记录</a><a href="/pets/">萌宠·探索</a><a href="/about/" aria-current="page">关于</a><a class="back-no3" href="/no3/">回到 No.3</a></div>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <nav class="nav" aria-label="主导航" data-site-nav>
+    <a class="brand-link" href="/no3/" aria-label="HooMee Coffee 首页"><img src="/hoomee/logo/hoomee-horizontal.webp" alt="HooMee Coffee"></a>
+    <span class="nav-current">关于</span>
+    <button class="nav-menu-button" type="button" aria-expanded="false" aria-label="打开导航菜单" data-nav-toggle>菜单</button>
+    <div class="nav-links"><a href="/tech/">科技·资讯</a><a href="/life/">生活·记录</a><a href="/pets/">萌宠·探索</a><a href="/about/" aria-current="page">关于</a><a href="/no3/">首页</a><a class="back-no3" href="/no3/#site-search">搜索</a></div>
   </nav>
 
-  <main class="site-main">
+  <main class="site-main" id="main-content">
     <div class="about-shell">
       <section class="about-canvas" aria-labelledby="about-title">
         <div class="about-orbit" aria-hidden="true"><i class="about-node"></i><i class="about-node"></i><i class="about-node"></i><i class="about-node"></i></div>
@@ -103,9 +114,9 @@
       <section class="about-section owners-stage" aria-labelledby="owners-title">
         <div class="section-head"><div><small>THE PEOPLE &amp; CAT</small><h2 id="owners-title">认识三位主理人。</h2></div><p>各自维护喜欢的栏目，也一起决定 HooMee Coffee 的样子。</p></div>
         <div class="owners">
-          <a class="owner" href="/tech/"><img src="/hoomee/icons/emiao.png" alt=""><small>科技与商业</small><h3>EMiAO</h3><p>整理 AI、科技产品、商业财经与工具方法，把变化连成可以行动的判断。</p></a>
-          <a class="owner" href="/life/"><img src="/hoomee/icons/hannah.png" alt=""><small>生活与学习</small><h3>HannaH</h3><p>记录居家、美食、旅行、影音与书籍，把喜欢的日子写成自己的生活索引。</p></a>
-          <a class="owner" href="/pets/"><img src="/hoomee/icons/banban.png" alt=""><small>萌宠与陪伴</small><h3>BanBan</h3><p>负责晒太阳、巡视房间和不经意的可爱，也提醒大家偶尔慢一点。</p></a>
+          <a class="owner" href="/tech/"><img src="/hoomee/icons/emiao-avatar.webp" alt="EMiAO 与 BanBan"><small>科技与商业</small><h3>EMiAO</h3><p>整理 AI、科技产品、商业财经与工具方法，把变化连成可以行动的判断。</p></a>
+          <a class="owner" href="/life/"><img src="/hoomee/icons/hannah-avatar.webp" alt="HannaH"><small>生活与学习</small><h3>HannaH</h3><p>记录居家、美食、旅行、影音与书籍，把喜欢的日子写成自己的生活索引。</p></a>
+          <a class="owner" href="/pets/"><img src="/hoomee/icons/banban-avatar.webp" alt="BanBan"><small>萌宠与陪伴</small><h3>BanBan</h3><p>负责晒太阳、巡视房间和不经意的可爱，也提醒大家偶尔慢一点。</p></a>
         </div>
       </section>
 
@@ -115,7 +126,7 @@
           <details><summary>HooMee Coffee 会更新什么内容？</summary><p>主要包括科技资讯与观察、生活与学习记录、BanBan 的萌宠日常，以及过往博客内容的整理归档。</p></details>
           <details><summary>文章由谁撰写？</summary><p>科技与商业内容主要由 EMiAO 整理，生活与学习内容主要由 HannaH 记录，BanBan 负责以自己的方式参与萌宠栏目。</p></details>
           <details><summary>如何找到原来的博客内容？</summary><p>旧站内容会逐步整理到「时光归档」，同时尽量保留原有入口，方便从新的栏目系统继续访问。</p></details>
-          <details><summary>可以从哪里开始浏览？</summary><p>回到 No.3 首页可以快速认识所有栏目；也可以直接进入科技、生活或萌宠页面，从当下最感兴趣的内容开始。</p></details>
+          <details><summary>可以从哪里开始浏览？</summary><p>回到首页可以快速认识所有栏目；也可以直接进入科技、生活或萌宠页面，从当下最感兴趣的内容开始。</p></details>
         </div>
       </section>
     </div>
@@ -123,11 +134,12 @@
 
   <footer class="portrait-footer">
     <div class="footer-grid">
-      <div class="footer-brand"><img src="/hoomee/logo/hoomee-horizontal.png" alt="HooMee Coffee"><p>把科技、生活与萌宠，整理成清晰、温暖、可以回看的日常索引。</p></div>
+      <div class="footer-brand"><img src="/hoomee/logo/hoomee-horizontal.webp" alt="HooMee Coffee" width="520" height="135" loading="lazy"><p>把科技、生活与萌宠，整理成清晰、温暖、可以回看的日常索引。</p></div>
       <div class="footer-column"><strong>栏目</strong><a href="/tech/">科技·资讯</a><a href="/life/">生活·记录</a><a href="/pets/">萌宠·探索</a></div>
-      <div class="footer-column"><strong>功能</strong><a href="/tujie/">HooMee 图解</a><a href="/about/">关于我们</a><a href="/no3/">No.3 首页</a></div>
+      <div class="footer-column"><strong>功能</strong><a href="/tujie/">HooMee 图解</a><a href="/about/">关于我们</a><a href="/no3/">首页</a></div>
       <div class="footer-column"><strong>归档</strong><a href="/memories/">时光归档</a><a href="/memories/previous-site/legacy/index.html">旧站入口</a></div>
     </div>
   </footer>
+  <script src="/site-nav.js" defer></script>
 </body>
 </html>

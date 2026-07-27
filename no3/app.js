@@ -7,8 +7,14 @@ const siteSearchResults=document.querySelector('#site-search-results');
 const sitePages=[
   {title:'HooMee Coffee 首页',description:'科技、生活与萌宠，共同写在这里。',url:'https://www.hoomee.cc/no3/',keywords:'首页 hoomee coffee emiao hannah banban'},
   {title:'科技 · 资讯',description:'AI 早报、科技分享、商业财经与产品观察。',url:'https://www.hoomee.cc/tech/',keywords:'科技 资讯 ai 人工智能 早报 商业 财经 金融 银行 视频 播客 emiao'},
+  {title:'AI 早报：把变化放回脉络里',description:'追踪模型、产品、芯片与端侧 AI 的近期变化。',url:'https://www.hoomee.cc/articles/ai-morning/2026-07-06/',keywords:'ai 早报 模型 产品 芯片 openai apple google ibm emiao'},
+  {title:'商业财经早报：先看流动性',description:'从流动性、通胀与银行改革读懂商业信号。',url:'https://www.hoomee.cc/articles/finance-morning/2026-07-06/',keywords:'商业 财经 早报 流动性 通胀 银行 金融 emiao'},
+  {title:'从 AlphaGo 重新理解技术跃迁',description:'回看一次技术跃迁如何改变产品与社会想象。',url:'https://www.hoomee.cc/articles/tech-sharing/alphago/',keywords:'alphago 科技 分享 人工智能 技术 跃迁'},
+  {title:'银行、城市与区域金融',description:'理解银行如何嵌入城市与区域经济。',url:'https://www.hoomee.cc/articles/banking/city-and-finance/',keywords:'银行 城市 区域金融 商业 财经'},
   {title:'生活 · 记录',description:'居家、美食、旅行、影音与书籍。',url:'https://www.hoomee.cc/life/',keywords:'生活 日常 居家 美食 旅行 电影 影音 阅读 书籍 hannah'},
+  {title:'让平常的一天，也留下自己的温度',description:'HannaH 的学习、影音、书籍、美食与居家生活索引。',url:'https://www.hoomee.cc/articles/life/daily-notes/',keywords:'生活 日记 学习 影音 书籍 美食 居家 hannah'},
   {title:'萌宠 · 探索',description:'BanBan 的照片、状态与陪伴片段。',url:'https://www.hoomee.cc/pets/',keywords:'萌宠 宠物 猫 banban 斑斑 日常 陪伴'},
+  {title:'BanBan 的一天',description:'一只猫的晒太阳、巡视与陪伴日记。',url:'https://www.hoomee.cc/articles/pets/banban-diary/',keywords:'banban 斑斑 猫 萌宠 日记 陪伴'},
   {title:'图解 · Tujie',description:'用图解读银行、商业与重要概念。',url:'https://www.hoomee.cc/tujie/',keywords:'图解 tujie 银行图鉴 金融 商业 数据 解释'},
   {title:'回忆 · Memories',description:'回看 HooMee Coffee 的过往内容与设计记录。',url:'https://www.hoomee.cc/memories/',keywords:'回忆 memories 档案 存档 旧版 历史 过去'},
   {title:'关于 HooMee Coffee',description:'认识 HooMee Coffee 的 EMiAO、HannaH 和 BanBan。',url:'https://www.hoomee.cc/about/',keywords:'关于 主理人 团队 emiao hannah banban hoomee coffee'}

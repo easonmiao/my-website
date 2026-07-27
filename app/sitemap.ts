@@ -18,7 +18,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ]
   }
 
+  const staticPages: MetadataRoute.Sitemap = [
+    '/no3/',
+    '/tech/',
+    '/life/',
+    '/pets/',
+    '/about/',
+    '/memories/',
+    '/tujie/',
+    '/articles/ai-morning/2026-07-06/',
+    '/articles/finance-morning/2026-07-06/',
+    '/articles/tech-sharing/alphago/',
+    '/articles/banking/city-and-finance/',
+    '/articles/life/daily-notes/',
+    '/articles/pets/banban-diary/',
+  ].map((path) => ({
+    url: `https://www.hoomee.cc${path}`,
+    lastModified: new Date('2026-07-26'),
+  }))
+
   return [
     ...pairedEntry('/', latest),
+    ...staticPages,
   ]
 }
