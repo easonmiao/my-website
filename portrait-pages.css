@@ -940,3 +940,310 @@
     transition: none;
   }
 }
+
+/* 2026-08 classic blog archive
+   A quieter category-page system for Tech and Life only. Pets keeps the
+   editorial masonry treatment above. */
+.pl-blog-page {
+  background:
+    radial-gradient(circle at 50% -8rem, var(--pl-channel-wash), transparent 34rem),
+    #fafafa;
+}
+
+.pl-blog-page .site-main {
+  padding-top: 124px;
+}
+
+.pl-blog-page .pl-shell {
+  width: min(1240px, calc(100% - 64px));
+}
+
+.pl-blog-page .pl-channel-hero {
+  padding: 34px 0 56px;
+}
+
+.pl-blog-page .pl-channel-heading {
+  display: block;
+  padding: 20px 0 34px;
+  border-bottom: 0;
+  text-align: center;
+}
+
+.pl-blog-page .pl-channel-kicker {
+  margin-bottom: 16px;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+}
+
+.pl-blog-page .pl-channel-heading h1 {
+  max-width: none;
+  font-size: clamp(54px, 6.1vw, 78px);
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: -0.052em;
+}
+
+.pl-blog-page .pl-channel-intro {
+  max-width: 720px;
+  margin: 22px auto 0;
+  font-size: 17px;
+  line-height: 1.72;
+}
+
+.pl-blog-page .pl-channel-stats {
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.pl-blog-page .pl-feature-story {
+  grid-template-columns: minmax(0, 1.55fr) minmax(330px, 0.78fr);
+  min-height: 410px;
+  margin-top: 18px;
+  border: 0;
+  border-radius: 0;
+  background: #f1f1ef;
+  box-shadow: none;
+}
+
+.pl-blog-page .pl-feature-story__media {
+  min-height: 410px;
+  background: #e9e9e6;
+}
+
+.pl-blog-page .pl-feature-story__media::after {
+  display: none;
+}
+
+.pl-blog-page .pl-feature-story__copy {
+  padding: 46px 44px 38px;
+}
+
+.pl-blog-page .pl-feature-story__tag,
+.pl-blog-page .pl-feed-card__tag {
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--pl-channel-deep);
+  font-size: 11px;
+  letter-spacing: 0.07em;
+}
+
+.pl-blog-page .pl-feature-story h2 {
+  margin: 30px 0 17px;
+  font-size: clamp(31px, 3.1vw, 43px);
+  line-height: 1.08;
+}
+
+.pl-blog-page .pl-feature-story__action {
+  margin-top: 28px;
+  padding-top: 18px;
+}
+
+.pl-blog-page .pl-topic-bar {
+  position: static;
+  z-index: auto;
+  border-color: rgba(8, 48, 76, 0.13);
+  background: #fff;
+  box-shadow: none;
+}
+
+.pl-blog-page .pl-topic-scroll {
+  width: min(1240px, calc(100% - 64px));
+  justify-content: center;
+  padding-block: 14px;
+  gap: 8px;
+}
+
+.pl-blog-page .pl-topic-scroll a {
+  min-height: 34px;
+  padding-inline: 14px;
+  border-radius: 2px;
+  background: #fff;
+  font-size: 12px;
+}
+
+.pl-blog-page .pl-feed {
+  padding-top: 58px;
+}
+
+.pl-blog-page .pl-feed-heading {
+  margin-bottom: 28px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(8, 48, 76, 0.18);
+}
+
+.pl-blog-page .pl-feed-heading h2 {
+  font-size: clamp(30px, 3.2vw, 44px);
+  letter-spacing: -0.035em;
+}
+
+.pl-blog-page .pl-masonry-feed {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: auto;
+  gap: 56px 28px;
+}
+
+.pl-blog-page .pl-feed-card {
+  grid-row-end: auto !important;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.pl-blog-page .pl-feed-card__image,
+.pl-blog-page .pl-feed-card--portrait .pl-feed-card__image,
+.pl-blog-page .pl-feed-card--square .pl-feed-card__image,
+.pl-blog-page .pl-feed-card--cinema .pl-feed-card__image {
+  aspect-ratio: 1.42 / 1;
+  background: #ececea;
+}
+
+.pl-blog-page .pl-feed-card__body {
+  padding: 18px 0 0;
+}
+
+.pl-blog-page .pl-feed-card h3 {
+  margin-top: 15px;
+  font-size: clamp(20px, 1.8vw, 25px);
+  line-height: 1.18;
+}
+
+.pl-blog-page .pl-feed-card__body > p {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.pl-blog-page .pl-feed-card__footer {
+  margin-top: 16px;
+  padding-top: 12px;
+}
+
+.pl-blog-page .pl-feed-end {
+  margin-top: 68px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .pl-blog-page .pl-feature-story:hover,
+  .pl-blog-page .pl-feed-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .pl-blog-page .pl-feature-story:hover img,
+  .pl-blog-page .pl-feed-card:hover img {
+    transform: scale(1.018);
+  }
+
+  .pl-blog-page .pl-feed-card:hover h3 {
+    color: var(--pl-channel-deep);
+  }
+}
+
+@media (max-width: 900px) {
+  .pl-blog-page .pl-feature-story {
+    grid-template-columns: minmax(0, 1.2fr) minmax(290px, 0.8fr);
+  }
+
+  .pl-blog-page .pl-masonry-feed {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pl-blog-page .pl-topic-scroll {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 760px) {
+  .pl-blog-page .site-main {
+    padding-top: 94px;
+  }
+
+  .pl-blog-page .pl-shell {
+    width: calc(100% - 40px);
+  }
+
+  .pl-blog-page .pl-channel-hero {
+    padding: 22px 0 38px;
+  }
+
+  .pl-blog-page .pl-channel-heading {
+    padding: 14px 0 24px;
+  }
+
+  .pl-blog-page .pl-channel-heading h1 {
+    font-size: clamp(45px, 14vw, 58px);
+  }
+
+  .pl-blog-page .pl-channel-intro {
+    margin-top: 17px;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .pl-blog-page .pl-channel-stats {
+    gap: 16px;
+    margin-top: 15px;
+  }
+
+  .pl-blog-page .pl-feature-story {
+    grid-template-columns: 1fr;
+    margin-top: 12px;
+  }
+
+  .pl-blog-page .pl-feature-story__media {
+    min-height: 0;
+    aspect-ratio: 1.3 / 1;
+  }
+
+  .pl-blog-page .pl-feature-story__copy {
+    padding: 24px 21px 22px;
+  }
+
+  .pl-blog-page .pl-feature-story h2 {
+    margin-top: 22px;
+    font-size: 29px;
+  }
+
+  .pl-blog-page .pl-topic-scroll {
+    width: 100%;
+    padding: 10px 20px;
+    scroll-padding-inline: 20px;
+  }
+
+  .pl-blog-page .pl-feed {
+    padding-top: 42px;
+  }
+
+  .pl-blog-page .pl-feed-heading {
+    margin-bottom: 24px;
+  }
+
+  .pl-blog-page .pl-feed-heading h2 {
+    font-size: 31px;
+  }
+
+  .pl-blog-page .pl-feed-sort {
+    display: none;
+  }
+
+  .pl-blog-page .pl-masonry-feed {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .pl-blog-page .pl-feed-card__image,
+  .pl-blog-page .pl-feed-card--portrait .pl-feed-card__image,
+  .pl-blog-page .pl-feed-card--square .pl-feed-card__image,
+  .pl-blog-page .pl-feed-card--cinema .pl-feed-card__image {
+    aspect-ratio: 1.34 / 1;
+  }
+
+  .pl-blog-page .pl-feed-card h3 {
+    font-size: 23px;
+  }
+}

@@ -1,5 +1,7 @@
 (() => {
-  const grids = document.querySelectorAll("[data-masonry]");
+  const grids = document.body.classList.contains("pl-blog-page")
+    ? []
+    : document.querySelectorAll("[data-masonry]");
 
   const layout = (grid) => {
     if (window.matchMedia("(max-width: 760px)").matches) {
