@@ -122,6 +122,19 @@ document.querySelectorAll('[data-accordion]').forEach((button)=>button.addEventL
   button.setAttribute('aria-expanded',String(open));
 }));
 
+document.querySelectorAll('.wallet-story[data-link]').forEach((story)=>{
+  const openStory=()=>{window.location.href=story.dataset.link};
+  story.addEventListener('click',(event)=>{
+    if(event.target.closest('a,button,input,select,textarea'))return;
+    openStory();
+  });
+  story.addEventListener('keydown',(event)=>{
+    if(event.key!=='Enter'&&event.key!==' ')return;
+    event.preventDefault();
+    openStory();
+  });
+});
+
 const steps=document.querySelectorAll('[data-step]');
 const stage=document.querySelector('.creation-stage');
 const photoBoardImages=[...document.querySelectorAll('.photo-board .photo-card img')];
