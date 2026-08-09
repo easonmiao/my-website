@@ -16,25 +16,25 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"HooMee Coffee 图解","url":"https://www.hoomee.cc/tujie/","applicationCategory":"DesignApplication","operatingSystem":"Web","description":"把网页、公众号文章和文档变成适合阅读、理解与分享的解释型长图。"}</script>
   <link rel="icon" type="image/png" href="/hoomee/logo/hoomee-icon.png">
   <link rel="stylesheet" href="./styles.css?v=20260726-audit3">
+  <link rel="stylesheet" href="/global-nav.css?v=20260809-global1">
 </head>
-<body>
+<body class="has-portrait-global-nav">
   <a class="skip-link" href="#main-content">跳到主要内容</a>
-  <header class="site-header">
-    <nav class="tujie-nav" aria-label="主导航" data-site-nav>
-      <a class="brand" href="/" aria-label="返回 HooMee Coffee 首页"><img src="/hoomee/logo/hoomee-horizontal.webp" alt="HooMee Coffee"></a>
-      <span class="tujie-nav-current">HooMee 图解</span>
-      <button class="tujie-nav-menu" type="button" aria-expanded="false" aria-label="打开导航菜单" data-nav-toggle>菜单</button>
-      <div class="tujie-nav-links">
-        <a href="/tech/">科技·资讯</a>
-        <a href="/life/">生活·记录</a>
-        <a href="/pets/">萌宠·探索</a>
-        <a href="/about/">关于</a>
-        <a href="/">首页</a>
-        <a class="back-no3" href="/#site-search">搜索</a>
-      </div>
-    </nav>
-    <button class="quota-pill" id="quotaButton" type="button">正在查询次数…</button>
-  </header>
+  <nav class="portrait-nav" aria-label="Primary navigation">
+    <a class="portrait-nav__brand" href="/" aria-label="HooMee Coffee 首页">
+      <img class="portrait-brand-logo" src="/no3/assets/hoomee-coffee-logo.png" alt="HooMee Coffee">
+    </a>
+    <div class="portrait-nav__sections" aria-label="HooMee Coffee 栏目">
+      <a href="/tech/"><span class="nav-label__full">科技·资讯</span><span class="nav-label__short">科技</span></a>
+      <a href="/life/"><span class="nav-label__full">生活·记录</span><span class="nav-label__short">生活</span></a>
+      <a href="/pets/"><span class="nav-label__full">萌宠·探索</span><span class="nav-label__short">萌宠</span></a>
+      <a href="/about/"><span class="nav-label__full">关于</span><span class="nav-label__short">关于</span></a>
+    </div>
+    <div class="portrait-nav__actions">
+      <a class="portrait-gradient-button portrait-nav__signup" href="/#site-search"><span>搜索</span></a>
+    </div>
+  </nav>
+  <button class="quota-pill portrait-nav-quota" id="quotaButton" type="button">正在查询次数…</button>
 
   <main class="page-shell" id="main-content">
     <section class="product-hero" aria-labelledby="heroTitle">
