@@ -19,11 +19,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   const staticPages: MetadataRoute.Sitemap = [
-    '/no3/',
     '/tech/',
     '/life/',
     '/pets/',
     '/about/',
+    '/about/history/',
     '/memories/',
     '/tujie/',
     '/articles/ai-morning/2026-07-06/',

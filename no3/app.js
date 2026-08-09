@@ -5,7 +5,7 @@ const siteSearch=document.querySelector('.portrait-claim');
 const siteSearchInput=siteSearch?.querySelector('input[type="search"]');
 const siteSearchResults=document.querySelector('#site-search-results');
 const sitePages=[
-  {title:'HooMee Coffee 首页',description:'科技、生活与萌宠，共同写在这里。',url:'https://www.hoomee.cc/no3/',keywords:'首页 hoomee coffee emiao hannah banban'},
+  {title:'HooMee Coffee 首页',description:'科技、生活与萌宠，共同写在这里。',url:'https://www.hoomee.cc/',keywords:'首页 hoomee coffee emiao hannah banban'},
   {title:'科技 · 资讯',description:'AI 早报、科技分享、商业财经与产品观察。',url:'https://www.hoomee.cc/tech/',keywords:'科技 资讯 ai 人工智能 早报 商业 财经 金融 银行 视频 播客 emiao'},
   {title:'AI 早报：把变化放回脉络里',description:'追踪模型、产品、芯片与端侧 AI 的近期变化。',url:'https://www.hoomee.cc/articles/ai-morning/2026-07-06/',keywords:'ai 早报 模型 产品 芯片 openai apple google ibm emiao'},
   {title:'商业财经早报：先看流动性',description:'从流动性、通胀与银行改革读懂商业信号。',url:'https://www.hoomee.cc/articles/finance-morning/2026-07-06/',keywords:'商业 财经 早报 流动性 通胀 银行 金融 emiao'},
@@ -127,25 +127,25 @@ const stage=document.querySelector('.creation-stage');
 const photoBoardImages=[...document.querySelectorAll('.photo-board .photo-card img')];
 const photoSets={
   frame:[
-    {src:'assets/hoomee-tech-landscape.webp',alt:'科技与城市的观察'},
-    {src:'assets/hoomee-personal-tech.webp',alt:'个人科技工作空间'},
-    {src:'assets/hoomee-tech-share.webp',alt:'AlphaGo 与人工智能分享'},
-    {src:'assets/hoomee-ai-morning.webp',alt:'AI 早报视觉'},
-    {src:'assets/hoomee-finance-morning.webp',alt:'商业财经早报视觉'}
+    {src:'/no3/assets/hoomee-tech-landscape.webp',alt:'科技与城市的观察'},
+    {src:'/no3/assets/hoomee-personal-tech.webp',alt:'个人科技工作空间'},
+    {src:'/no3/assets/hoomee-tech-share.webp',alt:'AlphaGo 与人工智能分享'},
+    {src:'/no3/assets/hoomee-ai-morning.webp',alt:'AI 早报视觉'},
+    {src:'/no3/assets/hoomee-finance-morning.webp',alt:'商业财经早报视觉'}
   ],
   size:[
-    {src:'assets/hoomee-board-travel.webp',alt:'威尼斯旅行记录'},
-    {src:'assets/hoomee-life-portrait.webp',alt:'HannaH 的旅行记录'},
-    {src:'assets/hoomee-board-portrait.webp',alt:'旅途中的生活肖像'},
-    {src:'assets/hoomee-board-aesthetic.webp',alt:'咖啡与猫咪的生活片段'},
-    {src:'assets/hoomee-board-family.webp',alt:'HooMee Coffee 与猫咪的家庭合影'}
+    {src:'/no3/assets/hoomee-board-travel.webp',alt:'威尼斯旅行记录'},
+    {src:'/no3/assets/hoomee-life-portrait.webp',alt:'HannaH 的旅行记录'},
+    {src:'/no3/assets/hoomee-board-portrait.webp',alt:'旅途中的生活肖像'},
+    {src:'/no3/assets/hoomee-board-aesthetic.webp',alt:'咖啡与猫咪的生活片段'},
+    {src:'/no3/assets/hoomee-board-family.webp',alt:'HooMee Coffee 与猫咪的家庭合影'}
   ],
   position:[
-    {src:'assets/hoomee-board-banban.webp',alt:'BanBan 的户外探索'},
-    {src:'assets/hoomee-pets-apple-bed.webp',alt:'BanBan 坐在苹果猫窝里'},
-    {src:'assets/hoomee-pets-window-chair.webp',alt:'BanBan 在窗边晒太阳'},
-    {src:'assets/hoomee-pets-lounge.webp',alt:'BanBan 的居家日常'},
-    {src:'assets/hoomee-pets-play.webp',alt:'BanBan 的玩耍时刻'}
+    {src:'/no3/assets/hoomee-board-banban.webp',alt:'BanBan 的户外探索'},
+    {src:'/no3/assets/hoomee-pets-apple-bed.webp',alt:'BanBan 坐在苹果猫窝里'},
+    {src:'/no3/assets/hoomee-pets-window-chair.webp',alt:'BanBan 在窗边晒太阳'},
+    {src:'/no3/assets/hoomee-pets-lounge.webp',alt:'BanBan 的居家日常'},
+    {src:'/no3/assets/hoomee-pets-play.webp',alt:'BanBan 的玩耍时刻'}
   ]
 };
 const photoSetOffsets={frame:0,size:0,position:0};

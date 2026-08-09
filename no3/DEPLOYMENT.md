@@ -1,6 +1,8 @@
 # HooMee No.3 deployment
 
-Production URL: https://www.hoomee.cc/no3/
+Production URL: https://www.hoomee.cc/
+
+Legacy alias: https://www.hoomee.cc/no3/ redirects to the canonical homepage.
 
 ## Package contents
 
