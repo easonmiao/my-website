@@ -1432,3 +1432,329 @@
     text-align: left;
   }
 }
+
+/* Life topic navigation: larger, colorful rounded category controls. */
+.pl-theme-life.pl-blog-page .pl-topic-scroll {
+  gap: 10px;
+  padding-block: 16px;
+}
+
+.pl-theme-life.pl-blog-page .pl-topic-scroll a {
+  min-height: 42px;
+  padding-inline: 18px;
+  border: 1px solid var(--life-topic-color, #55706c);
+  border-radius: 12px;
+  background: var(--life-topic-tint, #f4f7f6);
+  color: var(--life-topic-color, #34534e);
+  font-size: 15px;
+  font-weight: 720;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 12px rgba(31, 57, 70, 0.045);
+}
+
+.pl-theme-life.pl-blog-page .pl-topic-scroll a:nth-child(1) {
+  --life-topic-color: #1e6b72;
+  --life-topic-tint: #e7f4f4;
+}
+
+.pl-theme-life.pl-blog-page .pl-topic-scroll a:nth-child(2) {
+  --life-topic-color: #327052;
+  --life-topic-tint: #e9f6ec;
+}
+
+.pl-theme-life.pl-blog-page .pl-topic-scroll a:nth-child(3) {
+  --life-topic-color: #7358a7;
+  --life-topic-tint: #f0ebf9;
+}
+
+.pl-theme-life.pl-blog-page .pl-topic-scroll a:nth-child(4) {
+  --life-topic-color: #a05b43;
+  --life-topic-tint: #faeee8;
+}
+
+.pl-theme-life.pl-blog-page .pl-topic-scroll a:nth-child(5) {
+  --life-topic-color: #a06425;
+  --life-topic-tint: #fbf1df;
+}
+
+.pl-theme-life.pl-blog-page .pl-topic-scroll a:nth-child(6) {
+  --life-topic-color: #356d94;
+  --life-topic-tint: #e8f2f8;
+}
+
+.pl-theme-life.pl-blog-page .pl-topic-scroll a:nth-child(7) {
+  --life-topic-color: #99627a;
+  --life-topic-tint: #f8eaf0;
+}
+
+.pl-theme-life.pl-blog-page .pl-topic-scroll a[aria-current="true"],
+.pl-theme-life.pl-blog-page .pl-topic-scroll a:hover {
+  border-color: var(--life-topic-color);
+  background: var(--life-topic-color);
+  color: #fff;
+  box-shadow: 0 7px 18px color-mix(in srgb, var(--life-topic-color) 22%, transparent);
+}
+
+@media (max-width: 760px) {
+  .pl-theme-life.pl-blog-page .pl-topic-scroll {
+    gap: 8px;
+    padding-block: 12px;
+  }
+
+  .pl-theme-life.pl-blog-page .pl-topic-scroll a {
+    min-height: 40px;
+    padding-inline: 16px;
+    border-radius: 11px;
+    font-size: 14px;
+  }
+}
+
+/* Tech feature imagery and content cards. */
+.pl-theme-tech.pl-blog-page .pl-channel-heading {
+  padding-bottom: 24px;
+}
+
+.pl-tech-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.pl-tech-feature-grid a {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1.55 / 1;
+  border-radius: 20px;
+  background: #e9eef1;
+  box-shadow: 0 12px 30px rgba(8, 48, 76, 0.07);
+}
+
+.pl-tech-feature-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 320ms var(--pl-ease);
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll {
+  gap: 10px;
+  padding-block: 16px;
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a {
+  min-height: 42px;
+  padding-inline: 18px;
+  border: 1px solid var(--tech-topic-color, #41647d);
+  border-radius: 12px;
+  background: var(--tech-topic-tint, #edf3f6);
+  color: var(--tech-topic-color, #31566e);
+  font-size: 15px;
+  font-weight: 720;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 12px rgba(31, 57, 70, 0.045);
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a:nth-child(1) {
+  --tech-topic-color: #21637f;
+  --tech-topic-tint: #e5f1f5;
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a:nth-child(2) {
+  --tech-topic-color: #5b5bb1;
+  --tech-topic-tint: #eeeeff;
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a:nth-child(3) {
+  --tech-topic-color: #9a6030;
+  --tech-topic-tint: #fbf0e3;
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a:nth-child(4) {
+  --tech-topic-color: #277766;
+  --tech-topic-tint: #e7f5f1;
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a:nth-child(5) {
+  --tech-topic-color: #8760a4;
+  --tech-topic-tint: #f3ebf8;
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a:nth-child(6) {
+  --tech-topic-color: #9a5664;
+  --tech-topic-tint: #faecef;
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a:nth-child(7) {
+  --tech-topic-color: #587078;
+  --tech-topic-tint: #edf2f3;
+}
+
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a[aria-current="true"],
+.pl-theme-tech.pl-blog-page .pl-topic-scroll a:hover {
+  border-color: var(--tech-topic-color);
+  background: var(--tech-topic-color);
+  color: #fff;
+  box-shadow: 0 7px 18px color-mix(in srgb, var(--tech-topic-color) 22%, transparent);
+}
+
+.pl-theme-tech.pl-blog-page .pl-masonry-feed {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.pl-theme-tech.pl-blog-page .pl-feed-card {
+  overflow: hidden;
+  border: 1px solid rgba(8, 48, 76, 0.1);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 10px 28px rgba(8, 48, 76, 0.05);
+}
+
+.pl-theme-tech.pl-blog-page .pl-feed-card__link {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 0;
+  min-height: 164px;
+}
+
+.pl-theme-tech.pl-blog-page .pl-feed-card__image,
+.pl-theme-tech.pl-blog-page .pl-feed-card--portrait .pl-feed-card__image,
+.pl-theme-tech.pl-blog-page .pl-feed-card--square .pl-feed-card__image,
+.pl-theme-tech.pl-blog-page .pl-feed-card--cinema .pl-feed-card__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  min-height: 164px;
+  border-radius: 0;
+  background: #e8edef;
+}
+
+.pl-theme-tech.pl-blog-page .pl-feed-card__body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "title footer"
+    "meta footer"
+    "summary footer";
+  gap: 8px 28px;
+  align-content: center;
+  padding: 23px 26px;
+}
+
+.pl-theme-tech.pl-blog-page .pl-feed-card h3 {
+  grid-area: title;
+  margin: 0;
+  font-size: clamp(23px, 2vw, 29px);
+}
+
+.pl-theme-tech.pl-blog-page .pl-feed-card__meta {
+  grid-area: meta;
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.pl-theme-tech.pl-blog-page .pl-feed-card__body > p {
+  grid-area: summary;
+  max-width: 720px;
+  margin-top: 3px;
+}
+
+.pl-theme-tech.pl-blog-page .pl-feed-card__footer {
+  grid-area: footer;
+  align-self: center;
+  min-width: 92px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .pl-tech-feature-grid a:hover img {
+    transform: scale(1.025);
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-feed-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 34px rgba(8, 48, 76, 0.09);
+  }
+}
+
+@media (max-width: 760px) {
+  .pl-tech-feature-grid {
+    grid-template-columns: 1.35fr 1fr;
+    gap: 9px;
+  }
+
+  .pl-tech-feature-grid a {
+    border-radius: 15px;
+  }
+
+  .pl-tech-feature-grid a:first-child {
+    grid-row: span 2;
+    aspect-ratio: auto;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-topic-scroll {
+    gap: 8px;
+    padding-block: 12px;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-topic-scroll a {
+    min-height: 40px;
+    padding-inline: 16px;
+    border-radius: 11px;
+    font-size: 14px;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-masonry-feed {
+    gap: 12px;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-feed-card {
+    border-radius: 17px;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-feed-card__link {
+    grid-template-columns: 104px minmax(0, 1fr);
+    min-height: 148px;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-feed-card__image,
+  .pl-theme-tech.pl-blog-page .pl-feed-card--portrait .pl-feed-card__image,
+  .pl-theme-tech.pl-blog-page .pl-feed-card--square .pl-feed-card__image,
+  .pl-theme-tech.pl-blog-page .pl-feed-card--cinema .pl-feed-card__image {
+    min-height: 148px;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-feed-card__body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "meta"
+      "summary";
+    gap: 7px;
+    padding: 16px 14px;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-feed-card h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.16;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-feed-card__body > p {
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 1.55;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .pl-theme-tech.pl-blog-page .pl-feed-card__footer {
+    display: none;
+  }
+}
